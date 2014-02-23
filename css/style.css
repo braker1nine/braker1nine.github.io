@@ -197,8 +197,6 @@ body {
 .article-inner,
 .archive-article-inner {
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
   border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -302,7 +300,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 250px;
+  height: 220px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -326,7 +324,7 @@ body {
   text-align: center;
   height: 32px;
   position: absolute;
-  top: 20%;
+  top: 15%;
   left: 0;
   margin-top: -16px;
 }
@@ -353,8 +351,8 @@ body {
   letter-spacing: 2px;
 }
 #subtitle {
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 14px;
   letter-spacing: 1px;
   color: #999;
 }
@@ -762,8 +760,6 @@ a.article-title:hover {
     -webkit-border-radius: 50%;
     border-radius: 50%;
     background: #ddd;
-    -webkit-box-shadow: 0 1px 2px #fff;
-    box-shadow: 0 1px 2px #fff;
   }
 }
 .article-nav-link-wrap {
@@ -1098,8 +1094,17 @@ a.article-title:hover {
   line-height: 1.6em;
   font-size: 0.85em;
 }
-#nav-rss-link {
+#my-links {
   float: right;
+}
+#my-links li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  font-size: 24px;
+}
+#my-links li a:hover {
+  text-decoration: none;
 }
 .article-entry pre,
 .article-entry .highlight {
