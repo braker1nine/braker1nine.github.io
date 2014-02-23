@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-02-23T03:55:09.105Z</updated>
+  <updated>2014-02-23T04:04:59.248Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -19,10 +19,12 @@
     <link href="http://chrisbrakebill.com/2014/02/22/a-change/"/>
     <id>http://chrisbrakebill.com/2014/02/22/a-change/</id>
     <published>2014-02-23T01:07:12.000Z</published>
-    <updated>2014-02-23T01:07:12.000Z</updated>
+    <updated>2014-02-23T04:04:47.000Z</updated>
     <content type="html"><![CDATA[<p>I&#39;ve long wanted to do more with this blog. Having it on Tumblr has been fun, but it hasn&#39;t given me the control over my site and data like I want. It also hasn&#39;t lent itself to <strong>really</strong> writing.</p>
 <p>So I&#39;ve hit the reset button. I wanted to import all of my Tumblr posts here, but the value I would get out of having old posts wasn&#39;t worth the time I&#39;d have to invest to write up the scripts I needed.</p>
 <p>I&#39;ve built my site using the static site generator <a href="http://zespia.tw/hexo/" target="_blank">hexo</a>. I looked at a couple of options, including <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://wintersmith.io" target="_blank">Wintersmith</a>. But hexo gave me the node javascript environment I was looking for with easy deployment to Github pages. It also has a nice plugin framework should I ever need it.</p>
+<p>Now I can write in whatever environment feels comfortable, save the markdown file to the proper Dropbox folder, and deploy to the site. I&#39;m hoping this will spur me to write more. About tech. About life. About the things I&#39;m working on. I hope to expand the site to have some places to share the writers I&#39;m reading, the tools I&#39;m using, and more.</p>
+<p>All feedback is welcome to my many social networking accounts or, via email, at imchrisbrakebill AT icloud DOT com.</p>
 ]]></content>
     
     
