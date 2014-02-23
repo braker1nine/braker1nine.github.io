@@ -547,6 +547,9 @@ a.article-title:hover {
 .article-entry:after {
   clear: both;
 }
+.article-entry p.link_author {
+  margin: 20px 0 4px 0;
+}
 .article-entry p,
 .article-entry table {
   line-height: 1.6em;
