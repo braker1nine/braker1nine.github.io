@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-02-22T19:51:39.117Z</updated>
+  <updated>2014-02-23T01:14:32.673Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -15,12 +15,14 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://chrisbrakebill.com/2014/02/21/hello-world/"/>
-    <id>http://chrisbrakebill.com/2014/02/21/hello-world/</id>
-    <published>2014-02-22T03:36:37.000Z</published>
-    <updated>2014-02-22T03:36:37.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://zespia.tw/hexo" target="_blank">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank">documentation</a> to learn how to use.</p>
+    <title><![CDATA[A Change]]></title>
+    <link href="http://chrisbrakebill.com/2014/02/22/a-change/"/>
+    <id>http://chrisbrakebill.com/2014/02/22/a-change/</id>
+    <published>2014-02-23T01:07:12.000Z</published>
+    <updated>2014-02-23T01:07:12.000Z</updated>
+    <content type="html"><![CDATA[<p>I&#39;ve long wanted to do more with this blog. Having it on Tumblr has been fun, but it hasn&#39;t given me the control over my site and data like I want. It also hasn&#39;t lent itself to <strong>really</strong> writing.</p>
+<p>So I&#39;ve hit the reset button. I wanted to import all of my Tumblr posts here, but the value I would get out of having old posts wasn&#39;t worth the time I&#39;d have to invest to write up the scripts I needed.</p>
+<p>I&#39;ve built my site using the static site generator <a href="http://zespia.tw/hexo/" target="_blank">hexo</a>. I looked at a couple of options, including <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://wintersmith.io" target="_blank">Wintersmith</a>. But hexo gave me the node javascript environment I was looking for with easy deployment to Github pages. It also has a nice plugin framework should I ever need it.</p>
 ]]></content>
     
     
