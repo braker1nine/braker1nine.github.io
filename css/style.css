@@ -710,6 +710,7 @@ a.article-title:hover {
 }
 .article-footer .source_link {
   float: right;
+  display: inline-block;
 }
 .article-footer .source_link span {
   display: inline-block;
