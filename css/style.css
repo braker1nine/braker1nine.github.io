@@ -129,7 +129,7 @@ body {
 }
 .outer {
   zoom: 1;
-  max-width: 920px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -144,8 +144,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.77777777777777%;
-  margin: 0 1.1111111111111112%;
+  width: 97.14285714285714%;
+  margin: 0 1.4285714285714286%;
 }
 .left,
 .alignleft {
@@ -707,6 +707,13 @@ a.article-title:hover {
 }
 .article-footer a:hover {
   color: #555;
+}
+.article-footer .source_link {
+  float: right;
+}
+.article-footer .source_link span {
+  display: inline-block;
+  margin-left: 0.5em;
 }
 .article-tag-list-item {
   float: left;
@@ -1289,8 +1296,8 @@ pre .javascript .function {
   .widget-wrap {
     display: inline;
     float: left;
-    width: 31.11111111111111%;
-    margin: 0 1.1111111111111112%;
+    width: 40%;
+    margin: 0 1.4285714285714286%;
   }
 }
 .widget-title {

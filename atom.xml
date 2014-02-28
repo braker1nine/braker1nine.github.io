@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-02-26T22:38:29.165Z</updated>
+  <updated>2014-02-28T03:33:19.718Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Effective Way to Ask for an App Review]]></title>
+    <link href="http://chrisbrakebill.com/2014/02/27/the-effective-way-to-ask-for-an-app-review/"/>
+    <id>http://chrisbrakebill.com/2014/02/27/the-effective-way-to-ask-for-an-app-review/</id>
+    <published>2014-02-28T03:33:16.000Z</published>
+    <updated>2014-02-28T03:33:16.000Z</updated>
+    <content type="html"><![CDATA[<p>Supertop, makers of <a href="http://castro.fm/" target="_blank">Castro</a>, have been experimenting with prompting users to review the app in the release notes. And it&#39;s worked.</p>
+<p>I have to admit I&#39;m surprised by this. I&#39;d expect few people see the release notes because of auto updating, and even fewer read them. Maybe it&#39;s more than I expect or maybe a high percentage of those who read them appreciate that prompt and leave a review.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Reader Supported]]></title>
