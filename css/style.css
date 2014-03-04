@@ -610,6 +610,7 @@ a.article-title:hover {
   padding: 10px 0;
 }
 .article-entry blockquote {
+  margin: 10px 0;
   padding: 20px;
   background: #eee;
   text-align: justify;
