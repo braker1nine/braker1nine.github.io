@@ -521,7 +521,7 @@ body {
 }
 .article-title {
   text-decoration: none;
-  font-size: 2em;
+  font-size: 1.1em;
   font-weight: bold;
   color: #555;
   line-height: 1.1em;
@@ -611,7 +611,7 @@ a.article-title:hover {
 }
 .article-entry blockquote {
   margin: 10px 0;
-  padding: 20px;
+  padding: 10px 20px;
   background: #eee;
   text-align: justify;
   font-style: italic;
