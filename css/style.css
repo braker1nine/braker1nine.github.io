@@ -187,7 +187,6 @@ body {
 .article-inner,
 .archive-article-inner {
   background: #fff;
-  border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
@@ -484,10 +483,13 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 80px 0;
 }
 .article-inner {
   overflow: hidden;
+}
+.article-inner:not(last-child) {
+  border-bottom: 1px solid #ddd;
 }
 .article-meta {
   zoom: 1;
@@ -517,7 +519,7 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 20px 20px 0;
+  padding: 20px 0 0;
 }
 .article-title {
   text-decoration: none;
@@ -537,7 +539,7 @@ a.article-title:hover {
 .article-entry {
   zoom: 1;
   color: #555;
-  padding: 0 20px;
+  padding: 0;
 }
 .article-entry:before,
 .article-entry:after {
@@ -690,9 +692,8 @@ a.article-title:hover {
   zoom: 1;
   font-size: 0.85em;
   line-height: 1.6em;
-  border-top: 1px solid #ddd;
   padding-top: 1.6em;
-  margin: 0 20px 20px;
+  margin: 0 0 20px;
 }
 .article-footer:before,
 .article-footer:after {
@@ -756,7 +757,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 80px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -779,7 +780,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 80px;
   text-align: center;
   display: block;
 }
@@ -957,13 +958,13 @@ a.article-title:hover {
   border: 1px solid #ddd;
   -webkit-border-radius: 3px;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 80px 0;
 }
 #comments a {
   color: #ffb256;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 80px 0;
 }
 .archives {
   zoom: 1;
@@ -1035,7 +1036,7 @@ a.article-title:hover {
 }
 #page-nav {
   zoom: 1;
-  margin: 50px auto;
+  margin: 80px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1292,7 +1293,7 @@ pre .javascript .function {
   color: #fff;
 }
 .widget-wrap {
-  margin-bottom: 50px !important;
+  margin-bottom: 80px !important;
 }
 @media screen and (min-width: 768px) {
   .widget-wrap {
