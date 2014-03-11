@@ -1038,11 +1038,6 @@ a.article-title:hover {
   zoom: 1;
   margin: 80px auto;
   background: #fff;
-  -webkit-box-shadow: 1px 2px 3px #ddd;
-  box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
-  -webkit-border-radius: 3px;
-  border-radius: 3px;
   text-align: center;
   color: #999;
   overflow: hidden;
@@ -1064,7 +1059,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 #page-nav a:hover {
-  background: #999;
+  background: #ffb256;
   color: #fff;
 }
 #page-nav .prev {
