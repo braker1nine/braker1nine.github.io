@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-03-15T15:51:10.723Z</updated>
+  <updated>2014-03-15T16:11:16.973Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[My Morning Routine]]></title>
+    <link href="http://mymorningroutine.com/"/>
+    <id>http://chrisbrakebill.com/2014/03/15/my-morning-routine/</id>
+    <published>2014-03-15T16:11:12.000Z</published>
+    <updated>2014-03-15T16:11:12.000Z</updated>
+    <content type="html"><![CDATA[<p>I&#39;m really loving this site. Really simple. They just ask people a few questions about their morning routine.</p>
+<p>Morning is by far my favorite part of the day, so I love learning how other people get their days started.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Telecom Giants Drag Their Feet on Broadband for the Whole Country]]></title>
