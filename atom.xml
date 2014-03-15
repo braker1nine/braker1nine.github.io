@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-03-11T16:57:27.390Z</updated>
+  <updated>2014-03-15T15:51:10.723Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Telecom Giants Drag Their Feet on Broadband for the Whole Country]]></title>
+    <link href="http://mag.newsweek.com/2014/03/21/telecom-giants-drag-feet-broadband-whole-country.html"/>
+    <id>http://chrisbrakebill.com/2014/03/15/telecom-giants-drag-their-feet-on-broadband-for-the-whole-country/</id>
+    <published>2014-03-15T15:51:06.000Z</published>
+    <updated>2014-03-15T15:51:06.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>In 2010, the Federal Communications Commission announced the National Broadband Plan, which promised to provide 100 million American households with high-speed cable by 2020. Verizon has been expanding FiOS in major markets, and AT&amp;T has been expanding its U-verse service. And now, instead of spending that war chest digging up streets and laying fiber cable, the cable and telephone companies have invested in a massive and very successful lobbying push. They are persuading state legislatures and regulatory boards to quietly adopt new rules—rules written by the telecoms—to eliminate their legal obligations to provide broadband service nationwide and replace landlines with wireless. This abrupt change in plans will leave vast areas of the country with poor service, slow telecommunications and higher bills.</p>
+</blockquote>
+<p>This is just messed up. More bad news for the internet.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[On the Taxation of College Sports]]></title>
