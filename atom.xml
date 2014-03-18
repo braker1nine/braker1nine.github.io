@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-03-17T15:22:05.761Z</updated>
+  <updated>2014-03-18T01:18:17.160Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -15,12 +15,41 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[NCAA bracket predictions 2014: Choosing the winners by alphabetical order]]></title>
+    <link href="http://www.sbnation.com/2014/3/17/5517718/ncaa-bracket-predictions-2014-alphabet-picks"/>
+    <id>http://chrisbrakebill.com/2014/03/17/ncaa-bracket-predictions-2014-choosing-the-winners-by-alphabetical-order/</id>
+    <published>2014-03-18T01:14:18.000Z</published>
+    <updated>2014-03-18T01:14:18.000Z</updated>
+    <content type="html"><![CDATA[<p class="link_author">Jon Bois:</p>
+
+<blockquote>
+<p>(15) American over (2) Wisconsin</p>
+<p>This is an easy one. It wouldn&#39;t be appropriate to call this an &quot;upset,&quot; really, since a) the committee that assigned the seeding of this tournament abided by a set of criteria completely unlike mine, and b) it&#39;s rather easy, from the outset, to take a glance at a matchup and immediately determine which ranks higher alphabetically.</p>
+</blockquote>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[OneNote for Mac]]></title>
+    <link href="http://itunes.apple.com/us/app/microsoft-onenote/id784801555?mt=12&affC=QQAJAAAACwAhyZ4GMTFsN2phAAAAAC7HHxM%253D"/>
+    <id>http://chrisbrakebill.com/2014/03/17/onenote-for-mac/</id>
+    <published>2014-03-18T01:06:44.000Z</published>
+    <updated>2014-03-18T01:06:44.000Z</updated>
+    <content type="html"><![CDATA[<p>I would have been so excited about this 4 years ago. Now it&#39;s just too little too late. I always preferred the OneNote editor to the Evernote version, but I&#39;m way too invested in Evernote to look back now. It&#39;s where I save everything I want to be able to search for later. I stopped wasting my time labeling emails and being tied to Gmail when I realized I could just save anything I wanted to keep to Evernote and have offline access to it whenever I needed.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Empathy]]></title>
     <link href="http://nshipster.com/empathy/"/>
     <id>http://chrisbrakebill.com/2014/03/17/empathy/</id>
     <published>2014-03-17T15:22:01.000Z</published>
-    <updated>2014-03-17T15:22:01.000Z</updated>
-    <content type="html"><![CDATA[<p><p class="link_author">Matt Thompson:</p></p>
+    <updated>2014-03-18T01:17:59.000Z</updated>
+    <content type="html"><![CDATA[<p><p class="link_author">Mattt Thompson:</p></p>
 <blockquote>
 <p>We naturally want to help one another, to explain ideas, to be generous and patient. However, on the Internet, human nature seems to drop a few packets. Practicing empathy online becomes a feat of moral athleticism. Lacking many of the faculties to humanize and understand one another (facial expressions, voice tonality, non-verbal cues) we can lose sight of who we&#39;re talking to, and become less human ourselves.</p>
 </blockquote>
@@ -281,22 +310,6 @@
 </blockquote>
 <p>On one hand it just sounds like a sort of <a href="http://en.wikipedia.org/wiki/Peering" target="_blank">peering agreement</a> between the two companies (if we can trust the bit about &quot;no preferential treatment&quot;), but on the other it sounds sinister and frightening in regards to net neutrality. I don&#39;t think it&#39;s time to say the sky is falling as long as smaller companies can get fair network treatment. But gosh it makes me feel icky. </p>
 <p>I think there is something to be said for Netflix being a bit of a special case. It is responsible for a <a href="http://news.cnet.com/8301-1023_3-57611722-93/netflix-youtube-gobble-up-half-of-internet-traffic/" target="_blank">huge amount</a> of internet traffic.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[A Change]]></title>
-    <link href="http://chrisbrakebill.com/2014/02/22/a-change/"/>
-    <id>http://chrisbrakebill.com/2014/02/22/a-change/</id>
-    <published>2014-02-23T01:07:12.000Z</published>
-    <updated>2014-02-23T04:04:47.000Z</updated>
-    <content type="html"><![CDATA[<p>I&#39;ve long wanted to do more with this blog. Having it on Tumblr has been fun, but it hasn&#39;t given me the control over my site and data like I want. It also hasn&#39;t lent itself to <strong>really</strong> writing.</p>
-<p>So I&#39;ve hit the reset button. I wanted to import all of my Tumblr posts here, but the value I would get out of having old posts wasn&#39;t worth the time I&#39;d have to invest to write up the scripts I needed.</p>
-<p>I&#39;ve built my site using the static site generator <a href="http://zespia.tw/hexo/" target="_blank">hexo</a>. I looked at a couple of options, including <a href="http://jekyllrb.com" target="_blank">Jekyll</a> and <a href="http://wintersmith.io" target="_blank">Wintersmith</a>. But hexo gave me the node javascript environment I was looking for with easy deployment to Github pages. It also has a nice plugin framework should I ever need it.</p>
-<p>Now I can write in whatever environment feels comfortable, save the markdown file to the proper Dropbox folder, and deploy to the site. I&#39;m hoping this will spur me to write more. About tech. About life. About the things I&#39;m working on. I hope to expand the site to have some places to share the writers I&#39;m reading, the tools I&#39;m using, and more.</p>
-<p>All feedback is welcome to my many social networking accounts or, via email, at imchrisbrakebill AT icloud DOT com.</p>
 ]]></content>
     
     
