@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-03-25T23:02:23.594Z</updated>
+  <updated>2014-03-25T23:19:59.758Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Chris Coyier one on one with his hacker]]></title>
+    <link href="http://shoptalkshow.com/episodes/special-one-one-hacker/"/>
+    <id>http://chrisbrakebill.com/2014/03/25/chris-coyier-one-on-one-with-his-hacker/</id>
+    <published>2014-03-25T23:19:42.000Z</published>
+    <updated>2014-03-25T23:19:42.000Z</updated>
+    <content type="html"><![CDATA[<p>Really fascinating. Kudos to Chris Coyier for having the patience to sit down and have this conversation.</p>
+<p>It&#39;s really terrifying what people can do to you on the internet, and how frequently the weaknesses come from people at the companies you trust your information to. It&#39;s <strong>ridiculous</strong> that someone can call in, say the right piece of software&#39;s name, and get your social security number. There have to be more thorough security measures for these companies spreading this information, even from one employee to another.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[The Moment with Brian Koppelman: Chris Fowler]]></title>
@@ -348,19 +361,6 @@
 <p>I have just sorted through the App Store and settled on trying out your app. I open it up and you immediately ask if you can send me Push Notifications? I have no context about what these are going to be used for or why they might be useful to me.</p>
 </blockquote>
 <p>I recently got similar advice about my iPhone game. I&#39;d never really thought twice about asking immediately, but it really is an annoying experience. I&#39;m looking for a better time to ask for this than at launch. Possibly when you make your first move. I might even follow David&#39;s advice and make it something you explicitly enable.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Effective Way to Ask for an App Review]]></title>
-    <link href="http://blog.supertop.co/post/77962740329/the-effective-way-to-ask-for-an-app-review"/>
-    <id>http://chrisbrakebill.com/2014/02/27/the-effective-way-to-ask-for-an-app-review/</id>
-    <published>2014-02-28T03:33:16.000Z</published>
-    <updated>2014-02-28T03:33:16.000Z</updated>
-    <content type="html"><![CDATA[<p>Supertop, makers of <a href="http://castro.fm/" target="_blank">Castro</a>, have been experimenting with prompting users to review the app in the release notes. And it&#39;s worked.</p>
-<p>I have to admit I&#39;m surprised by this. I&#39;d expect few people see the release notes because of auto updating, and even fewer read them. Maybe it&#39;s more than I expect or maybe a high percentage of those who read them appreciate that prompt and leave a review.</p>
 ]]></content>
     
     
