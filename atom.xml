@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-04-05T00:33:35.534Z</updated>
+  <updated>2014-04-06T19:57:04.405Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,42 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Monument Valley]]></title>
+    <link href="http://www.monumentvalleygame.com"/>
+    <id>http://chrisbrakebill.com/2014/04/04/monument-valley/</id>
+    <published>2014-04-05T00:40:30.000Z</published>
+    <updated>2014-04-05T00:40:30.000Z</updated>
+    <content type="html"><![CDATA[<p>Beautiful game. Beautiful sound. Incredibly inventive gameplay. It doesn’t take long to beat, but I can’t tell you how many times I said “WOW THAT’S SO COOL” while playing. Absolutely worth the small price.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The Hounding of a Heretic]]></title>
+    <link href="http://chrisbrakebill.com/2014/04/04/brendan-eich/"/>
+    <id>http://chrisbrakebill.com/2014/04/04/brendan-eich/</id>
+    <published>2014-04-05T00:37:57.000Z</published>
+    <updated>2014-04-05T00:37:57.000Z</updated>
+    <content type="html"><![CDATA[<p>Andrew Sullivan has pretty much <a href="http://dish.andrewsullivan.com/2014/04/03/the-hounding-of-brendan-eich/" target="_blank">nailed</a> what <a href="http://dish.andrewsullivan.com/2014/04/03/the-hounding-of-a-heretic-ctd/" target="_blank">bothers</a> me about <a href="http://dish.andrewsullivan.com/2014/04/04/dissents-of-the-day-63/" target="_blank">this</a> whole Brendan Eich firestorm.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Beautiful Death]]></title>
+    <link href="http://beautifuldeath.com"/>
+    <id>http://chrisbrakebill.com/2014/04/04/beautiful-death/</id>
+    <published>2014-04-05T00:36:10.000Z</published>
+    <updated>2014-04-05T00:36:10.000Z</updated>
+    <content type="html"><![CDATA[<p>Cool way to countdown to the Game of Thrones premiere.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Banned For Life]]></title>
@@ -306,50 +342,6 @@
     <published>2014-03-06T03:54:50.000Z</published>
     <updated>2014-03-06T03:54:50.000Z</updated>
     <content type="html"><![CDATA[<p>A tribute to Philip Seymour Hoffman. Incredibly well done.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Say Something]]></title>
-    <link href="http://www.youtube.com/watch?v=0dYlvdLdK9w"/>
-    <id>http://chrisbrakebill.com/2014/03/04/say-something/</id>
-    <published>2014-03-05T04:20:13.000Z</published>
-    <updated>2014-03-05T04:20:13.000Z</updated>
-    <content type="html"><![CDATA[<p>Or stop talking and watch this video.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[CarPlay Powered by Blackberry]]></title>
-    <link href="http://bgr.com/2014/03/04/apple-carplay-blackberry-qnx/"/>
-    <id>http://chrisbrakebill.com/2014/03/04/carplay-powered-by-blackberry/</id>
-    <published>2014-03-05T04:15:46.000Z</published>
-    <updated>2014-03-05T04:15:46.000Z</updated>
-    <content type="html"><![CDATA[<p class="link_author">BGR:</p>
-
-<blockquote>
-<p>BlackBerry’s QNX platform is the base on which the BlackBerry 10 operating system is built, but it’s also much more than that. Before it was morphed into smartphone software, QNX was an in-car operating system that powered infotainment systems in a wide range of vehicles. It still is, and as N4BB confirmed on Tuesday, it’s also the foundation for Apple’s new CarPlay product.</p>
-</blockquote>
-<p>Amazing that the value for QNX may not come from Blackberry mobile devices, but from being the go to in-car operating system. Add this onto news that Ford Sync is <a href="http://www.bloomberg.com/news/2014-02-22/ford-said-to-swap-blackberry-s-qnx-for-microsoft-in-sync-system.html" target="_blank">planning to drop</a> Microsoft for QNX, and it looks like Blackberry is building itself a nice little niche, though I’m not sure how profitable it is.</p>
-<p>I never would have believed this a year or so ago, but is it possible that Blackberry could become an acquisition target for Apple?</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[CarPlay]]></title>
-    <link href="https://www.apple.com/ios/carplay/"/>
-    <id>http://chrisbrakebill.com/2014/03/04/carplay/</id>
-    <published>2014-03-05T04:14:40.000Z</published>
-    <updated>2014-03-05T04:14:40.000Z</updated>
-    <content type="html"><![CDATA[<p>Yesterday Apple <a href="http://www.apple.com/pr/library/2014/03/03Apple-Rolls-Out-CarPlay-Giving-Drivers-a-Smarter-Safer-More-Fun-Way-to-Use-iPhone-in-the-Car.html" target="_blank">introduced</a> CarPlay, their solution for connecting your iPhone to your vehicle’s stereo.</p>
-<p>My first thought is damn that UI is beautiful. As someone who recently bought an aftermarket stereo, I can say that the makers of these things are stuck in the 90s when it comes to interface design. Even on touch screens the buttons are small, the designs are hideous, and UX is an afterthought. It will be interesting to see if this platform moves beyond built-in stereos.</p>
-<p>I’m thrilled that Apple is starting to dip it’s toes into this space. I’ve always been a bit bearish on the phone as the hub for the car stereo, but I’m starting to rethink that.</p>
 ]]></content>
     
     
