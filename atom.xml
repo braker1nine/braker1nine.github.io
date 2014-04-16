@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-04-16T14:56:01.471Z</updated>
+  <updated>2014-04-16T16:25:44.987Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,18 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Foodroom]]></title>
+    <link href="http://gawker.com/amy-schumers-fast-food-aaron-sorkin-parody-is-spot-on-1563433408"/>
+    <id>http://chrisbrakebill.com/2014/04/16/the-foodroom/</id>
+    <published>2014-04-16T14:56:31.000Z</published>
+    <updated>2014-04-16T14:56:31.000Z</updated>
+    <content type="html"><![CDATA[<p>Fantastic. Man I love me some Josh Charles.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Grand Budapest Hotel]]></title>
@@ -320,22 +332,6 @@
     <published>2014-03-18T01:06:44.000Z</published>
     <updated>2014-03-18T01:06:44.000Z</updated>
     <content type="html"><![CDATA[<p>I would have been so excited about this 4 years ago. Now it’s just too little too late. I always preferred the OneNote editor to the Evernote version, but I’m way too invested in Evernote to look back now. It’s where I save everything I want to be able to search for later. I stopped wasting my time labeling emails and being tied to Gmail when I realized I could just save anything I wanted to keep to Evernote and have offline access to it whenever I needed.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Empathy]]></title>
-    <link href="http://nshipster.com/empathy/"/>
-    <id>http://chrisbrakebill.com/2014/03/17/empathy/</id>
-    <published>2014-03-17T15:22:01.000Z</published>
-    <updated>2014-03-18T01:17:59.000Z</updated>
-    <content type="html"><![CDATA[<p><p class="link_author">Mattt Thompson:</p></p>
-<blockquote>
-<p>We naturally want to help one another, to explain ideas, to be generous and patient. However, on the Internet, human nature seems to drop a few packets. Practicing empathy online becomes a feat of moral athleticism. Lacking many of the faculties to humanize and understand one another (facial expressions, voice tonality, non-verbal cues) we can lose sight of who we’re talking to, and become less human ourselves.</p>
-</blockquote>
-<p>Preach. We could all stand to be a little more empathetic on the internet, myself more than anyone.</p>
 ]]></content>
     
     
