@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-05-07T12:22:41.864Z</updated>
+  <updated>2014-05-08T15:34:40.965Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA['Authors Should Just Write' - Or, Maybe They Shouldn't]]></title>
+    <link href="http://www.thecramped.com/authors-should-just-write-or-maybe-they-shouldnt-james-shelley/"/>
+    <id>http://chrisbrakebill.com/2014/05/08/authors-should-just-write-or-maybe-they-shouldnt/</id>
+    <published>2014-05-08T15:34:13.000Z</published>
+    <updated>2014-05-08T15:34:13.000Z</updated>
+    <content type="html"><![CDATA[<p>Patrick Rhone:</p>
+<blockquote>
+<p>A reminder that, in order to be better writers, we must be better observers.</p>
+</blockquote>
+<p>This is something I need to keep better in the front of my mind. It always feels like my writing is directly correlated with my reading. And my reading tends to be impatient and sometimes thoughtless.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Kevin Durant Wins NBA MVP]]></title>
@@ -248,19 +264,6 @@
     <published>2014-03-28T20:36:53.000Z</published>
     <updated>2014-03-28T20:36:53.000Z</updated>
     <content type="html"><![CDATA[<p>I’m no scientist, but this is fascinating.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Chris Coyier one on one with his hacker]]></title>
-    <link href="http://shoptalkshow.com/episodes/special-one-one-hacker/"/>
-    <id>http://chrisbrakebill.com/2014/03/25/chris-coyier-one-on-one-with-his-hacker/</id>
-    <published>2014-03-25T23:19:42.000Z</published>
-    <updated>2014-03-25T23:19:42.000Z</updated>
-    <content type="html"><![CDATA[<p>Really fascinating. Kudos to Chris Coyier for having the patience to sit down and have this conversation.</p>
-<p>It’s really terrifying what people can do to you on the internet, and how frequently the weaknesses come from people at the companies you trust your information to. It’s <strong>ridiculous</strong> that someone can call in, say the right piece of software’s name, and get your social security number. There have to be more thorough security measures for these companies spreading this information, even from one employee to another.</p>
 ]]></content>
     
     
