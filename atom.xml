@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-05-10T00:35:41.525Z</updated>
+  <updated>2014-05-12T21:43:37.420Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Johnny Express]]></title>
+    <link href="http://www.shortoftheweek.com/2014/05/12/johnnyexpress/"/>
+    <id>http://chrisbrakebill.com/2014/05/12/johnny-express/</id>
+    <published>2014-05-12T21:43:22.000Z</published>
+    <updated>2014-05-12T21:43:22.000Z</updated>
+    <content type="html"><![CDATA[<p>Short of the Week is one of my new favorite sites. Definitely worth checking out to if you like video shorts (I only subscribe to the <a href="http://www.shortoftheweek.com/category/style/3d-animation/" target="_blank">3D Animated feed</a>).</p>
+<p>This one is hilariously terrifying. I’ve got the worst attention span, so when a video makes me stop checking the time to see when it ends, I know it’s captured me.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[How Athletic Departments (And The Media) Fudge The Cost Of Scholarships]]></title>
@@ -252,18 +265,6 @@
     <published>2014-04-05T00:36:10.000Z</published>
     <updated>2014-04-05T00:36:10.000Z</updated>
     <content type="html"><![CDATA[<p>Cool way to countdown to the Game of Thrones premiere.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Banned For Life]]></title>
-    <link href="https://medium.com/p/c62f2404f66"/>
-    <id>http://chrisbrakebill.com/2014/04/04/Banned-for-life/</id>
-    <published>2014-04-05T00:07:25.000Z</published>
-    <updated>2014-04-05T00:07:25.000Z</updated>
-    <content type="html"><![CDATA[<p>Sounds like my experience selling on Amazon. A shipping mishap (USPS paid on my insurance because they lost the item) and an unappeasable customer left me banned forever.</p>
 ]]></content>
     
     
