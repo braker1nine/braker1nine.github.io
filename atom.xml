@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-05-21T12:55:41.267Z</updated>
+  <updated>2014-05-24T11:23:04.388Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Right Way To Copy]]></title>
+    <link href="http://david-smith.org/blog/2014/05/18/the-right-way-to-copy/"/>
+    <id>http://chrisbrakebill.com/2014/05/24/the-right-way-to-copy/</id>
+    <published>2014-05-24T11:21:11.000Z</published>
+    <updated>2014-05-24T11:21:57.000Z</updated>
+    <content type="html"><![CDATA[<p>David Smith:</p>
+<blockquote>
+<p>Good copying learns from another’s innovation and then applies it in a novel way to a new context in a way that doesn’t diminish the source invention.</p>
+</blockquote>
+<p>Good stuff. This is something that has been on my mind as I’ve been working on an iOS game in my spare time. It’s inspired by some of my favorite games, but it’s also unique. Sometimes it’s hard not to feel like people will look at it and say he just ripped this or that off another game. He is invalid. David Smith explains how you can take cues without ‘ripping off’.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Chained Wimbledon: The Joys and Perils of Prison Tennis]]></title>
@@ -256,23 +272,6 @@
     <published>2014-04-08T13:13:26.000Z</published>
     <updated>2014-04-08T13:13:26.000Z</updated>
     <content type="html"><![CDATA[<p>Seriously. Where is the reality show where we just follow these two guys around.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Patents Suck]]></title>
-    <link href="http://www.marco.org/2014/04/07/foss-patents-holy-war"/>
-    <id>http://chrisbrakebill.com/2014/04/08/Patents/</id>
-    <published>2014-04-08T13:13:07.000Z</published>
-    <updated>2014-04-08T13:13:07.000Z</updated>
-    <content type="html"><![CDATA[<p>Marco Arment: </p>
-<blockquote>
-<p>The idea of the patent system is sold to gullible people as a necessary protector of small inventors — which is a nice fairy tale, and nothing more — and it reinforces the destructive but all-too-common fallacy that great ideas are rare, novel, unique, and immediately so valuable that simply having a great idea will suddenly cause somebody, somewhere, somehow to make you rich and you’ll never have any problems again.</p>
-<p>We therefore value ideas above their execution, and that’s exactly how the patent system is designed, despite history showing that good execution is far more important and provides far more value to society in almost every instance regardless of who filed the first patent on the underlying idea. (Not to mention the value to society of a vibrant market of diverse, competing alternatives.)</p>
-<p>Like most laws and policies that chiefly benefit lawyers and big business, our voters, lobbyists, and politicians will keep supporting the patent fairy tale indefinitely as the rest of us get taxed, shaken down, or bankrupted by its reality.</p>
-</blockquote>
 ]]></content>
     
     
