@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-06-10T15:36:16.376Z</updated>
+  <updated>2014-06-10T15:44:58.711Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Reading With Intention]]></title>
+    <link href="http://chrisbowler.com/journal/lectio-divina"/>
+    <id>http://chrisbrakebill.com/2014/06/10/reading-with-intention/</id>
+    <published>2014-06-10T15:44:40.000Z</published>
+    <updated>2014-06-10T15:44:40.000Z</updated>
+    <content type="html"><![CDATA[<p>Chris Bowler:</p>
+<blockquote>
+<p>Take time to read, re-read, and meditate on this piece of human thought you’ve chosen to ingest. Truly ingest it; if it resonates with you, allow it to change you. This is what I want to do with Scripture, but also any topic that I enjoy; web design, typography, woodworking … you name it.</p>
+</blockquote>
+<p>This is great stuff in regards to scripture reading and all other reading.  With both I tend to find myself reading to get it done. I don’t take time and really think about what I’m reading. I just want to quickly absorb the facts. It translates straight into my writing here as well. I see a thing I want to share and I just share it without any thoughtful commentary.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Judge John Hodgman Ep. 161: Cold Case]]></title>
@@ -266,18 +282,6 @@
     <published>2014-04-24T02:36:19.000Z</published>
     <updated>2014-04-23T23:36:19.000Z</updated>
     <content type="html"><![CDATA[<p>The original story is <a href="http://www.nytimes.com/2014/04/24/technology/fcc-new-net-neutrality-rules.html?_r=1" target="_blank">here</a>. Linking to Gruber because he links to an Obama quote. This was one thing I thought Obama would nail, and this administration has <strong>completely</strong> failed us. The FCC is trying to destroy the internet.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Vox: Why the government should provide internet access]]></title>
-    <link href="http://www.vox.com/2014/4/6/5587138/susan-crawford-internet-public-option"/>
-    <id>http://chrisbrakebill.com/2014/04/23/vox_why_the_government_should_provide_internet_access/</id>
-    <published>2014-04-23T16:58:26.000Z</published>
-    <updated>2014-04-23T13:58:26.000Z</updated>
-    <content type="html"><![CDATA[<p>I’m far from a supporter of too much government, but the internet is one of those world changing things that requires an exception.</p>
 ]]></content>
     
     
