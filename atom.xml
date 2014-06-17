@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-06-16T12:56:13.928Z</updated>
+  <updated>2014-06-17T14:40:19.972Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,18 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[To Teachers]]></title>
+    <link href="http://www.caseyliss.com/2014/6/13/to-teachers"/>
+    <id>http://chrisbrakebill.com/2014/06/17/to-teachers/</id>
+    <published>2014-06-17T14:39:57.000Z</published>
+    <updated>2014-06-17T14:39:57.000Z</updated>
+    <content type="html"><![CDATA[<p>Yes to everything here. My sister is a teacher and I’m incredibly proud of her. Teachers are overworked and underpaid.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Filling a Notebook]]></title>
@@ -269,18 +281,6 @@
     <published>2014-05-02T16:50:27.000Z</published>
     <updated>2014-05-02T16:50:27.000Z</updated>
     <content type="html"><![CDATA[<p>Really thoughtful conversation between Bill Simmons and Chuck Klosterman. Near the end they really hit on what is SCARY about this situation. The ability for an internet mob to mobilize.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Help Preserve Net Neutrality]]></title>
-    <link href="http://chrisbrakebill.com/2014/04/27/help-preserve-net-neutrality/"/>
-    <id>http://chrisbrakebill.com/2014/04/27/help-preserve-net-neutrality/</id>
-    <published>2014-04-28T00:11:51.000Z</published>
-    <updated>2014-04-28T00:11:51.000Z</updated>
-    <content type="html"><![CDATA[<p>Here’s a <a href="https://petitions.whitehouse.gov/petition/maintain-true-net-neutrality-protect-freedom-information-united-states/9sxxdBgy" target="_blank">White House petition</a> and <a href="http://www.savetheinternet.com/sti-home" target="_blank">petition</a> sponsored by the Free Press.</p>
 ]]></content>
     
     
