@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-06-21T03:44:33.814Z</updated>
+  <updated>2014-06-23T19:45:51.348Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,18 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Code as Craft: Opsweekly]]></title>
+    <link href="http://codeascraft.com/2014/06/19/opsweekly-measuring-on-call-experience-with-alert-classification/"/>
+    <id>http://chrisbrakebill.com/2014/06/23/opsweekly/</id>
+    <published>2014-06-23T19:45:33.000Z</published>
+    <updated>2014-06-23T19:45:33.000Z</updated>
+    <content type="html"><![CDATA[<p>Really cool stuff from Etsy. Quantizing on-call experience and effectiveness is not something you hear about from many companies.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Miscarriage]]></title>
@@ -274,22 +286,6 @@
     <published>2014-05-10T00:35:16.000Z</published>
     <updated>2014-05-10T00:35:16.000Z</updated>
     <content type="html"><![CDATA[<p>The usual brilliance from Andy Schwarz.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA['Authors Should Just Write' - Or, Maybe They Shouldn't]]></title>
-    <link href="http://www.thecramped.com/authors-should-just-write-or-maybe-they-shouldnt-james-shelley/"/>
-    <id>http://chrisbrakebill.com/2014/05/08/authors-should-just-write-or-maybe-they-shouldnt/</id>
-    <published>2014-05-08T15:34:13.000Z</published>
-    <updated>2014-05-08T15:34:13.000Z</updated>
-    <content type="html"><![CDATA[<p>Patrick Rhone:</p>
-<blockquote>
-<p>A reminder that, in order to be better writers, we must be better observers.</p>
-</blockquote>
-<p>This is something I need to keep better in the front of my mind. It always feels like my writing is directly correlated with my reading. And my reading tends to be impatient and sometimes thoughtless.</p>
 ]]></content>
     
     
