@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-06-27T16:20:22.439Z</updated>
+  <updated>2014-06-27T19:46:58.132Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,18 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Universal Studios Interactive Wands]]></title>
+    <link href="http://gizmodo.com/live-your-hogwarts-fantasies-with-universal-studios-int-1592078675"/>
+    <id>http://chrisbrakebill.com/2014/06/27/universal-studios-interactive-wands/</id>
+    <published>2014-06-27T19:46:12.000Z</published>
+    <updated>2014-06-27T19:46:12.000Z</updated>
+    <content type="html"><![CDATA[<p>Dang. So cool.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[The Martian: A Novel]]></title>
@@ -277,22 +289,6 @@
     <published>2014-05-29T15:23:14.000Z</published>
     <updated>2014-05-29T15:23:14.000Z</updated>
     <content type="html"><![CDATA[<p>I’m tempted to be cheap and whine about having to pay more since I bought Reeder (this is what the App Store economy has done to us). This is the <em>best</em> RSS app for Mac and I use it on a daily basis. Silvio Rizzi has put in the work to create a <em>beautiful</em> application, which is not easy to do on the Mac. He deserves to get paid. Honestly he could charge twice as much and I’d still happily pay for it.</p>
-]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Right Way To Copy]]></title>
-    <link href="http://david-smith.org/blog/2014/05/18/the-right-way-to-copy/"/>
-    <id>http://chrisbrakebill.com/2014/05/24/the-right-way-to-copy/</id>
-    <published>2014-05-24T11:21:11.000Z</published>
-    <updated>2014-05-24T11:21:57.000Z</updated>
-    <content type="html"><![CDATA[<p>David Smith:</p>
-<blockquote>
-<p>Good copying learns from another’s innovation and then applies it in a novel way to a new context in a way that doesn’t diminish the source invention.</p>
-</blockquote>
-<p>Good stuff. This is something that has been on my mind as I’ve been working on an iOS game in my spare time. It’s inspired by some of my favorite games, but it’s also unique. Sometimes it’s hard not to feel like people will look at it and say he just ripped this or that off another game. He is invalid. David Smith explains how you can take cues without ‘ripping off’.</p>
 ]]></content>
     
     
