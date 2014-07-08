@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-08T11:28:52.229Z</updated>
+  <updated>2014-07-08T19:13:19.099Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Other Side of Empathy]]></title>
+    <link href="https://the-pastry-box-project.net/nick-hehr/2014-july-5"/>
+    <id>http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/</id>
+    <published>2014-07-08T19:12:01.000Z</published>
+    <updated>2014-07-08T19:12:55.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>As designers and product builders, we are told to empathize with our users in order to create awesome experiences for the web and beyond. I propose we take a look at the other side of empathy, and make an effort to empathize with the creators behind the products, features, or designs triggering those rage-tweet reactions seen across many a timeline.</p>
+</blockquote>
+<p>This is something I’ve become a lot more aware of in the past couple of years. Working on a product that is used by millions of people, I know what it’s like to see people bashing what you’ve built. It sucks. I do my best to think before I tweet critically and angrily about a piece of software I’m using.</p>
+]]><p><a href="https://the-pastry-box-project.net/nick-hehr/2014-july-5">♻</a></p></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Persona]]></title>
@@ -278,18 +293,6 @@
     <updated>2014-06-06T03:22:01.000Z</updated>
     <content type="html"><![CDATA[<p>Just an incredible listen. I’ve always loved <a href="http://www.travelchannel.com/tv-shows/bizarre-foods" target="_blank">Bizarre Foods</a>, but I never knew Andrew Zimmern’s story. I can’t remember the exact quote, but he said something like “I’ll never start a business venture without a charitable component”. A fantastic way to do things.</p>
 ]]><p><a href="http://www.nerdist.com/pepisode/the-alton-browncast-48-andrew-zimmern/">♻</a></p></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[John Oliver on 'Preventing Cable Company F&%kery']]></title>
-    <link href="https://www.youtube.com/watch?v=fpbOEoRrHyU&feature=youtu.be"/>
-    <id>http://chrisbrakebill.com/2014/06/04/john-oliver-on-preventing-cable-company-fkery/</id>
-    <published>2014-06-04T11:39:08.000Z</published>
-    <updated>2014-06-04T11:39:08.000Z</updated>
-    <content type="html"><![CDATA[<p>Brilliant. Hilarious. It would be funnier if it weren’t so true…</p>
-]]><p><a href="https://www.youtube.com/watch?v=fpbOEoRrHyU&feature=youtu.be">♻</a></p></content>
     
     
   </entry>
