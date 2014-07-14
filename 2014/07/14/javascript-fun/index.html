@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>How Are Apps Made | Chris Brakebill</title>
+  <title>JavaScript Fun | Chris Brakebill</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <link rel="alternative" href="/atom.xml" title="Chris Brakebill" type="application/atom+xml">
@@ -15,11 +15,11 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" type="text/css">
   <meta name="og:type" content="blog">
-<meta name="og:title" content="How Are Apps Made">
-<meta name="og:url" content="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/">
+<meta name="og:title" content="JavaScript Fun">
+<meta name="og:url" content="http://chrisbrakebill.com/2014/07/14/javascript-fun/">
 <meta name="og:image">
 <meta name="og:site_name" content="Chris Brakebill">
-<meta name="og:description" content="How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for th">
+<meta name="og:description" content="I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in">
 <meta name="twitter:card" content="summary">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -71,10 +71,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-how-are-apps-made" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-javascript-fun" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/07/09/how-are-apps-made/" class="article-date">
-  <time datetime="2014-07-10T00:57:11.000Z" itemprop="datePublished">Jul 9 2014</time>
+    <a href="/2014/07/14/javascript-fun/" class="article-date">
+  <time datetime="2014-07-14T13:14:51.000Z" itemprop="datePublished">Jul 14 2014</time>
 </a>
     
   </div>
@@ -83,25 +83,64 @@
     
       <header class="article-header">
         
-  <h1 itemprop="name">
-    <a class="article-title" href="https://medium.com/message/how-are-apps-made-e9fe65448670" target="_blank" itemprop="url">How Are Apps Made</a>
-  </h1>
+  
+    <h1 class="article-title" itemprop="name">
+      JavaScript Fun
+    </h1>
+  
 
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p class="link_author">Craig Mod:</p>
       
-      
-        <blockquote>
-<p>How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for the sense in it.</p>
-</blockquote>
+        <p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> {</span>
+	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> {</span>
+		<span class="keyword">if</span>(checkAuth()) {
+			callPassedInFunction(variable, numberOf, params);
+		}
+	}
+}
+</pre></td></tr></table></figure>
+
+<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank">DRY</a> to me. What I’ve ended up going with is this:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> {</span>
+  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+		<span class="keyword">if</span> (checkAuth()) {
+			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);
+		} <span class="keyword">else</span> {
+			error = error || <span class="string">'You must be an admin to do that.'</span>;
+			console.log(error)
+		}
+  }
+}
+</pre></td></tr></table></figure>
+
+<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
+<p>It’s working for now, but I’m still not in love with it syntactically.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="gg5c4eburrdyjcjl">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="fem6r30upn7k73zc">Permalink</a>
       
       
       
@@ -111,19 +150,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2014/07/09/facebook-experiment/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Facebook&#39;s Explanation: We Wanted to Make Sure You Weren&#39;t Turned Off By Facebook
-        
-      </div>
-    </a>
   
-  
-    <a href="/2014/07/08/the-other-side-of-empathy/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2014/07/10/cbtextfieldview/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">The Other Side of Empathy</div>
+      <div class="article-nav-title">CBTextFieldView</div>
     </a>
   
 </nav>

@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-10T22:37:19.651Z</updated>
+  <updated>2014-07-14T13:15:18.480Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,59 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[JavaScript Fun]]></title>
+    <link href="http://chrisbrakebill.com/2014/07/14/javascript-fun/"/>
+    <id>http://chrisbrakebill.com/2014/07/14/javascript-fun/</id>
+    <published>2014-07-14T13:14:51.000Z</published>
+    <updated>2014-07-14T13:14:51.000Z</updated>
+    <content type="html"><![CDATA[<p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> {</span>
+	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> {</span>
+		<span class="keyword">if</span>(checkAuth()) {
+			callPassedInFunction(variable, numberOf, params);
+		}
+	}
+}
+</pre></td></tr></table></figure>
+
+<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank">DRY</a> to me. What I’ve ended up going with is this:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> {</span>
+  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+		<span class="keyword">if</span> (checkAuth()) {
+			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);
+		} <span class="keyword">else</span> {
+			error = error || <span class="string">'You must be an admin to do that.'</span>;
+			console.log(error)
+		}
+  }
+}
+</pre></td></tr></table></figure>
+
+<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
+<p>It’s working for now, but I’m still not in love with it syntactically.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[CBTextFieldView]]></title>
@@ -278,19 +331,6 @@
     <updated>2014-06-17T14:39:57.000Z</updated>
     <content type="html"><![CDATA[<p>Yes to everything here. My sister is a teacher and I’m incredibly proud of her. Teachers are overworked and underpaid.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/17/to-teachers/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Filling a Notebook]]></title>
-    <link href="http://www.sanspoint.com/archives/2014/05/19/filling-notebook/"/>
-    <id>http://chrisbrakebill.com/2014/06/16/filling-a-notebook/</id>
-    <published>2014-06-16T12:55:57.000Z</published>
-    <updated>2014-06-16T12:55:57.000Z</updated>
-    <content type="html"><![CDATA[<p>I’ve been using the <a href="http://bulletjournal.com" target="_blank">Bullet Journal</a> method for managing my tasks and notes. As much as I <strong>want</strong> a digital, cloud based task manager to be my go to, there’s just something about putting a pen to paper that sticks better with me. I suspect it has to do with growing up in a world where I had to write something down to record it.</p>
-<p>I’d like to use it more to record thoughts, so that I could write more and better. I often find that the little nugget that was in my head disappears so quickly into an abyss of thoughts and memories.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/16/filling-a-notebook/">♻</a></p>]]></content>
     
     
   </entry>
