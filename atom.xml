@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-16T02:50:22.966Z</updated>
+  <updated>2014-07-16T02:51:36.463Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Kids Menu]]></title>
+    <link href="http://sethgodin.typepad.com/seths_blog/2014/06/the-childrens-menu.html"/>
+    <id>http://chrisbrakebill.com/2014/07/15/the-kids-menu/</id>
+    <published>2014-07-16T02:51:09.000Z</published>
+    <updated>2014-07-16T02:51:09.000Z</updated>
+    <content type="html"><![CDATA[<p>Seth Godin:</p>]]><![CDATA[<blockquote>
+<p>Of course, chicken fingers are just a symptom. If we want to insulate ourselves from new experiences, ensure that we never eat something we don’t like, never engage with someone we disagree with, never have to hold two opposing ideas in our head at the same time—chicken fingers are a great way to start.</p>
+</blockquote>
+<p>This is a huge problem for me, for many reasons. The new means the unfamiliar. It means something I might not feel like I’m already competent at. And heaven forbid I do something I’m not already good at…</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[On the Shutdown of Lavabit]]></title>
@@ -322,18 +337,6 @@
     <updated>2014-06-24T12:41:09.000Z</updated>
     <content type="html"><![CDATA[<p>My wife wrote a wonderful post on <a href="http://chrisbrakebill.com/2014/06/20/miscarriage/">Emma</a> as well.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/24/on-losing-a-life-grief-and-honor/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Code as Craft: Opsweekly]]></title>
-    <link href="http://codeascraft.com/2014/06/19/opsweekly-measuring-on-call-experience-with-alert-classification/"/>
-    <id>http://chrisbrakebill.com/2014/06/23/opsweekly/</id>
-    <published>2014-06-23T19:45:33.000Z</published>
-    <updated>2014-06-23T19:45:33.000Z</updated>
-    <content type="html"><![CDATA[<p>Really cool stuff from Etsy. Quantizing on-call experience and effectiveness is not something you hear about from many companies.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/23/opsweekly/">♻</a></p>]]></content>
     
     
   </entry>
