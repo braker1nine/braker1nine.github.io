@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-22T11:53:29.185Z</updated>
+  <updated>2014-07-22T20:52:49.908Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,19 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Stickers]]></title>
+    <link href="https://www.youtube.com/watch?v=7PzntWQ-sVY&feature=youtu.be"/>
+    <id>http://chrisbrakebill.com/2014/07/22/stickers/</id>
+    <published>2014-07-22T20:52:22.000Z</published>
+    <updated>2014-07-22T20:52:22.000Z</updated>
+    <content type="html"><![CDATA[<p>Nifty. Love seeing the old rainbow logo.</p>
+<p>Also I would never <strong>ever</strong> put stickers on my Mac.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/stickers/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[UI.registerHelper]]></title>
@@ -332,21 +345,6 @@
 </blockquote>
 <p>I absolutely struggle with this every single day.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/26/fighting-to-stay-creative/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Programming Sucks]]></title>
-    <link href="http://stilldrinking.org/programming-sucks"/>
-    <id>http://chrisbrakebill.com/2014/06/25/programming-sucks/</id>
-    <published>2014-06-25T19:02:07.000Z</published>
-    <updated>2014-06-25T19:11:40.000Z</updated>
-    <content type="html"><![CDATA[<p>Peter Welch:</p>]]><![CDATA[<blockquote>
-<p>So no, I’m not required to be able to lift objects weighing up to fifty pounds. I traded that for the opportunity to trim Satan’s pubic hair while he dines out of my open skull so a few bits of the internet will continue to work for a few more days.</p>
-</blockquote>
-<p>Hilarious. Depressing. Accurate.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/25/programming-sucks/">♻</a></p>]]></content>
     
     
   </entry>
