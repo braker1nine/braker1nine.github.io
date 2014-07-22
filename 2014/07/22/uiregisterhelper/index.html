@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>If Internet Providers Ran Public Services | Chris Brakebill</title>
+  <title>UI.registerHelper | Chris Brakebill</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <link rel="alternative" href="/atom.xml" title="Chris Brakebill" type="application/atom+xml">
@@ -15,11 +15,11 @@
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css" type="text/css">
   <meta name="og:type" content="blog">
-<meta name="og:title" content="If Internet Providers Ran Public Services">
-<meta name="og:url" content="http://chrisbrakebill.com/2014/05/16/if-internet-providers-ran-public-services/">
+<meta name="og:title" content="UI.registerHelper">
+<meta name="og:url" content="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/">
 <meta name="og:image">
 <meta name="og:site_name" content="Chris Brakebill">
-<meta name="og:description" content="Funny and depressing.">
+<meta name="og:description" content="Sometimes in Meteor you need to use the same helper across templates. For example, if you have several views with admin controls, you might want a helper to help you control who sees those. It would b">
 <meta name="twitter:card" content="summary">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -71,10 +71,10 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-if-internet-providers-ran-public-services" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-uiregisterhelper" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/05/16/if-internet-providers-ran-public-services/" class="article-date">
-  <time datetime="2014-05-16T13:54:39.000Z" itemprop="datePublished">May 16 2014</time>
+    <a href="/2014/07/22/uiregisterhelper/" class="article-date">
+  <time datetime="2014-07-22T11:52:21.000Z" itemprop="datePublished">Jul 22 2014</time>
 </a>
     
   </div>
@@ -84,7 +84,7 @@
       <header class="article-header">
         
   <h1 itemprop="name">
-    <a class="article-title" href="http://theweek.com/cartoons/index/261623/editorial-cartoon-net-neutrality" target="_blank" itemprop="url">If Internet Providers Ran Public Services</a>
+    <a class="article-title" href="http://docs.meteor.com/#ui_registerhelper" target="_blank" itemprop="url">UI.registerHelper</a>
   </h1>
 
       </header>
@@ -92,15 +92,23 @@
     <div class="article-entry" itemprop="articleBody">
       
       
-        <p>Funny and depressing.</p>
+        <p>Sometimes in Meteor you need to use the same helper across templates. For example, if you have several views with admin controls, you might want a helper to help you control who sees those. It would be a pain to add that function to each template. Luckily, Meteor provides the ability to create a new global helper via UI.registerHelper.</p>
+<p>UI.registerHelper takes two parameters: the name of the helper as a string, and the function to be called. So to add my admin helper I might do something like this.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+</pre></td><td class="code"><pre>UI.registerHelper(<span class="string">'admin'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+	<span class="keyword">return</span> userIsAdmin();
+});
+</pre></td></tr></table></figure>
+
+<p>UI.registerHelper is an excellent tool to prevent repeating code and to centralize global template functionality.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/05/16/if-internet-providers-ran-public-services/" data-id="awoaaejhqo0azlb5">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/" data-id="4u0h5gyjn6gcx40q">Permalink</a>
       
-      
-        <h2 class="source_link"><a target="_blank" href="http://daringfireball.net/linked/2014/05/15/internet-providers">Daring Fireball<span class="fa fa-angle-double-right"></span></a></h2>
       
       
     </footer>
@@ -109,19 +117,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2014/05/21/prison-tennis/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Chained Wimbledon: The Joys and Perils of Prison Tennis
-        
-      </div>
-    </a>
   
-  
-    <a href="/2014/05/15/the-competitivebalance-argument-against-paying-atheletes-is-bullshit/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2014/07/21/eternity/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">The Competitive-Balance Argument Against Paying Atheletes is Bullshit</div>
+      <div class="article-nav-title">Eternity</div>
     </a>
   
 </nav>
