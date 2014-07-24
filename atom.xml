@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-23T13:22:06.864Z</updated>
+  <updated>2014-07-24T17:05:00.577Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,34 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Insulated Perspectives]]></title>
+    <link href="http://chrisbrakebill.com/2014/07/24/insulated-perspectives/"/>
+    <id>http://chrisbrakebill.com/2014/07/24/insulated-perspectives/</id>
+    <published>2014-07-24T17:04:38.000Z</published>
+    <updated>2014-07-24T17:04:38.000Z</updated>
+    <content type="html"><![CDATA[<p>David Smith talked on his podcast today about <a href="https://itunes.apple.com/us/app/threes!/id779157948?mt=8" target="_blank">Threes!</a> and 2048. In particular he was talking about an acquaintance playing 2048, and how he perceived this acquaintance’s experience. You’ll have to <a href="http://developingperspective.com/2014/07/24/0/" target="_blank">listen</a> to hear the nuances of his point, but essentially his deduction was that 2048 made the acquaintance feel smart and that’s why he valued it versus Threes!.</p>
+<p>This really missed the mark for me. I think by design Threes! gives users the exact same feeling. It’s more difficult for sure, but it provides the exact same satisfaction. What you take pride in achieving is really based on what your friends achieve. If he feels smart, it’s because he’s doing better than his average friend. While he might take pride in beating 2048, he would take the same pride in getting the 768 block in Threes! if his friends were struggling to. </p>
+<p>This user wasn’t playing 2048 because it made him feel smart and Threes! couldn’t. He was playing because 2048 was free. Free games are easier to pick up. You can try them without risking your money. They copied the simple mechanics that made Threes! enjoyable to play and put them out for free. What this story tells me is that this guy, like a lot of App Store consumers, values his $5 (or whatever Threes! costs nowadays).</p>
+<p>David’s larger point was to understand what it is your potential customers value, which I think was good. We know that a lot of customers (nay, users; if they don’t pay they aren’t customers) will deal with a lot of crap from a product if it’s gives them some utility they don’t have to pay for. </p>
+<p>Certainly developers should be thinking about how they can generate value for customers. 2048 has done that by providing a ton of eyeballs to the customers who pay for ads. The best products, <em>in my opinion</em>, are the ones that can generate enough value to convince users pay for them. Products like David’s own Feed Wrangler/Pod Wrangler and especially apps with delightful and fun experiences like Threes!. </p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[This is Your Brain on Mobile]]></title>
+    <link href="https://medium.com/medium-long/15308056cfae"/>
+    <id>http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/</id>
+    <published>2014-07-24T12:40:55.000Z</published>
+    <updated>2014-07-24T12:40:55.000Z</updated>
+    <content type="html"><![CDATA[<p>Some great thoughts on the effects of being chained to your mobile device, and what you can do to break free. I’ve been doing some similar things myself, which I’m hoping to write about soon.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[BBQ]]></title>
@@ -320,31 +348,6 @@
     <updated>2014-06-28T13:36:26.000Z</updated>
     <content type="html"><![CDATA[<p>Great short film. Nick Offerman narrates and is hilarious as usual.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/28/the-gunfighter/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Universal Studios Interactive Wands]]></title>
-    <link href="http://gizmodo.com/live-your-hogwarts-fantasies-with-universal-studios-int-1592078675"/>
-    <id>http://chrisbrakebill.com/2014/06/27/universal-studios-interactive-wands/</id>
-    <published>2014-06-27T19:46:12.000Z</published>
-    <updated>2014-06-27T19:46:12.000Z</updated>
-    <content type="html"><![CDATA[<p>Dang. So cool.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/27/universal-studios-interactive-wands/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Martian: A Novel]]></title>
-    <link href="http://www.amazon.com/gp/product/B00EMXBDMA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EMXBDMA&linkCode=as2&tag=braonenin-20&linkId=ZIEJGBTQ4ROOEDNR"/>
-    <id>http://chrisbrakebill.com/2014/06/27/the-martian/</id>
-    <published>2014-06-27T16:17:24.000Z</published>
-    <updated>2014-06-27T16:20:14.000Z</updated>
-    <content type="html"><![CDATA[<p>Just spent a couple of days reading this on vacation. Really fantastic book.</p>
-<p>Long story short, an astronaut gets stranded on Mars. He engineers and potato farms to survive while NASA and his fellow astronauts try to figure out how to get him home.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/06/27/the-martian/">♻</a></p>]]></content>
     
     
   </entry>

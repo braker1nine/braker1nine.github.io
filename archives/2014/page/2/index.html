@@ -73,6 +73,123 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-javascript-fun" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/14/javascript-fun/" class="article-date">
+  <time datetime="2014-07-14T13:14:51.000Z" itemprop="datePublished">Jul 14 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/07/14/javascript-fun/">JavaScript Fun</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> {</span>
+	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> {</span>
+		<span class="keyword">if</span>(checkAuth()) {
+			callPassedInFunction(variable, numberOf, params);
+		}
+	}
+}
+</pre></td></tr></table></figure>
+
+<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank">DRY</a> to me. What I’ve ended up going with is this:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> {</span>
+  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
+		<span class="keyword">if</span> (checkAuth()) {
+			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);
+		} <span class="keyword">else</span> {
+			error = error || <span class="string">'You must be an admin to do that.'</span>;
+			console.log(error)
+		}
+  }
+}
+</pre></td></tr></table></figure>
+
+<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
+<p>It’s working for now, but I’m still not in love with it syntactically.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="hmemsb1p3a991i74">Permalink</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-cbtextfieldview" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/07/10/cbtextfieldview/" class="article-date">
+  <time datetime="2014-07-10T22:36:46.000Z" itemprop="datePublished">Jul 10 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  <h1 itemprop="name">
+    <a class="article-title" href="https://github.com/braker1nine/CBTextFieldView" target="_blank" itemprop="url">CBTextFieldView</a>
+  </h1>
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p>Just a simple little view I created for textfield/label selection on OSX. Poorly documented, but available.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="m6o2jrbqf3lxrna8">Permalink</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-iphone-phone-home" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2014/07/10/iphone-phone-home/" class="article-date">
@@ -99,7 +216,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="oyjfjlxopkwiatxr">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="w0oh12r1v63d7bhb">Permalink</a>
       
       
         <h2 class="source_link"><a target="_blank" href="http://sidebar.io/2014/7/5">Sidebar<span class="fa fa-angle-double-right"></span></a></h2>
@@ -138,7 +255,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="phpr6kp5w6sw6qx5">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="gpf2yno34r6ij8k8">Permalink</a>
       
       
       
@@ -179,7 +296,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="4pzbz8etplseo9z0">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="2yp457tg94xfaeu2">Permalink</a>
       
       
       
@@ -220,7 +337,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="gasqdeefdgssd3cy">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="h7ow3vkzb3ofxl0j">Permalink</a>
       
       
       
@@ -262,7 +379,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/" data-id="d7fbbftpegg7gwcx">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/" data-id="o39bkqfxftsuozs5">Permalink</a>
       
       
       
@@ -302,7 +419,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/07/persona/" data-id="hz0cqedflqity96p">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/07/persona/" data-id="hzwq1u2wkza51rk6">Permalink</a>
       
       
       
@@ -342,7 +459,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/05/hobby-lobby/" data-id="3blul4yun3qyfcry">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/05/hobby-lobby/" data-id="827twz61zrxyfwr3">Permalink</a>
       
       
       
@@ -379,87 +496,10 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/06/28/the-gunfighter/" data-id="hwilku1ep3xqnyon">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/06/28/the-gunfighter/" data-id="p8dk9dur54pkdh4p">Permalink</a>
       
       
         <h2 class="source_link"><a target="_blank" href="http://daringfireball.net/linked/2014/06/27/the-gunfighter">Daring Fireball<span class="fa fa-angle-double-right"></span></a></h2>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-universal-studios-interactive-wands" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/06/27/universal-studios-interactive-wands/" class="article-date">
-  <time datetime="2014-06-27T19:46:12.000Z" itemprop="datePublished">Jun 27 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  <h1 itemprop="name">
-    <a class="article-title" href="http://gizmodo.com/live-your-hogwarts-fantasies-with-universal-studios-int-1592078675" target="_blank" itemprop="url">Universal Studios Interactive Wands</a>
-  </h1>
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-        <p>Dang. So cool.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/06/27/universal-studios-interactive-wands/" data-id="0vccbn3wclaojyvt">Permalink</a>
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-the-martian" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2014/06/27/the-martian/" class="article-date">
-  <time datetime="2014-06-27T16:17:24.000Z" itemprop="datePublished">Jun 27 2014</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  <h1 itemprop="name">
-    <a class="article-title" href="http://www.amazon.com/gp/product/B00EMXBDMA/ref=as_li_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=B00EMXBDMA&linkCode=as2&tag=braonenin-20&linkId=ZIEJGBTQ4ROOEDNR" target="_blank" itemprop="url">The Martian: A Novel</a>
-  </h1>
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-        <p>Just spent a couple of days reading this on vacation. Really fantastic book.</p>
-<p>Long story short, an astronaut gets stranded on Mars. He engineers and potato farms to survive while NASA and his fellow astronauts try to figure out how to get him home.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/06/27/the-martian/" data-id="87wu64q0ernturwu">Permalink</a>
-      
-      
-        <h2 class="source_link"><a target="_blank" href="http://www.feld.com/wp/archives/2014/06/book-martian.html">Brad Feld<span class="fa fa-angle-double-right"></span></a></h2>
       
       
     </footer>
@@ -488,6 +528,14 @@
       <ul>
         
           <li>
+            <a href="/2014/07/24/insulated-perspectives/">Insulated Perspectives</a>
+          </li>
+        
+          <li>
+            <a href="/2014/07/24/this-is-your-brain-on-mobile/">This is Your Brain on Mobile</a>
+          </li>
+        
+          <li>
             <a href="/2014/07/23/bbq/">BBQ</a>
           </li>
         
@@ -497,14 +545,6 @@
         
           <li>
             <a href="/2014/07/22/uiregisterhelper/">UI.registerHelper</a>
-          </li>
-        
-          <li>
-            <a href="/2014/07/21/eternity/">Eternity</a>
-          </li>
-        
-          <li>
-            <a href="/2014/07/15/the-kids-menu/">The Kids Menu</a>
           </li>
         
       </ul>
