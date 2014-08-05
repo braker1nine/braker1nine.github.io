@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-07-31T22:58:41.763Z</updated>
+  <updated>2014-08-05T01:08:02.782Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[App Disillusionment]]></title>
+    <link href="http://ignorethecode.net/blog/2014/08/01/app_disillusionment/"/>
+    <id>http://chrisbrakebill.com/2014/08/04/app-disillusionment/</id>
+    <published>2014-08-05T01:07:27.000Z</published>
+    <updated>2014-08-05T01:07:27.000Z</updated>
+    <content type="html"><![CDATA[<p>Lukas Mathis:</p>]]><![CDATA[<blockquote>
+<p>Commoditizing apps and tightly controlling the market for apps on iPhones benefits Apple, and many of its users, in the short run. But in the long run, an unhealthy software ecosystem can’t be good for Apple, for its users, or for the developers who write apps for Apple’s platforms.</p>
+</blockquote>
+<p>Apple obviously doesn’t <em>need</em> to do anything right now. They’re making a lot of money selling iPhones. But their store is flawed. It inhibits a lot of applications and prevents talented developers from being able to make a living selling apps. It may not be hurting now, but it will at some point. The point is Apple could do more to make building great apps a viable business venture, and doing so would directly benefit Apple.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/04/app-disillusionment/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[The Moment: Tim Ferriss]]></title>
@@ -334,21 +349,6 @@
 </blockquote>
 <p>This is something I’ve become a lot more aware of in the past couple of years. Working on a product that is used by millions of people, I know what it’s like to see people bashing what you’ve built. It sucks. I do my best to think before I tweet critically and angrily about a piece of software I’m using.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Persona]]></title>
-    <link href="http://chrisbowler.com/journal/persona"/>
-    <id>http://chrisbrakebill.com/2014/07/07/persona/</id>
-    <published>2014-07-07T21:54:29.000Z</published>
-    <updated>2014-07-07T21:54:29.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>When I was younger, it was easy to put people I looked up to on a pedestal. Bosses at work, pastors at church, my favourite bands. That is easy to do from afar, but the closer you get to people, the more you see the real person; the flaws, the hurting, and the mess as much as the good things.</p>
-</blockquote>
-<p>Great stuff from Chris Bowler. We’re all just messy people.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/07/persona/">♻</a></p>]]></content>
     
     
   </entry>
