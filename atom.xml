@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-08-08T16:12:49.886Z</updated>
+  <updated>2014-08-08T16:14:44.262Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Empathy]]></title>
+    <link href="http://mattgemmell.com/empathy/"/>
+    <id>http://chrisbrakebill.com/2014/08/08/empathy/</id>
+    <published>2014-08-08T16:14:08.000Z</published>
+    <updated>2014-08-08T16:14:37.000Z</updated>
+    <content type="html"><![CDATA[<p>Matt Gemmell:</p>]]><![CDATA[<blockquote>
+<p>A friend of mine told me that, when dealing with people, it’s best to assume positive intent. You can view it as a shortcut (since, truthfully, the vast majority of people do have positive intent), but more importantly it’s a conscious choice that makes the world a better place for you.</p>
+</blockquote>
+<p>Some excellent advice from Matt Gemmell.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/08/empathy/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Why I am leaving the best job I ever had]]></title>
@@ -337,18 +352,6 @@
     <updated>2014-07-10T22:13:06.000Z</updated>
     <content type="html"><![CDATA[<p>Tremendously cool concept to allow the return of lost iPhones to their owners.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Great Discontent: Rogie King]]></title>
-    <link href="http://thegreatdiscontent.com/rogie-king"/>
-    <id>http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/</id>
-    <published>2014-07-10T22:11:28.000Z</published>
-    <updated>2014-07-10T22:11:28.000Z</updated>
-    <content type="html"><![CDATA[<p>Yes. This is over two years old. Yes. I have a huge man crush on Rogie King.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/">♻</a></p>]]></content>
     
     
   </entry>
