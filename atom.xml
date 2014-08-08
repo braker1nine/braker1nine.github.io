@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-08-07T23:48:32.011Z</updated>
+  <updated>2014-08-08T16:12:49.886Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,23 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Why I am leaving the best job I ever had]]></title>
+    <link href="http://maxschireson.com/2014/08/05/1137/"/>
+    <id>http://chrisbrakebill.com/2014/08/08/why-i-am-leaving-the-best-job-i-ever-had/</id>
+    <published>2014-08-08T16:08:34.000Z</published>
+    <updated>2014-08-08T16:08:34.000Z</updated>
+    <content type="html"><![CDATA[<p>Max Schireson:</p>]]><![CDATA[<blockquote>
+<p>Friends and colleagues often ask my wife how she balances her job and motherhood. Somehow, the same people don’t ask me.</p>
+<p>A few months ago, I decided the only way to balance was by stepping back from my job. MongoDB is a special company. In my nearly 4 years at the company, we have raised $220 million, grown the team 15x and grown sales 30x. We have amazing customers, a great product which gets better with every release, the strongest team I have ever worked with, and incredible momentum in the market. The future is bright and MongoDB deserves a leader who can be “all-in” and make the most of the opportunity.</p>
+<p>Unfortunately, I cannot be that leader given the geography of the majority of the company in New York and my family in California.</p>
+</blockquote>
+<p>It says a lot about our society that men aren’t asked these same questions. Fatherhood is <em>important</em>. Kudos to Max Schireson.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/08/why-i-am-leaving-the-best-job-i-ever-had/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[SEC Network: Tennessee]]></title>
@@ -332,22 +349,6 @@
     <updated>2014-07-10T22:11:28.000Z</updated>
     <content type="html"><![CDATA[<p>Yes. This is over two years old. Yes. I have a huge man crush on Rogie King.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Facebook's Explanation: We Wanted to Make Sure You Weren't Turned Off By Facebook]]></title>
-    <link href="https://brooksreview.net/2014/06/facebooks-explanation-we-wanted-to-make-sure-you-werent-turned-off-by-facebook/"/>
-    <id>http://chrisbrakebill.com/2014/07/09/facebook-experiment/</id>
-    <published>2014-07-10T02:04:34.000Z</published>
-    <updated>2014-07-10T02:04:34.000Z</updated>
-    <content type="html"><![CDATA[<p>Ben Brooks nails pretty much everything I wanted to say about this. My favorite bit from the Facebook explanation…</p>
-<blockquote>
-<p>Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed.</p>
-</blockquote>
-<p>Oh. Okay.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/">♻</a></p>]]></content>
     
     
   </entry>
