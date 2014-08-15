@@ -13,14 +13,17 @@
   
   <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css" type="text/css">
-  <meta name="og:type" content="blog">
-<meta name="og:title">
-<meta name="og:url" content="http://chrisbrakebill.com/archives/2014/07/page/2/">
-<meta name="og:image">
-<meta name="og:site_name" content="Chris Brakebill">
-<meta name="og:description">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Chris Brakebill">
+<meta property="og:url" content="http://chrisbrakebill.com/archives/2014/07/page/2/">
+<meta property="og:site_name" content="Chris Brakebill">
+<meta property="og:description">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chris Brakebill">
+<meta name="twitter:description">
+
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -103,7 +106,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="wnjrewsbyrqcspb4">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="v9opzb7mi1uomx61">Permalink</a>
       
       
       
@@ -145,7 +148,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="osuy3fvq11ahuvjk">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="464pkuvvvms9hsj9">Permalink</a>
       
       
       
@@ -180,44 +183,10 @@
       
       
         <p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> {</span>
-	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> {</span>
-		<span class="keyword">if</span>(checkAuth()) {
-			callPassedInFunction(variable, numberOf, params);
-		}
-	}
-}
-</pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> </span>{</div><div class="line">	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> </span>{</div><div class="line">		<span class="keyword">if</span>(checkAuth()) {</div><div class="line">			callPassedInFunction(variable, numberOf, params);</div><div class="line">		}</div><div class="line">	}</div><div class="line">}</div></pre></td></tr></table></figure>
 
-<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank">DRY</a> to me. What I’ve ended up going with is this:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> {</span>
-  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
-		<span class="keyword">if</span> (checkAuth()) {
-			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);
-		} <span class="keyword">else</span> {
-			error = error || <span class="string">'You must be an admin to do that.'</span>;
-			console.log(error)
-		}
-  }
-}
-</pre></td></tr></table></figure>
+<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank" rel="external">DRY</a> to me. What I’ve ended up going with is this:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> </span>{</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>{</div><div class="line">		<span class="keyword">if</span> (checkAuth()) {</div><div class="line">			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);</div><div class="line">		} <span class="keyword">else</span> {</div><div class="line">			error = error || <span class="string">'You must be an admin to do that.'</span>;</div><div class="line">			<span class="built_in">console</span>.log(error)</div><div class="line">		}</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure>
 
 <p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
 <p>It’s working for now, but I’m still not in love with it syntactically.</p>
@@ -225,7 +194,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="innd392z5q6gsvws">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="9799z6qbzbil9ahn">Permalink</a>
       
       
       
@@ -262,7 +231,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="g7b6h5amgg241cv2">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="8mko5tkkpniyn89o">Permalink</a>
       
       
       
@@ -299,7 +268,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="3v6hhqnmtadtdjl8">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="qf4wre9f7bigyw9a">Permalink</a>
       
       
         <h2 class="source_link"><a target="_blank" href="http://sidebar.io/2014/7/5">Sidebar<span class="fa fa-angle-double-right"></span></a></h2>
@@ -338,7 +307,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="nnhdathtu947kyap">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="xmkgimjuywpblton">Permalink</a>
       
       
       
@@ -379,7 +348,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="rp97zxuqtfh9oxe2">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="uba6cvnlznvfmpb7">Permalink</a>
       
       
       
@@ -420,7 +389,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="wvvoa342ioinve1n">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="pt6nfeqesm5xaafb">Permalink</a>
       
       
       
@@ -462,7 +431,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/" data-id="xfw8tcgp59di7ytf">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/08/the-other-side-of-empathy/" data-id="tihngz03yq96qt3q">Permalink</a>
       
       
       
@@ -502,7 +471,7 @@
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/07/persona/" data-id="nrdie950hqo5pdbx">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/07/07/persona/" data-id="g80tqrvn7f2wp2df">Permalink</a>
       
       
       
@@ -515,7 +484,7 @@
   
   
     <nav id="page-nav">
-      <a class="extend prev" href="/archives/2014/07/">&laquo; Prev</a><a class="page-number" href="/archives/2014/07/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/2014/07/page/3/">3</a><a class="extend next" href="/archives/2014/07/page/3/">Next &raquo;</a>
+      <a class="extend prev" rel="prev" href="/archives/2014/07/">&laquo; Prev</a><a class="page-number" href="/archives/2014/07/">1</a><span class="page-number current">2</span><a class="page-number" href="/archives/2014/07/page/3/">3</a><a class="extend next" rel="next" href="/archives/2014/07/page/3/">Next &raquo;</a>
     </nav>
   
 </section>
@@ -532,6 +501,14 @@
       <ul>
         
           <li>
+            <a href="/2014/08/15/youre-16-youre-a-pedophile-you-dont-want-to-hurt-anyone-what-do-you-do-now/">You&#39;re 16. You&#39;re a Pedophile. You Don&#39;t Want to Hurt Anyone. What Do You Do Now?</a>
+          </li>
+        
+          <li>
+            <a href="/2014/08/15/city/">Lets Build A Traditional City</a>
+          </li>
+        
+          <li>
             <a href="/2014/08/08/empathy/">Empathy</a>
           </li>
         
@@ -541,14 +518,6 @@
         
           <li>
             <a href="/2014/08/07/sec-network-tennessee/">SEC Network: Tennessee</a>
-          </li>
-        
-          <li>
-            <a href="/2014/08/04/being-wrong/">Being Wrong</a>
-          </li>
-        
-          <li>
-            <a href="/2014/08/04/app-disillusionment/">App Disillusionment</a>
           </li>
         
       </ul>
@@ -592,7 +561,8 @@
 </script>
 <!-- End Piwik Code -->
 
-<script type="text/javascript" src="/js/script.js"></script>
+<script src="/js/script.js" type="text/javascript"></script>
+
   </div>
 </body>
 </html>

@@ -4,15 +4,39 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-08-08T16:14:44.262Z</updated>
+  <updated>2014-08-15T21:49:54.854Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
     <name><![CDATA[Chris Brakebill]]></name>
-    <email><![CDATA[imchrisbrakebill@icloud.com]]></email>
+    <email><![CDATA[chris@brakebill.me]]></email>
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[You're 16. You're a Pedophile. You Don't Want to Hurt Anyone. What Do You Do Now?]]></title>
+    <link href="https://medium.com/matter/youre-16-youre-a-pedophile-you-dont-want-to-hurt-anyone-what-do-you-do-now-e11ce4b88bdb"/>
+    <id>http://chrisbrakebill.com/2014/08/15/youre-16-youre-a-pedophile-you-dont-want-to-hurt-anyone-what-do-you-do-now/</id>
+    <published>2014-08-15T21:38:45.000Z</published>
+    <updated>2014-08-15T21:38:45.000Z</updated>
+    <content type="html"><![CDATA[<p>Wow. It’s hard to do, but it lends a bit of humanity to a group of people we have a hard time seeing as human.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/15/youre-16-youre-a-pedophile-you-dont-want-to-hurt-anyone-what-do-you-do-now/">♻</a></p>]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Lets Build A Traditional City]]></title>
+    <link href="http://www.andrewalexanderprice.com/blog20130330.php"/>
+    <id>http://chrisbrakebill.com/2014/08/15/city/</id>
+    <published>2014-08-15T13:39:47.000Z</published>
+    <updated>2014-08-15T13:39:47.000Z</updated>
+    <content type="html"><![CDATA[<p>An old post that resurfaced this week. I find this really fascinating, particularly the move to a more European style of city construction. Our sprawling cities with wide roads and huge parking lots suck.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/15/city/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Empathy]]></title>
@@ -51,7 +75,7 @@
     <link href="http://chrisbrakebill.com/2014/08/07/sec-network-tennessee/"/>
     <id>http://chrisbrakebill.com/2014/08/07/sec-network-tennessee/</id>
     <published>2014-08-07T23:48:13.000Z</published>
-    <updated>2014-08-07T23:48:13.000Z</updated>
+    <updated>2014-08-15T21:33:45.000Z</updated>
     <content type="html"><![CDATA[<p><br></p>
 <iframe width="560" height="315" src="//www.youtube.com/embed/NhsEqOdx8Tk" frameborder="0" allowfullscreen></iframe>
 ]]></content>
@@ -68,7 +92,7 @@
     <content type="html"><![CDATA[<p>Casey Liss:</p>]]><![CDATA[<blockquote>
 <p>once you accept the beauty and utility of being wrong, “putting something out there” quickly becomes one important step on the path to being right.</p>
 </blockquote>
-<p>So much good here from Casey and <a href="http://inessential.com/2014/07/31/how_to_be_wrong_on_the_internet" target="_blank">Brent</a>. I need to think about this more and worry less about being wrong. I think I stay away from technical stuff for fear of being wrong.</p>
+<p>So much good here from Casey and <a href="http://inessential.com/2014/07/31/how_to_be_wrong_on_the_internet" target="_blank" rel="external">Brent</a>. I need to think about this more and worry less about being wrong. I think I stay away from technical stuff for fear of being wrong.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/04/being-wrong/">♻</a></p>]]></content>
     
     
@@ -94,8 +118,8 @@
     <link href="http://espn.go.com/espnradio/grantland/player?id=11276177"/>
     <id>http://chrisbrakebill.com/2014/07/31/the-moment-tim-ferriss/</id>
     <published>2014-07-31T22:58:23.000Z</published>
-    <updated>2014-07-31T22:58:23.000Z</updated>
-    <content type="html"><![CDATA[<p>Fantastic interview from Brian Koppelman. I’ve been meaning to read the <a href="http://fourhourworkweek.com" target="_blank">4-Hour Workweek</a> for years…</p>
+    <updated>2014-08-15T21:33:23.000Z</updated>
+    <content type="html"><![CDATA[<p>Fantastic interview from Brian Koppelman. I’ve been meaning to read the <a href="http://fourhourworkweek.com" target="_blank" rel="external">4-Hour Workweek</a> for years…</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/31/the-moment-tim-ferriss/">♻</a></p>]]></content>
     
     
@@ -123,7 +147,7 @@
     <id>http://chrisbrakebill.com/2014/07/24/insulated-perspectives/</id>
     <published>2014-07-24T17:04:38.000Z</published>
     <updated>2014-07-24T17:04:38.000Z</updated>
-    <content type="html"><![CDATA[<p>David Smith talked on his podcast today about <a href="https://itunes.apple.com/us/app/threes!/id779157948?mt=8" target="_blank">Threes!</a> and 2048. In particular he was talking about an acquaintance playing 2048, and how he perceived this acquaintance’s experience. You’ll have to <a href="http://developingperspective.com/2014/07/24/0/" target="_blank">listen</a> to hear the nuances of his point, but essentially his deduction was that 2048 made the acquaintance feel smart and that’s why he valued it versus Threes!.</p>
+    <content type="html"><![CDATA[<p>David Smith talked on his podcast today about <a href="https://itunes.apple.com/us/app/threes!/id779157948?mt=8" target="_blank" rel="external">Threes!</a> and 2048. In particular he was talking about an acquaintance playing 2048, and how he perceived this acquaintance’s experience. You’ll have to <a href="http://developingperspective.com/2014/07/24/0/" target="_blank" rel="external">listen</a> to hear the nuances of his point, but essentially his deduction was that 2048 made the acquaintance feel smart and that’s why he valued it versus Threes!.</p>
 <p>This really missed the mark for me. I think by design Threes! gives users the exact same feeling. It’s more difficult for sure, but it provides the exact same satisfaction. What you take pride in achieving is really based on what your friends achieve. If he feels smart, it’s because he’s doing better than his average friend. While he might take pride in beating 2048, he would take the same pride in getting the 768 block in Threes! if his friends were struggling to. </p>
 <p>This user wasn’t playing 2048 because it made him feel smart and Threes! couldn’t. He was playing because 2048 was free. Free games are easier to pick up. You can try them without risking your money. They copied the simple mechanics that made Threes! enjoyable to play and put them out for free. What this story tells me is that this guy, like a lot of App Store consumers, values his $5 (or whatever Threes! costs nowadays).</p>
 <p>David’s larger point was to understand what it is your potential customers value, which I think was good. We know that a lot of customers (nay, users; if they don’t pay they aren’t customers) will deal with a lot of crap from a product if it’s gives them some utility they don’t have to pay for. </p>
@@ -187,13 +211,7 @@
     <updated>2014-07-22T11:52:21.000Z</updated>
     <content type="html"><![CDATA[<p>Sometimes in Meteor you need to use the same helper across templates. For example, if you have several views with admin controls, you might want a helper to help you control who sees those. It would be a pain to add that function to each template. Luckily, Meteor provides the ability to create a new global helper via UI.registerHelper.</p>
 <p>UI.registerHelper takes two parameters: the name of the helper as a string, and the function to be called. So to add my admin helper I might do something like this.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
-2
-3
-</pre></td><td class="code"><pre>UI.registerHelper(<span class="string">'admin'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
-	<span class="keyword">return</span> userIsAdmin();
-});
-</pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">UI.registerHelper(<span class="string">'admin'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>{</div><div class="line">	<span class="keyword">return</span> userIsAdmin();</div><div class="line">});</div></pre></td></tr></table></figure>
 
 <p>UI.registerHelper is an excellent tool to prevent repeating code and to centralize global template functionality.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/">♻</a></p>]]></content>
@@ -251,7 +269,7 @@
     <link href="http://grantland.com/the-triangle/full-time-fading-images-of-the-world-cup/"/>
     <id>http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/</id>
     <published>2014-07-14T21:34:07.000Z</published>
-    <updated>2014-07-14T21:35:34.000Z</updated>
+    <updated>2014-08-15T21:32:15.000Z</updated>
     <content type="html"><![CDATA[<p><em>Fantastic</em> writing from Brian Phillips. I’ll be honest I watched a maximum of 30 minutes of non-US soccer during the World Cup. Even then, I didn’t watch the Belgium game. Soccer isn’t my game, but I’ll do just about anything that let’s me drink and be patriotic.</p>
 <p>That said, this is a fantastic commentary of the significance of sport. Or really the significance of how we watch them. Here’s the opening, no way you can read this and not read the article.</p>
 <blockquote>
@@ -286,72 +304,14 @@
     <published>2014-07-14T13:14:51.000Z</published>
     <updated>2014-07-14T13:14:51.000Z</updated>
     <content type="html"><![CDATA[<p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> {</span>
-	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> {</span>
-		<span class="keyword">if</span>(checkAuth()) {
-			callPassedInFunction(variable, numberOf, params);
-		}
-	}
-}
-</pre></td></tr></table></figure>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> </span>{</div><div class="line">	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> </span>{</div><div class="line">		<span class="keyword">if</span>(checkAuth()) {</div><div class="line">			callPassedInFunction(variable, numberOf, params);</div><div class="line">		}</div><div class="line">	}</div><div class="line">}</div></pre></td></tr></table></figure>
 
-<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank">DRY</a> to me. What I’ve ended up going with is this:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre>1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td><td class="code"><pre><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> {</span>
-  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> {</span>
-		<span class="keyword">if</span> (checkAuth()) {
-			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);
-		} <span class="keyword">else</span> {
-			error = error || <span class="string">'You must be an admin to do that.'</span>;
-			console.log(error)
-		}
-  }
-}
-</pre></td></tr></table></figure>
+<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank" rel="external">DRY</a> to me. What I’ve ended up going with is this:</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> </span>{</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>{</div><div class="line">		<span class="keyword">if</span> (checkAuth()) {</div><div class="line">			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);</div><div class="line">		} <span class="keyword">else</span> {</div><div class="line">			error = error || <span class="string">'You must be an admin to do that.'</span>;</div><div class="line">			<span class="built_in">console</span>.log(error)</div><div class="line">		}</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure>
 
 <p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
 <p>It’s working for now, but I’m still not in love with it syntactically.</p>
 ]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[CBTextFieldView]]></title>
-    <link href="https://github.com/braker1nine/CBTextFieldView"/>
-    <id>http://chrisbrakebill.com/2014/07/10/cbtextfieldview/</id>
-    <published>2014-07-10T22:36:46.000Z</published>
-    <updated>2014-07-10T22:36:46.000Z</updated>
-    <content type="html"><![CDATA[<p>Just a simple little view I created for textfield/label selection on OSX. Poorly documented, but available.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[iPhone, phone home]]></title>
-    <link href="https://medium.com/@saycreative/iphone-phone-home-cc3bcff73069"/>
-    <id>http://chrisbrakebill.com/2014/07/10/iphone-phone-home/</id>
-    <published>2014-07-10T22:13:06.000Z</published>
-    <updated>2014-07-10T22:13:06.000Z</updated>
-    <content type="html"><![CDATA[<p>Tremendously cool concept to allow the return of lost iPhones to their owners.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/">♻</a></p>]]></content>
     
     
   </entry>

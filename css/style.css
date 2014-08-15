@@ -144,8 +144,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.14285714285714%;
-  margin: 0 1.4285714285714286%;
+  width: 97.1428571428571%;
+  margin: 0 1.4285714285714%;
 }
 .left,
 .alignleft {
@@ -1297,7 +1297,7 @@ pre .javascript .function {
     display: inline;
     float: left;
     width: 40%;
-    margin: 0 1.4285714285714286%;
+    margin: 0 1.4285714285714%;
   }
 }
 .widget-title {
