@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-08-15T21:49:54.854Z</updated>
+  <updated>2014-08-21T00:31:41.700Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Slow Web]]></title>
+    <link href="http://blog.idonethis.com/the-slow-web-movement/"/>
+    <id>http://chrisbrakebill.com/2014/08/20/the-slow-web/</id>
+    <published>2014-08-21T00:30:58.000Z</published>
+    <updated>2014-08-21T00:30:58.000Z</updated>
+    <content type="html"><![CDATA[<p>Walter Chen:</p>]]><![CDATA[<blockquote>
+<p>History will probably laugh at our time’s attempt to impose a mentality of industrial production upon creative work.</p>
+</blockquote>
+<p>Really love the ‘mantra’ put forth by iDoneThis. If you’re not following their blog you’re missing out.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/08/20/the-slow-web/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[You're 16. You're a Pedophile. You Don't Want to Hurt Anyone. What Do You Do Now?]]></title>
@@ -293,25 +308,6 @@
 <li>Pretty things</li>
 </ul>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[JavaScript Fun]]></title>
-    <link href="http://chrisbrakebill.com/2014/07/14/javascript-fun/"/>
-    <id>http://chrisbrakebill.com/2014/07/14/javascript-fun/</id>
-    <published>2014-07-14T13:14:51.000Z</published>
-    <updated>2014-07-14T13:14:51.000Z</updated>
-    <content type="html"><![CDATA[<p>I’m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this…</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">createAuthedFunction</span><span class="params">()</span> </span>{</div><div class="line">	<span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">(variable, numberOf, params)</span> </span>{</div><div class="line">		<span class="keyword">if</span>(checkAuth()) {</div><div class="line">			callPassedInFunction(variable, numberOf, params);</div><div class="line">		}</div><div class="line">	}</div><div class="line">}</div></pre></td></tr></table></figure>
-
-<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself" target="_blank" rel="external">DRY</a> to me. What I’ve ended up going with is this:</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div></pre></td><td class="code"><pre><div class="line"><span class="function"><span class="keyword">function</span> <span class="title">checkAuthFunction</span><span class="params">(func, error)</span> </span>{</div><div class="line">  <span class="keyword">return</span> <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>{</div><div class="line">		<span class="keyword">if</span> (checkAuth()) {</div><div class="line">			func.apply(<span class="keyword">this</span>, <span class="built_in">arguments</span>);</div><div class="line">		} <span class="keyword">else</span> {</div><div class="line">			error = error || <span class="string">'You must be an admin to do that.'</span>;</div><div class="line">			<span class="built_in">console</span>.log(error)</div><div class="line">		}</div><div class="line">  }</div><div class="line">}</div></pre></td></tr></table></figure>
-
-<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
-<p>It’s working for now, but I’m still not in love with it syntactically.</p>
-]]></content>
     
     
   </entry>
