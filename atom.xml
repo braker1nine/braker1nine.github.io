@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-09-04T02:31:35.190Z</updated>
+  <updated>2014-09-17T14:36:31.380Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,22 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[The Song of the Introvert]]></title>
+    <link href="http://randsinrepose.com/archives/the-song-of-the-introvert/"/>
+    <id>http://chrisbrakebill.com/2014/09/17/the-song-of-the-introvert/</id>
+    <published>2014-09-17T14:35:04.000Z</published>
+    <updated>2014-09-17T14:35:04.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>You are a threat.</p>
+<p>It’s a strong word. I don’t mean that you intend pain, injury, or damage. But I’m an introvert and you – as a new unknown human – are a threat to me. I don’t know what you want and you most definitely want something and until I figure that out, you’re a threat.</p>
+</blockquote>
+<p>If you want to understand me and other introverts better…</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/09/17/the-song-of-the-introvert/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[The Shocking Truth About Yourself]]></title>
@@ -288,21 +304,6 @@
 
 <p>UI.registerHelper is an excellent tool to prevent repeating code and to centralize global template functionality.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Eternity]]></title>
-    <link href="http://chrisbrakebill.com/2014/07/21/eternity/"/>
-    <id>http://chrisbrakebill.com/2014/07/21/eternity/</id>
-    <published>2014-07-21T14:07:48.000Z</published>
-    <updated>2014-07-21T14:07:48.000Z</updated>
-    <content type="html"><![CDATA[<p>A.W. Tozier:</p>]]><![CDATA[<blockquote>
-<p>To be made for eternity and forced to dwell in time is for mankind a tragedy of huge proportions. All within us cries for life and permanence, and everything around us reminds us of mortality and change. Yet that God has made us of the stuff of eternity is both a glory and a prophecy, a glory yet to be realized and a prophecy yet to be fulfilled.</p>
-</blockquote>
-<p>This thought is a major comfort when I’m overwhelmed with a desire for permanence and an aversion to death or change.</p>
-]]></content>
     
     
   </entry>
