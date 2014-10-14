@@ -172,7 +172,6 @@ body {
 .mobile-nav-on #wrap {
   left: 280px;
 }
-.article-date,
 .article-category-link,
 .archive-year {
   text-decoration: none;
@@ -503,7 +502,9 @@ body {
   clear: both;
 }
 .article-date {
-  float: left;
+  color: #aaa;
+  text-decoration: none;
+  font-size: 12px;
 }
 .article-category {
   float: left;
@@ -519,12 +520,12 @@ body {
   margin: 0 12px 1em;
 }
 .article-header {
-  padding: 20px 0 0;
+  padding: 20px 0 6px;
 }
 .article-title {
   text-decoration: none;
-  font-size: 1.1em;
-  font-weight: bold;
+  font-size: 1.2em;
+  font-weight: 500;
   color: #555;
   line-height: 1.1em;
   -webkit-transition: color 0.2s;
@@ -539,7 +540,8 @@ a.article-title:hover {
 .article-entry {
   zoom: 1;
   color: #555;
-  padding: 0;
+  padding: 1em 0 0 0;
+  font-family: Palatino, Georgia, 'Times New Roman', serif;
 }
 .article-entry:before,
 .article-entry:after {
