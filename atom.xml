@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-10-14T12:55:22.568Z</updated>
+  <updated>2014-10-16T11:58:19.300Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Sleeping Without Phones]]></title>
+    <link href="http://chrisbrakebill.com/2014/10/16/sleeping-without-phones/"/>
+    <id>http://chrisbrakebill.com/2014/10/16/sleeping-without-phones/</id>
+    <published>2014-10-16T11:55:20.000Z</published>
+    <updated>2014-10-16T11:55:20.000Z</updated>
+    <content type="html"><![CDATA[<p>A while back, Dan Benjamin and Merlin Mann discussed how blue light affects our sleep on <a href="http://5by5.tv/b2w/160" target="_blank" rel="external">Back to Work</a>. It was a really fantastic discussion and it resonated with my own experiences. I tended to sit up late at night, staring at my phone and wondering why I wasn’t sleepy.</p>
+<p>They link <a href="http://www.marksdailyapple.com/how-light-affects-our-sleep/#axzz2uMAnScJH" target="_blank" rel="external">here</a> where Mark Sisson dives into the science of why blue light keeps us awake:</p>
+<blockquote>
+<p>Blue light regulates our secretion of melatonin, the sleep hormone. Exposed to blue light, we limit the production of melatonin, and we stay alert and awake; in the absence of blue light, melatonin production ramps up, and we get sleepy. This system worked quite well for a long time. Reddish light from fire (our formerly primary source of nighttime illumination) has little to no effect on melatonin production, so sleep wasn’t disrupted when we relied on fire. These days, though, we’re subject to a steady barrage of blue light. During the day, blue light (natural or unnatural) isn’t much of a problem because we’re supposed to be awake, but at night, when we’re “supposed” to be getting ready to sleep, we tend to sit in front of blue light-emanating appliances, and our sleep suffers for it.</p>
+</blockquote>
+<p>I’m generally a skeptical guy, but this felt anecdotally right to me. I already had <a href="https://justgetflux.com" target="_blank" rel="external">f.lux</a> installed on my MacBook and felt at night as if <em>it was making me</em> tired.</p>
+<p>In addition, I moved my phone charger to the office and left it there at night. Not having it next to me has taken away the temptation to look at it. That is a temptation I cannot resist. <strong>IT’S SO CLOSE. I CAN REACH IT INDY.</strong> Since my Fitbit broke, I’ve moved my phone back into the bedroom for alarm purposes, but I keep it across the room. It’s actually fantastic because it keeps me from staring at the phone at night and forces me to get up in the morning to shut it off. The only time I keep my phone on the nightstand anymore is when I’m on call.</p>
+<p>I was frequently laying in bed, unable to fall asleep, and then finally getting up to go downstairs and read myself into a coma (Kindle FTW), but I haven’t done that in months it seems. I still have some nights where I struggle to sleep, but that’s usually due to shoulder pain and having another human taking up space in the bed. I like to really spread my elbows out, and they can do damage. <strong>(MARRIAGE TIP: Use separate blankets. Thank me later).</strong></p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[The Song of the Introvert]]></title>
@@ -288,22 +307,6 @@
     <content type="html"><![CDATA[<p>Nifty. Love seeing the old rainbow logo.</p>
 <p>Also I would never <strong>ever</strong> put stickers on my Mac.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/stickers/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[UI.registerHelper]]></title>
-    <link href="http://docs.meteor.com/#ui_registerhelper"/>
-    <id>http://chrisbrakebill.com/2014/07/22/uiregisterhelper/</id>
-    <published>2014-07-22T11:52:21.000Z</published>
-    <updated>2014-07-22T11:52:21.000Z</updated>
-    <content type="html"><![CDATA[<p>Sometimes in Meteor you need to use the same helper across templates. For example, if you have several views with admin controls, you might want a helper to help you control who sees those. It would be a pain to add that function to each template. Luckily, Meteor provides the ability to create a new global helper via UI.registerHelper.</p>
-<p>UI.registerHelper takes two parameters: the name of the helper as a string, and the function to be called. So to add my admin helper I might do something like this.</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">UI.registerHelper(<span class="string">'admin'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>{</div><div class="line">	<span class="keyword">return</span> userIsAdmin();</div><div class="line">});</div></pre></td></tr></table></figure>
-
-<p>UI.registerHelper is an excellent tool to prevent repeating code and to centralize global template functionality.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/">♻</a></p>]]></content>
     
     
   </entry>
