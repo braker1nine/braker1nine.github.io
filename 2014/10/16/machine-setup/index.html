@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   
-  <title>How Are Apps Made | Chris Brakebill</title>
+  <title>Machine Setup | Chris Brakebill</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
     <link rel="alternative" href="/atom.xml" title="Chris Brakebill" type="application/atom+xml">
@@ -14,15 +14,15 @@
   <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
   <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
   <link href="/css/style.css" rel="stylesheet" type="text/css">
-  <meta name="description" content="How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for th">
+  <meta name="description" content="Developers like control. We like things to be just how we like. It tends to take some time to get things that way. This becomes a bit of a problem when you need to do a clean OS install or move to a n">
 <meta property="og:type" content="article">
-<meta property="og:title" content="How Are Apps Made">
-<meta property="og:url" content="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/">
+<meta property="og:title" content="Machine Setup">
+<meta property="og:url" content="http://chrisbrakebill.com/2014/10/16/machine-setup/">
 <meta property="og:site_name" content="Chris Brakebill">
-<meta property="og:description" content="How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for th">
+<meta property="og:description" content="Developers like control. We like things to be just how we like. It tends to take some time to get things that way. This becomes a bit of a problem when you need to do a clean OS install or move to a n">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="How Are Apps Made">
-<meta name="twitter:description" content="How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for th">
+<meta name="twitter:title" content="Machine Setup">
+<meta name="twitter:description" content="Developers like control. We like things to be just how we like. It tends to take some time to get things that way. This becomes a bit of a problem when you need to do a clean OS install or move to a n">
 
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
@@ -74,7 +74,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-how-are-apps-made" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-machine-setup" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
   </div>
@@ -83,30 +83,35 @@
     
       <header class="article-header">
         
-  <h1 itemprop="name">
-    <a class="article-title" href="https://medium.com/message/how-are-apps-made-e9fe65448670" target="_blank" itemprop="url">How Are Apps Made</a>
-  </h1>
+  
+    <h1 class="article-title" itemprop="name">
+      Machine Setup
+    </h1>
+  
 
       </header>
     
     <div class="article-date">
-      <a href="/2014/07/09/how-are-apps-made/" class="article-date">
-  <time datetime="2014-07-10T00:57:11.000Z" itemprop="datePublished">Jul 09, 2014</time>
+      <a href="/2014/10/16/machine-setup/" class="article-date">
+  <time datetime="2014-10-17T03:34:57.000Z" itemprop="datePublished">Oct 16, 2014</time>
 </a>
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p class="link_author">Craig Mod:</p>
       
-      
-        <blockquote>
-<p>How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for the sense in it.</p>
-</blockquote>
+        <p>Developers like control. We like things to be just how we like. It tends to take some time to get things that way. This becomes a bit of a problem when you need to do a clean OS install or move to a new machine. How do you restore shell settings? Install node packages? Install your favorite apps?</p>
+<p>There are a lot of solutions out there for automating system setups like <a href="https://www.vagrantup.com" target="_blank" rel="external">Vagrant</a> and <a href="https://boxen.github.com" target="_blank" rel="external">Boxen</a> but those seem a little heavy for a personal setup (though I’m open to suggestions otherwise).</p>
+<p>In 2012, I had the chance to take a sort of git crash course from Github’s <a href="https://twitter.com/matthewmccull" target="_blank" rel="external">Matthew McCullough</a> and encountered his system setup <a href="https://github.com/matthewmccullough/dotfiles" target="_blank" rel="external">process</a>. I’ve been using the zsh aliases and oh-my-zsh for a long while with some minor tweaks, but after a recent clean install I decided to really make it work.</p>
+<p><a href="http://brew.sh" target="_blank" rel="external">Brew</a> is a fantastic tool for installing packages that you want. But the real game changer for me was <a href="http://caskroom.io" target="_blank" rel="external">Cask</a>. It installs Mac applications automatically right from the script. You’re limited to apps that have been added by the community and you can’t install the apps you’ve bought on the Mac App Store, but it’s a great start.</p>
+<p>Now when I load up a fresh OS X install all I have to do is install Dropbox and let it sync, go into my dotfiles folder and run </p>
+<pre>_setupdotfiles.zsh</pre>
+
+<p>And I’m set. I’m sure I’ll find improvements along the way. But I thought I’d share <a href="https://github.com/braker1nine/dotfiles" target="_blank" rel="external">my setup</a> so it might benefit someone else.</p>
 
       
     </div>
     <footer class="article-footer">
-      <a href="http://chrisbrakebill.com/2014/07/09/how-are-apps-made/" data-id="o19aqmkoe6x9oeop">Permalink</a>
+      <a href="http://chrisbrakebill.com/2014/10/16/machine-setup/" data-id="b37syit4szz00m2w">Permalink</a>
       
       
       
@@ -116,19 +121,10 @@
     
 <nav id="article-nav">
   
-    <a href="/2014/07/09/facebook-experiment/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          Facebook&#39;s Explanation: We Wanted to Make Sure You Weren&#39;t Turned Off By Facebook
-        
-      </div>
-    </a>
   
-  
-    <a href="/2014/07/08/the-other-side-of-empathy/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2014/10/16/sleeping-without-phones/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">The Other Side of Empathy</div>
+      <div class="article-nav-title">Sleeping Without Phones</div>
     </a>
   
 </nav>

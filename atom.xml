@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-10-16T11:58:19.300Z</updated>
+  <updated>2014-10-17T03:37:03.077Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Machine Setup]]></title>
+    <link href="http://chrisbrakebill.com/2014/10/16/machine-setup/"/>
+    <id>http://chrisbrakebill.com/2014/10/16/machine-setup/</id>
+    <published>2014-10-17T03:34:57.000Z</published>
+    <updated>2014-10-17T03:34:57.000Z</updated>
+    <content type="html"><![CDATA[<p>Developers like control. We like things to be just how we like. It tends to take some time to get things that way. This becomes a bit of a problem when you need to do a clean OS install or move to a new machine. How do you restore shell settings? Install node packages? Install your favorite apps?</p>
+<p>There are a lot of solutions out there for automating system setups like <a href="https://www.vagrantup.com" target="_blank" rel="external">Vagrant</a> and <a href="https://boxen.github.com" target="_blank" rel="external">Boxen</a> but those seem a little heavy for a personal setup (though I’m open to suggestions otherwise).</p>
+<p>In 2012, I had the chance to take a sort of git crash course from Github’s <a href="https://twitter.com/matthewmccull" target="_blank" rel="external">Matthew McCullough</a> and encountered his system setup <a href="https://github.com/matthewmccullough/dotfiles" target="_blank" rel="external">process</a>. I’ve been using the zsh aliases and oh-my-zsh for a long while with some minor tweaks, but after a recent clean install I decided to really make it work.</p>
+<p><a href="http://brew.sh" target="_blank" rel="external">Brew</a> is a fantastic tool for installing packages that you want. But the real game changer for me was <a href="http://caskroom.io" target="_blank" rel="external">Cask</a>. It installs Mac applications automatically right from the script. You’re limited to apps that have been added by the community and you can’t install the apps you’ve bought on the Mac App Store, but it’s a great start.</p>
+<p>Now when I load up a fresh OS X install all I have to do is install Dropbox and let it sync, go into my dotfiles folder and run </p>
+<pre>_setupdotfiles.zsh</pre>
+
+<p>And I’m set. I’m sure I’ll find improvements along the way. But I thought I’d share <a href="https://github.com/braker1nine/dotfiles" target="_blank" rel="external">my setup</a> so it might benefit someone else.</p>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Sleeping Without Phones]]></title>
@@ -294,19 +313,6 @@
 <p>While I love hacking away, I’m really excited to have a fun hobby that doesn’t involve me staring at my computer. There’s something so relaxing about spending my Saturday working in the sun. I’m already planning on doing a rack of ribs for my next smoke…</p>
 <p><img src="/images/barbecue/smoking_grill.jpg" alt=""></p>
 ]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Stickers]]></title>
-    <link href="https://www.youtube.com/watch?v=7PzntWQ-sVY&feature=youtu.be"/>
-    <id>http://chrisbrakebill.com/2014/07/22/stickers/</id>
-    <published>2014-07-22T20:52:22.000Z</published>
-    <updated>2014-07-22T20:52:22.000Z</updated>
-    <content type="html"><![CDATA[<p>Nifty. Love seeing the old rainbow logo.</p>
-<p>Also I would never <strong>ever</strong> put stickers on my Mac.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/22/stickers/">♻</a></p>]]></content>
     
     
   </entry>
