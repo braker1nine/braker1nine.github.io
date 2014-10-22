@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-10-17T03:40:19.077Z</updated>
+  <updated>2014-10-22T12:42:51.412Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,21 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Here's Why Public WiFi is a Public Health Hazard]]></title>
+    <link href="https://medium.com/matter/heres-why-public-wifi-is-a-public-health-hazard-dd5b8dcb55e6"/>
+    <id>http://chrisbrakebill.com/2014/10/22/heres-why-public-wifi-is-a-public-health-hazard/</id>
+    <published>2014-10-22T12:42:28.000Z</published>
+    <updated>2014-10-22T12:42:28.000Z</updated>
+    <content type="html"><![CDATA[<p>Maurits Martijn:</p>]]><![CDATA[<blockquote>
+<p>We visit yet another cafe. My last request to Slotboom is to show me what he would do if he wanted to really harm me. He asks me to go to Live.com (the Microsoft email site) and enter a random username and password. A few seconds later, the information I just typed appears on his screen. “Now I have the login details of your email account,” Slotboom says. “The first thing I would do is change the password of your account and indicate to other services you use that I have forgotten my password. Most people use the same email account for all services. And those new passwords will then be sent to your mailbox, which means I will have them at my disposal as well.” We do the same for Facebook: Slotboom is able to intercept the login name and password I entered with relative ease.</p>
+</blockquote>
+<p>Why you should think twice about connecting to public WiFi. If you’re going to use an untrusted network, you really should use a secured VPN like <a href="https://www.getcloak.com" target="_blank" rel="external">Cloak</a>.</p>
+]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/10/22/heres-why-public-wifi-is-a-public-health-hazard/">♻</a></p>]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Machine Setup]]></title>
@@ -292,27 +307,6 @@
     <updated>2014-07-24T12:40:55.000Z</updated>
     <content type="html"><![CDATA[<p>Some great thoughts on the effects of being chained to your mobile device, and what you can do to break free. I’ve been doing some similar things myself, which I’m hoping to write about soon.</p>
 ]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/">♻</a></p>]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[BBQ]]></title>
-    <link href="http://chrisbrakebill.com/2014/07/23/bbq/"/>
-    <id>http://chrisbrakebill.com/2014/07/23/bbq/</id>
-    <published>2014-07-23T13:20:30.000Z</published>
-    <updated>2014-07-23T13:20:30.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/images/barbecue/pulled_pork.jpg" alt="Pulled Pork"></p>
-<p>Shawn Blanc likes to say that those who work with their minds, rest with their hands. It’s something I absolutely believe in. Even throughout the day on a micro level, I take brief work rests to clean the kitchen, vacuum the living room, or sift through the horror that is the litter box.</p>
-<p>Shawn likes to do woodworking when he is resting. It’s a hobby I would love to get into one day, but right now I don’t have the money, space, or tools to do it.</p>
-<p>I have discovered a different but applicable hobby in barbecue. Not only do I enjoy the labor I put into it, but the fruits (well, meats) I get out of it are quite delicious. In the past month, I’ve spent two of my Saturdays seasoning meat, soaking wood chips, and keeping my smoker at a consistent low heat.</p>
-<p><img src="/images/barbecue/raw_pork.jpg" alt="Pork Butt"></p>
-<p>One of the beauties of barbecue is it gives you a lot of time to relax. You have to pay attention to your smoker and the temperature, but it’s a <em>long</em> process and there’s a lot of waiting time. You can read a book, drink a beer, finally beat that level on TwoDots, write a letter to your representative, relax in the sun, etc etc etc.</p>
-<p><img src="/images/barbecue/outside_thermometer.jpg" alt="Drinking Coffee and waiting..."></p>
-<p>Another great thing about barbecue is there’s a lot of freedom and creativity. You can spice it up however you want. Want to make it sweet? You can do that. Want to put sriracha on it? You can do that. Want to soak your ribs in Dr. Pepper? You can do that. There are so many ways to achieve different flavors. It’s almost an art form (but really it’s science).</p>
-<p>While I love hacking away, I’m really excited to have a fun hobby that doesn’t involve me staring at my computer. There’s something so relaxing about spending my Saturday working in the sun. I’m already planning on doing a rack of ribs for my next smoke…</p>
-<p><img src="/images/barbecue/smoking_grill.jpg" alt=""></p>
-]]></content>
     
     
   </entry>
