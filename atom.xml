@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2014-11-02T13:46:45.276Z</updated>
+  <updated>2014-11-09T15:56:36.986Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,26 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[]]></title>
+    <link href="http://chrisbrakebill.com/2014/11/09/ios-native/"/>
+    <id>http://chrisbrakebill.com/2014/11/09/ios-native/</id>
+    <published>2014-11-09T15:52:44.000Z</published>
+    <updated>2014-11-09T15:54:45.000Z</updated>
+    <content type="html"><![CDATA[<p>One of the things that is driving me crazy about my iPhone is websites in Safari auto redirecting to their native app. This is the kind of thing that seems great in theory, but it results in a really shitty experience. </p>
+<p>The primary culprit for me is Pinterest. If I open a link to a board or user or pin on Pinterest, that tab redirects me to the app. Okay cool. I’m logged in in the app. I can check out whatever I was looking at. But if I don’t immediately go close that tab I’m in for trouble the next time I open Safari. The tab will have been purged from memory so it’s reloaded and I’m immediately forced back into the app.</p>
+<p>What’s the solution? To me there are two options. </p>
+<ol>
+<li><p>Close the tab. If you’re directing me out of Safari, then I probably want that context to be closed as I move into another. I’m not sure if devs can do this, but if they can’t Apple should do it. The site is taking me to their app, close that Safari tab. This is the simplest solution, but I think there are marginally decent arguments to be made that you don’t want that tab closed in every situation. I think?</p>
+</li>
+<li><p>Provide developers the ability to show a native extension-like popover view that gives some context. For Pinterest it might be some basic board or information with a small photo. Not the stupid little, “Hey we have an app. Go view it” functionality that Apple provides, but a fully native, developer provided view that lets users decide if they want to load the app. No forcing a user out of the browser and into the app.</p>
+</li>
+</ol>
+]]></content>
+    
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Here's Why Public WiFi is a Public Health Hazard]]></title>
@@ -295,18 +315,6 @@
 <p>David’s larger point was to understand what it is your potential customers value, which I think was good. We know that a lot of customers (nay, users; if they don’t pay they aren’t customers) will deal with a lot of crap from a product if it’s gives them some utility they don’t have to pay for. </p>
 <p>Certainly developers should be thinking about how they can generate value for customers. 2048 has done that by providing a ton of eyeballs to the customers who pay for ads. The best products, <em>in my opinion</em>, are the ones that can generate enough value to convince users pay for them. Products like David’s own Feed Wrangler/Pod Wrangler and especially apps with delightful and fun experiences like Threes!. </p>
 ]]></content>
-    
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[This is Your Brain on Mobile]]></title>
-    <link href="https://medium.com/medium-long/15308056cfae"/>
-    <id>http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/</id>
-    <published>2014-07-24T12:40:55.000Z</published>
-    <updated>2014-07-24T12:40:55.000Z</updated>
-    <content type="html"><![CDATA[<p>Some great thoughts on the effects of being chained to your mobile device, and what you can do to break free. I’ve been doing some similar things myself, which I’m hoping to write about soon.</p>
-]]><![CDATA[<p><a href="http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/">♻</a></p>]]></content>
     
     
   </entry>
