@@ -75,6 +75,52 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-uiregisterhelper" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  <h1 itemprop="name">
+    <a class="article-title" href="http://docs.meteor.com/#ui_registerhelper" target="_blank" itemprop="url">UI.registerHelper</a>
+  </h1>
+
+      </header>
+    
+    
+    <div class="article-date">
+      <a href="/2014/07/22/uiregisterhelper/" class="article-date">
+  <time datetime="2014-07-22T11:52:21.000Z" itemprop="datePublished">Jul 22, 2014</time>
+</a>
+    </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+        <p>Sometimes in Meteor you need to use the same helper across templates. For example, if you have several views with admin controls, you might want a helper to help you control who sees those. It would be a pain to add that function to each template. Luckily, Meteor provides the ability to create a new global helper via UI.registerHelper.</p>
+<p>UI.registerHelper takes two parameters: the name of the helper as a string, and the function to be called. So to add my admin helper I might do something like this.</p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">UI.registerHelper(<span class="string">'admin'</span>, <span class="function"><span class="keyword">function</span><span class="params">()</span> </span>&#123;</span><br><span class="line">	<span class="keyword">return</span> userIsAdmin();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>
+<p>UI.registerHelper is an excellent tool to prevent repeating code and to centralize global template functionality.</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      
+        <a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/" data-id="ci81xc7zi000a2kpyj4zyyjsh">Permalink</a>
+      
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
     <article id="post-eternity" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     
@@ -113,7 +159,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci80k3whv002ojypyrovx1yol">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci81xc84o002p2kpy0ia4hyoc">Permalink</a>
       
       
       
@@ -161,7 +207,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci80k3wd7000ojypyotxrbboc">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci81xc80k000o2kpyadgy36tv">Permalink</a>
       
       
       
@@ -209,7 +255,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci80k3wg6001xjypy4verursi">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci81xc83b001y2kpyo960xc18">Permalink</a>
       
       
       
@@ -258,7 +304,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="ci80k3whg002jjypyvgireg0c">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="ci81xc84d002k2kpyltgywh3m">Permalink</a>
       
       
       
@@ -306,7 +352,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="ci80k3whx002pjypyoo6rbwvn">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="ci81xc84t002q2kpy5k9f3aa8">Permalink</a>
       
       
       
@@ -356,7 +402,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="ci80k3wgh0023jypy73s7rkxo">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="ci81xc83k00242kpyvkh9e5xt">Permalink</a>
       
       
       
@@ -399,7 +445,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="ci80k3wib002vjypyq4fbjlup">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="ci81xc85a002w2kpyv77fhimh">Permalink</a>
       
       
       
@@ -442,7 +488,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="ci80k3wgj0024jypy7pl7s9ou">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="ci81xc83m00252kpyu8vpthry">Permalink</a>
       
       
       
@@ -487,54 +533,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="ci80k3wdg000rjypygkkgq2em">Permalink</a>
-      
-      
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
-    <article id="post-facebook-experiment" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  <h1 itemprop="name">
-    <a class="article-title" href="https://brooksreview.net/2014/06/facebooks-explanation-we-wanted-to-make-sure-you-werent-turned-off-by-facebook/" target="_blank" itemprop="url">Facebook&#39;s Explanation: We Wanted to Make Sure You Weren&#39;t Turned Off By Facebook</a>
-  </h1>
-
-      </header>
-    
-    
-    <div class="article-date">
-      <a href="/2014/07/09/facebook-experiment/" class="article-date">
-  <time datetime="2014-07-10T02:04:34.000Z" itemprop="datePublished">Jul 09, 2014</time>
-</a>
-    </div>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-        <p>Ben Brooks nails pretty much everything I wanted to say about this. My favorite bit from the Facebook explanation…</p>
-<blockquote>
-<p>Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed.</p>
-</blockquote>
-<p>Oh. Okay.</p>
-
-      
-    </div>
-    <footer class="article-footer">
-      
-        <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="ci80k3wht002njypylxeqguu8">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="ci81xc80p000r2kpyhglzwkf8">Permalink</a>
       
       
       
@@ -565,6 +564,10 @@
       <ul>
         
           <li>
+            <a href="/2015/04/03/pixar/">Pixar</a>
+          </li>
+        
+          <li>
             <a href="/2015/04/02/how-to-take-a-day-off/">How to take a day off</a>
           </li>
         
@@ -578,10 +581,6 @@
         
           <li>
             <a href="/2015/03/30/no-dickheads/">No Dickheads!</a>
-          </li>
-        
-          <li>
-            <a href="/2015/03/23/Two-Years-of-Marriage/">Two Years of Marriage</a>
           </li>
         
       </ul>
