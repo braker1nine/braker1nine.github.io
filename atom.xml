@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2015-04-03T18:25:39.000Z</updated>
+  <updated>2015-04-06T19:20:48.000Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,24 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Introverts as Leaders]]></title>
+    <link href="http://chrisbrakebill.com/2015/04/06/introverts-as-leaders/"/>
+    <id>http://chrisbrakebill.com/2015/04/06/introverts-as-leaders/</id>
+    <published>2015-04-06T19:20:48.000Z</published>
+    <updated>2015-04-06T19:20:48.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>Introverts are professional listeners. Their natural state is to observe and gather data from the world around them as opposed to their extroverts counterparts who enjoying spending their time talking about the state of the world and all the fascinating data in the world… endlessly.</p>
+</blockquote>
+<p>All to often, society says that introversion is bad and extroversion is the “proper” or “successful” way to be. This seems to be a more common thought when it comes to leadership. Rands points out that introverts have some pretty huge natural advantages when it comes to good leadership, just as extroverts do. Both most overcome their own weaknesses to make use of their strengths.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>Introverts are professional listeners. Their natural state is to observe and gather data from the world around them as oppos]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Pixar]]></title>
@@ -366,28 +384,6 @@
     <summary type="html">
     <![CDATA[<blockquote>
 <p>Voluntary simplicity, or simple living, is a way of life that rejects the high-consumption, materialistic lifestyles of cons]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Mass Production and Mass Media]]></title>
-    <link href="http://chrisbrakebill.com/2015/02/23/Mass-Production-and-Mass-Media/"/>
-    <id>http://chrisbrakebill.com/2015/02/23/Mass-Production-and-Mass-Media/</id>
-    <published>2015-02-24T01:59:01.000Z</published>
-    <updated>2015-02-24T01:59:01.000Z</updated>
-    <content type="html"><![CDATA[<blockquote>
-<p>Produce for a micro market.</p>
-<p>Market to a micro market.</p>
-<p>When someone wants to know how big you can make (your audience, your market share, your volume), it might be worth pointing out that it’s better to be important, to be in sync, to be the one that’s hard to be replaced. And the only way to be important is to be relevant, focused and specific.</p>
-</blockquote>
-<p>More and more it’s possible to be successful in <em>media</em> without being successful in the mass media. Fame and audiences more niche heavy. Find your <a href="http://kk.org/thetechnium/2008/03/1000-true-fans/" target="_blank" rel="external">1,000 true fans</a> and you can be successful.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<blockquote>
-<p>Produce for a micro market.</p>
-<p>Market to a micro market.</p>
-<p>When someone wants to know how big you can make (your au]]>
     </summary>
     
   </entry>
