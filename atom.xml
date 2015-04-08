@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2015-04-07T20:06:37.000Z</updated>
+  <updated>2015-04-08T23:28:12.000Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Introvert]]></title>
+    <link href="http://chrisbrakebill.com/2015/04/08/introvert/"/>
+    <id>http://chrisbrakebill.com/2015/04/08/introvert/</id>
+    <published>2015-04-08T23:28:12.000Z</published>
+    <updated>2015-04-08T23:28:12.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>My thoughts are my thoughts. I share what I choose to, and the rest is mine. Don’t quiz me, demand to know what I’m thinking, tell me I’m meant to share. I have a right to privacy. Don’t assume that because you want to share everything with me, that I should want to share everything with you. Don’t present your view of the world as the only possible option, and that I must be somehow emotionally stunted, wrong, or hiding something.</p>
+<p>If I haven’t told you how I feel about something, it’s probably because I haven’t decided how I feel about it. I can’t make decisions without all the information, and I don’t offer solutions without understanding the problem.</p>
+</blockquote>
+<p>If you want to get into the mind of an introvert, this short piece will get you there.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>My thoughts are my thoughts. I share what I choose to, and the rest is mine. Don’t quiz me, demand to know what I’m thinking]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[iPhone Sixes]]></title>
@@ -361,21 +380,6 @@
     <summary type="html">
     <![CDATA[<blockquote>
 <p>So today, listen to someone else’s story. Ask good questions. Ask hard questions. Attempt to let go of your own perspective ]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Last Day]]></title>
-    <link href="http://chrisbrakebill.com/2015/02/25/Last-Day/"/>
-    <id>http://chrisbrakebill.com/2015/02/25/Last-Day/</id>
-    <published>2015-02-25T13:59:42.000Z</published>
-    <updated>2015-02-25T13:59:42.000Z</updated>
-    <content type="html"><![CDATA[<p>My last day at ESPN has finally arrived. It’s been a pretty incredible 3+ years for me. I moved from Knoxville to Seattle to Orlando. I’ve gotten married. I got cats…</p>
-<p>Now we move onto the next season of life and I’m filled with both excitement and terror. I’m excited to be moving home to the city that I <em>love</em> in Knoxville. But I’m taking a little bit of a plunge as I continue to search for the right job while I work on <a href="http://onehundredten.co/outshape/" target="_blank" rel="external">Outshape</a> and keep sending <a href="http://chrisbrakebill.com/threethings/" target="_blank" rel="external">Three Things Weekly</a>. It is terrifying. But I believe in myself, I have a wife who believes in me, and I trust God and I can’t wait to see what happens.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>My last day at ESPN has finally arrived. It’s been a pretty incredible 3+ years for me. I moved from Knoxville to Seattle to Orlando. I’v]]>
     </summary>
     
   </entry>
