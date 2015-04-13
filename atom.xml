@@ -4,7 +4,7 @@
   <subtitle><![CDATA[Web and mobile developer. Beer and pizza enthusiast.]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://chrisbrakebill.com/"/>
-  <updated>2015-04-10T01:29:17.000Z</updated>
+  <updated>2015-04-13T21:07:32.000Z</updated>
   <id>http://chrisbrakebill.com/</id>
   
   <author>
@@ -13,6 +13,25 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Decorating with Post-It Notes]]></title>
+    <link href="http://chrisbrakebill.com/2015/04/13/decorating-with-postit-notes/"/>
+    <id>http://chrisbrakebill.com/2015/04/13/decorating-with-postit-notes/</id>
+    <published>2015-04-13T21:07:32.000Z</published>
+    <updated>2015-04-13T21:07:32.000Z</updated>
+    <content type="html"><![CDATA[<blockquote>
+<p>One day I just got so tired of how sterile and boring our office felt, I thought I should do something about it.</p>
+</blockquote>
+<p>This is a fantastic way to bring life to a space affordably and ephemerally.</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<blockquote>
+<p>One day I just got so tired of how sterile and boring our office felt, I thought I should do something about it.</p>
+</block]]>
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[Outshape]]></title>
@@ -364,20 +383,6 @@
     <summary type="html">
     <![CDATA[<blockquote>
 <p>Are you willing to be foolish in order to do work that matters? Are you willing to fail? To be honest with others? Are you w]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The Old House at Home]]></title>
-    <link href="http://chrisbrakebill.com/2015/03/06/The-Old-House-at-Home/"/>
-    <id>http://chrisbrakebill.com/2015/03/06/The-Old-House-at-Home/</id>
-    <published>2015-03-06T23:14:51.000Z</published>
-    <updated>2015-03-06T23:14:51.000Z</updated>
-    <content type="html"><![CDATA[<p>Fascinating. I love places like this. I just wish they could be visited without be surrounded by other tourists. I was amazed that it existed as described, until I realized it was a story from 1940.</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Fascinating. I love places like this. I just wish they could be visited without be surrounded by other tourists. I was amazed that it exi]]>
     </summary>
     
   </entry>
