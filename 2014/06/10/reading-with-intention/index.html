@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="Chris Bowler:
 
 Take time to read, re-read, and meditate on this piece of human thought you’ve chosen to ingest. Truly ingest it; if it resonates with you, allow it to change you. This is what I want t">
@@ -32,6 +29,7 @@ Take time to read, re-read, and meditate on this piece of human thought you’ve
 
 Take time to read, re-read, and meditate on this piece of human thought you’ve chosen to ingest. Truly ingest it; if it resonates with you, allow it to change you. This is what I want t">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -114,7 +112,7 @@ Take time to read, re-read, and meditate on this piece of human thought you’ve
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/06/10/reading-with-intention/" data-id="ci9f0cv050019e7pypcsn1c4y">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/06/10/reading-with-intention/" data-id="ci9x1kqbp0019itpy9ni7iuxt">Permalink</a>
       
       
       
@@ -204,6 +202,15 @@ Take time to read, re-read, and meditate on this piece of human thought you’ve
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

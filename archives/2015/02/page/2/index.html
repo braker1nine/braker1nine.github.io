@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -109,7 +107,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/10/Please-respect-my-decision-not-to-dance/" data-id="ci9f0cv5g004be7pyo76ucg8h">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/10/Please-respect-my-decision-not-to-dance/" data-id="ci9x1kqh3004bitpy6pwrryz1">Permalink</a>
       
       
       
@@ -157,7 +155,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/09/The-curse-of-compressing-reality/" data-id="ci9f0cv4w003ue7pym1covnkj">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/09/The-curse-of-compressing-reality/" data-id="ci9x1kqgh003uitpy6ftqikpy">Permalink</a>
       
       
       
@@ -202,7 +200,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/05/Wake-Up-Excited/" data-id="ci9f0cv49003me7pyk9ielfr0">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/05/Wake-Up-Excited/" data-id="ci9x1kqfu003mitpy0b1jr899">Permalink</a>
       
       
       
@@ -245,7 +243,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/04/The-Unreasonable-Effectiveness-of-C/" data-id="ci9f0cv4x003ve7pye85i83zn">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/04/The-Unreasonable-Effectiveness-of-C/" data-id="ci9x1kqgj003vitpyh825nytx">Permalink</a>
       
       
       
@@ -288,7 +286,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/03/Sleep-Advice/" data-id="ci9f0cv5d0048e7py5qi4ivu1">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/03/Sleep-Advice/" data-id="ci9x1kqgz0048itpydyss3zjd">Permalink</a>
       
       
       
@@ -334,7 +332,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/02/Something-Slightly-Less-Terrible/" data-id="ci9f0cv5a0046e7pymbfgyxwx">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/02/Something-Slightly-Less-Terrible/" data-id="ci9x1kqgx0046itpylm8ekmcr">Permalink</a>
       
       
       
@@ -410,6 +408,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

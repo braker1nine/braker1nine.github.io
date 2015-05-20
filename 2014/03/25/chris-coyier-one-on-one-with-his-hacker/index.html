@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="Really fascinating. Kudos to Chris Coyier for having the patience to sit down and have this conversation.
 It’s really terrifying what people can do to you on the internet, and how frequently the weakn">
 <meta property="og:type" content="article">
@@ -29,6 +26,7 @@ It’s really terrifying what people can do to you on the internet, and how freq
 <meta name="twitter:description" content="Really fascinating. Kudos to Chris Coyier for having the patience to sit down and have this conversation.
 It’s really terrifying what people can do to you on the internet, and how frequently the weakn">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -108,7 +106,7 @@ It’s really terrifying what people can do to you on the internet, and how freq
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/03/25/chris-coyier-one-on-one-with-his-hacker/" data-id="ci9f0cv3e0033e7pykh8lri5g">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/03/25/chris-coyier-one-on-one-with-his-hacker/" data-id="ci9x1kqey0033itpyiqkr6ffd">Permalink</a>
       
       
       
@@ -198,6 +196,15 @@ It’s really terrifying what people can do to you on the internet, and how freq
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

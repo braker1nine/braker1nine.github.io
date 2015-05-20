@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="The good news is we get our first college football playoff this year. The bad news is it’s still a bit imperfect. I can’t seem to find my playoff plan on the internet anymore so I’ll give a quick summ">
 <meta property="og:type" content="article">
 <meta property="og:title" content="The Real College Football Playoff">
@@ -28,6 +25,7 @@
 <meta name="twitter:title" content="The Real College Football Playoff">
 <meta name="twitter:description" content="The good news is we get our first college football playoff this year. The bad news is it’s still a bit imperfect. I can’t seem to find my playoff plan on the internet anymore so I’ll give a quick summ">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -134,7 +132,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/12/08/The-Real-College-Football-Playoff/" data-id="ci9f0cv4y003we7pyxzwygyh3">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/12/08/The-Real-College-Football-Playoff/" data-id="ci9x1kqgk003witpyhw0631cz">Permalink</a>
       
       
       
@@ -224,6 +222,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

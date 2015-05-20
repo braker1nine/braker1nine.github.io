@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="I’m a software developer who uses video games to unwind. Officially, I think, this makes me the kind of person many people imagine would be waiting with bated breath for some kind of ubiquitous, brain">
 <meta property="og:type" content="article">
 <meta property="og:title" content="My Analog Life">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="My Analog Life">
 <meta name="twitter:description" content="I’m a software developer who uses video games to unwind. Officially, I think, this makes me the kind of person many people imagine would be waiting with bated breath for some kind of ubiquitous, brain">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -108,7 +106,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/15/My-Analog-Life/" data-id="ci9f0cv5v004le7pysuwq8nhu">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/15/My-Analog-Life/" data-id="ci9x1kqhl004litpyhxaqj5xx">Permalink</a>
       
       
       
@@ -198,6 +196,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

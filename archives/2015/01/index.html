@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -123,7 +121,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/30/Personal-Manifesto/" data-id="ci9f0cv5j004de7py3uf9iiad">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/30/Personal-Manifesto/" data-id="ci9x1kqh6004ditpyoofwim6j">Permalink</a>
       
       
       
@@ -172,7 +170,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/29/Sprinting/" data-id="ci9f0cv590045e7py587op1k7">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/29/Sprinting/" data-id="ci9x1kqgw0045itpynqib2age">Permalink</a>
       
       
       
@@ -220,7 +218,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/28/Its-ok/" data-id="ci9f0cv65004te7py26qs2rpa">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/28/Its-ok/" data-id="ci9x1kqi0004titpy6h45tm8v">Permalink</a>
       
       
       
@@ -269,7 +267,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/27/Universal-Sandwich-Theory/" data-id="ci9f0cv4f003oe7pytcwxwuqt">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/27/Universal-Sandwich-Theory/" data-id="ci9x1kqg0003oitpybtfki6yt">Permalink</a>
       
       
       
@@ -312,7 +310,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/26/Canadian-Passports/" data-id="ci9f0cv6t0058e7pybo0j7hs3">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/26/Canadian-Passports/" data-id="ci9x1kqil0058itpylbfhdlle">Permalink</a>
       
       
       
@@ -355,7 +353,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/22/From-Open-(Unlimited)-to-Minimum-Vacation-Policy/" data-id="ci9f0cv6e0050e7py3q4p2r2m">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/22/From-Open-(Unlimited)-to-Minimum-Vacation-Policy/" data-id="ci9x1kqib0050itpyylsy9csm">Permalink</a>
       
       
       
@@ -406,7 +404,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/20/Core-Curriculum/" data-id="ci9f0cv6n0053e7pyc4gmpbh8">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/20/Core-Curriculum/" data-id="ci9x1kqie0053itpyypnlkjdv">Permalink</a>
       
       
       
@@ -454,7 +452,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/16/Poaching-lawsuit-sounds-familiar/" data-id="ci9f0cv5f004ae7pybyyi55b2">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/16/Poaching-lawsuit-sounds-familiar/" data-id="ci9x1kqh2004aitpyub0pqaf2">Permalink</a>
       
       
       
@@ -501,7 +499,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/15/My-Analog-Life/" data-id="ci9f0cv5v004le7pysuwq8nhu">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/15/My-Analog-Life/" data-id="ci9x1kqhl004litpyhxaqj5xx">Permalink</a>
       
       
       
@@ -553,7 +551,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/01/14/Paid-Things/" data-id="ci9f0cv5m004ge7py1ofwbhad">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/01/14/Paid-Things/" data-id="ci9x1kqhd004gitpyfma4zhvk">Permalink</a>
       
       
       
@@ -629,6 +627,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

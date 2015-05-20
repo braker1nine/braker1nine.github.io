@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -112,7 +110,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/02/23/comcast-hearts-netflix/" data-id="ci9f0cv3b0030e7py3rn2h5m6">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/02/23/comcast-hearts-netflix/" data-id="ci9x1kqeu0030itpycc97z5jm">Permalink</a>
       
       
       
@@ -161,7 +159,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/02/22/a-change/" data-id="ci9f0cv40003ge7py176w7o62">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/02/22/a-change/" data-id="ci9x1kqfk003gitpyqsvh9gz6">Permalink</a>
       
       
       
@@ -237,6 +235,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

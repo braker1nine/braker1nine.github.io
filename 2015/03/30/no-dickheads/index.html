@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="I believe there is a straight line between how the studio feels, how we as designers treat each other, and the innovative impact of the team.
 
 Some really great nuggets in here for creating an effecti">
@@ -32,6 +29,7 @@ Some really great nuggets in here for creating an effecti">
 
 Some really great nuggets in here for creating an effecti">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -115,7 +113,7 @@ Some really great nuggets in here for creating an effecti">
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/03/30/no-dickheads/" data-id="ci9f0cv15001re7py6ogn93lk">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/03/30/no-dickheads/" data-id="ci9x1kqco001ritpy69kabg2s">Permalink</a>
       
       
       
@@ -205,6 +203,15 @@ Some really great nuggets in here for creating an effecti">
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

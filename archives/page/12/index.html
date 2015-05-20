@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -113,7 +111,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci9f0cv32002ve7pyi05qybnb">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci9x1kqen002vitpy57jkci08">Permalink</a>
       
       
       
@@ -161,7 +159,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci9f0cuyf000oe7pymadzimjj">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci9x1kqag000oitpyt2d3cpyi">Permalink</a>
       
       
       
@@ -209,7 +207,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci9f0cv1s0021e7pyzrf38bry">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci9x1kqd60021itpyurp951pb">Permalink</a>
       
       
       
@@ -258,7 +256,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="ci9f0cv2u002qe7pyhj651v3c">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/full-time-fading-images-of-the-world-cup/" data-id="ci9x1kqee002qitpy4ycgj1tc">Permalink</a>
       
       
       
@@ -306,7 +304,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="ci9f0cv34002we7py632t2r4m">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/espn-fantasy-football/" data-id="ci9x1kqeo002witpyodjtwl88">Permalink</a>
       
       
       
@@ -356,7 +354,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="ci9f0cv210027e7py44nj32hi">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/14/javascript-fun/" data-id="ci9x1kqdj0027itpyv40bm38t">Permalink</a>
       
       
       
@@ -399,7 +397,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="ci9f0cv3g0034e7pyl8qllyut">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/cbtextfieldview/" data-id="ci9x1kqf00034itpyxwnjg9w1">Permalink</a>
       
       
       
@@ -442,7 +440,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="ci9f0cv240029e7pyv7jrh4cg">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/iphone-phone-home/" data-id="ci9x1kqdm0029itpy6k87ned1">Permalink</a>
       
       
       
@@ -487,7 +485,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="ci9f0cuyo000re7pyghyeob9k">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/10/the-great-discontent-rogie-king/" data-id="ci9x1kqam000ritpybxrblk90">Permalink</a>
       
       
       
@@ -534,7 +532,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="ci9f0cv30002ue7pyy4w7srt6">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/09/facebook-experiment/" data-id="ci9x1kqel002uitpyty9dxneb">Permalink</a>
       
       
       
@@ -610,6 +608,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

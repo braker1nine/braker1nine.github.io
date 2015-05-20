@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -106,7 +104,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/31/the-moment-tim-ferriss/" data-id="ci9f0cuy4000le7pys1nwqxv4">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/31/the-moment-tim-ferriss/" data-id="ci9x1kqa3000litpyservkll1">Permalink</a>
       
       
       
@@ -153,7 +151,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/31/we-really-cant-have-nice-things/" data-id="ci9f0cux20007e7pyb06wyn1k">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/31/we-really-cant-have-nice-things/" data-id="ci9x1kq950007itpylvm484cs">Permalink</a>
       
       
       
@@ -202,7 +200,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/24/insulated-perspectives/" data-id="ci9f0cv29002de7pyvviskhtk">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/24/insulated-perspectives/" data-id="ci9x1kqdr002ditpyata9o0mk">Permalink</a>
       
       
       
@@ -245,7 +243,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/" data-id="ci9f0cuxc000ce7pycisn0d8j">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/24/this-is-your-brain-on-mobile/" data-id="ci9x1kq9f000citpyi3mcrr7g">Permalink</a>
       
       
       
@@ -299,7 +297,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/23/bbq/" data-id="ci9f0cv3t003ce7pypefp3j96">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/23/bbq/" data-id="ci9x1kqfe003citpy5l2hutvx">Permalink</a>
       
       
       
@@ -343,7 +341,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/22/stickers/" data-id="ci9f0cuzl0010e7py5jnj241h">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/22/stickers/" data-id="ci9x1kqbb0010itpyris8kt6b">Permalink</a>
       
       
       
@@ -389,7 +387,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/" data-id="ci9f0cux7000ae7pyksxutf9j">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/22/uiregisterhelper/" data-id="ci9x1kq9b000aitpyfg46x5bv">Permalink</a>
       
       
       
@@ -439,7 +437,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci9f0cv32002ve7pyi05qybnb">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/21/eternity/" data-id="ci9x1kqen002vitpy57jkci08">Permalink</a>
       
       
       
@@ -487,7 +485,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci9f0cuyf000oe7pymadzimjj">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/the-kids-menu/" data-id="ci9x1kqag000oitpyt2d3cpyi">Permalink</a>
       
       
       
@@ -535,7 +533,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci9f0cv1s0021e7pyzrf38bry">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/07/15/lavabit/" data-id="ci9x1kqd60021itpyurp951pb">Permalink</a>
       
       
       
@@ -613,6 +611,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

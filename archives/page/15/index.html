@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Chris Brakebill">
@@ -26,6 +23,7 @@
 <meta name="twitter:title" content="Chris Brakebill">
 <meta name="twitter:description">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -106,7 +104,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/06/05/the-alton-browncast-andrew-zimmern/" data-id="ci9f0cuz6000we7pytw6fmskv">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/06/05/the-alton-browncast-andrew-zimmern/" data-id="ci9x1kqaz000witpylku0yosz">Permalink</a>
       
       
       
@@ -149,7 +147,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/06/04/john-oliver-on-preventing-cable-company-fkery/" data-id="ci9f0cv1z0026e7pyd6gslh8c">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/06/04/john-oliver-on-preventing-cable-company-fkery/" data-id="ci9x1kqdg0026itpykdl9iu5y">Permalink</a>
       
       
       
@@ -196,7 +194,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/30/servant-leadership/" data-id="ci9f0cuzv0014e7pyxr9cte6x">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/30/servant-leadership/" data-id="ci9x1kqbi0014itpy9icdqil4">Permalink</a>
       
       
       
@@ -241,7 +239,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/30/write/" data-id="ci9f0cuwu0004e7py5b5wayyn">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/30/write/" data-id="ci9x1kq8v0004itpy4tq2e428">Permalink</a>
       
       
       
@@ -284,7 +282,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/29/reeder-2-for-mac/" data-id="ci9f0cv040018e7pymcl3b2n8">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/29/reeder-2-for-mac/" data-id="ci9x1kqbo0018itpyepw140pe">Permalink</a>
       
       
       
@@ -331,7 +329,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/24/the-right-way-to-copy/" data-id="ci9f0cuxu000he7pyvyv6fo2n">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/24/the-right-way-to-copy/" data-id="ci9x1kq9s000hitpyqe87xev6">Permalink</a>
       
       
       
@@ -374,7 +372,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/21/prison-tennis/" data-id="ci9f0cv0b001ce7py60qeqnli">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/21/prison-tennis/" data-id="ci9x1kqbu001citpy6ucmjzad">Permalink</a>
       
       
       
@@ -417,7 +415,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/16/if-internet-providers-ran-public-services/" data-id="ci9f0cv2a002ee7py5xlpqgs3">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/16/if-internet-providers-ran-public-services/" data-id="ci9x1kqds002eitpytj0m301z">Permalink</a>
       
       
       
@@ -470,7 +468,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/15/the-competitivebalance-argument-against-paying-atheletes-is-bullshit/" data-id="ci9f0cuz4000ve7pykpcb51rj">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/15/the-competitivebalance-argument-against-paying-atheletes-is-bullshit/" data-id="ci9x1kqax000vitpyoy80qgwu">Permalink</a>
       
       
       
@@ -514,7 +512,7 @@
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/05/12/johnny-express/" data-id="ci9f0cv1x0025e7pynhn272ht">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/05/12/johnny-express/" data-id="ci9x1kqdc0025itpymegyzbxe">Permalink</a>
       
       
       
@@ -590,6 +588,15 @@
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="Friends and colleagues often ask my wife how she balances her job and motherhood. Somehow, the same people don’t ask me.
 A few months ago, I decided the only way to balance was by stepping back from m">
 <meta property="og:type" content="article">
@@ -29,6 +26,7 @@ A few months ago, I decided the only way to balance was by stepping back from m"
 <meta name="twitter:description" content="Friends and colleagues often ask my wife how she balances her job and motherhood. Somehow, the same people don’t ask me.
 A few months ago, I decided the only way to balance was by stepping back from m">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -114,7 +112,7 @@ A few months ago, I decided the only way to balance was by stepping back from m"
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/08/08/why-i-am-leaving-the-best-job-i-ever-had/" data-id="ci9f0cux00006e7pybxay0nzp">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/08/08/why-i-am-leaving-the-best-job-i-ever-had/" data-id="ci9x1kq930006itpyq8txtl93">Permalink</a>
       
       
       
@@ -204,6 +202,15 @@ A few months ago, I decided the only way to balance was by stepping back from m"
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

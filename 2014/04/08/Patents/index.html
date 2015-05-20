@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="Marco Arment: 
 
 The idea of the patent system is sold to gullible people as a necessary protector of small inventors — which is a nice fairy tale, and nothing more — and it reinforces the destructive">
@@ -32,6 +29,7 @@ The idea of the patent system is sold to gullible people as a necessary protecto
 
 The idea of the patent system is sold to gullible people as a necessary protector of small inventors — which is a nice fairy tale, and nothing more — and it reinforces the destructive">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -115,7 +113,7 @@ The idea of the patent system is sold to gullible people as a necessary protecto
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2014/04/08/Patents/" data-id="ci9f0cv5l004fe7pyju49u3xy">Permalink</a>
+        <a href="http://chrisbrakebill.com/2014/04/08/Patents/" data-id="ci9x1kqhb004fitpyve8no74f">Permalink</a>
       
       
       
@@ -205,6 +203,15 @@ The idea of the patent system is sold to gullible people as a necessary protecto
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>

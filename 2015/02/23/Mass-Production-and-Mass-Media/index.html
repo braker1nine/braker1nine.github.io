@@ -13,9 +13,6 @@
     <link rel="icon" href="/images/favicon.png">
   
   
-  <link href="http://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href="/css/style.css" rel="stylesheet" type="text/css">
   <meta name="description" content="Produce for a micro market.
 Market to a micro market.
 When someone wants to know how big you can make (your audience, your market share, your volume), it might be worth pointing out that it’s better t">
@@ -32,6 +29,7 @@ When someone wants to know how big you can make (your audience, your market shar
 Market to a micro market.
 When someone wants to know how big you can make (your audience, your market share, your volume), it might be worth pointing out that it’s better t">
   <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
   <div id="container">
@@ -117,7 +115,7 @@ When someone wants to know how big you can make (your audience, your market shar
     </div>
     <footer class="article-footer">
       
-        <a href="http://chrisbrakebill.com/2015/02/23/Mass-Production-and-Mass-Media/" data-id="ci9f0cv5w004me7pyz7iia59a">Permalink</a>
+        <a href="http://chrisbrakebill.com/2015/02/23/Mass-Production-and-Mass-Media/" data-id="ci9x1kqhn004mitpyqu13oyxv">Permalink</a>
       
       
       
@@ -207,6 +205,15 @@ When someone wants to know how big you can make (your audience, your market shar
 
 
 <script src="/js/script.js" type="text/javascript"></script>
+
+<script>
+  // Asynchronously load non-critical css 
+  function loadCSS(e, t, n) { "use strict"; var i = window.document.createElement("link"); var o = t || window.document.getElementsByTagName("script")[0]; i.rel = "stylesheet"; i.href = e; i.media = "only x"; o.parentNode.insertBefore(i, o); setTimeout(function () { i.media = n || "all" }) }
+    // load css file async
+    loadCSS("//fonts.googleapis.com/css?family=Source+Code+Pro");
+    loadCSS("//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css")
+    </script>
+
   </div>
 </body>
 </html>
