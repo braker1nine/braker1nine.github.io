@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Update</title>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='stylesheet' href='/styles/style.css'/>
+	</head>
+	<body>
+		<header id="header">
+			<div id="header-outer" class="outer">
+				<div id="header-title" class="inner">
+					<img class="avatar" src="/images/avatar_128.jpg">
+					<h1 id="logo-wrap">
+						<a href="/" id="logo">Chris Brakebill</a>
+					</h1>
+					<h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.<br>Sender of <a href="/three-things-weekly/">Three Things Weekly</a></h2>
+					<ul id="my-links">
+						<li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+						<li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+						<li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+						<li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+						<li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+						<li><a class="fa fa-tumblr-square" href="http://chrisbrakebill.tumblr.com" target="_blank"></a></li>
+					</ul>
+				</div>
+				<div id="header-inner" class="inner">
+				</div>
+			</div>
+		</header>		<div class="container">
+			<div class="post">
+				<h1 class="post__title"><a href="/update/">Update</a></h1>
+				<h2 class="post__date">May 29th, 2015</h2>
+				<div class="post__content">
+					
+					<p>A while back I <a href="/a-change/">wrote</a> about a revamp to the how my site was deployed. Naturally, I’m a tinkerer, and I couldn’t resist making more changes. <a href="http://www.hexo.io">Hexo</a> is a really nice website scaffolding, but there’s a <em>lot</em> to it. If I wanted to get in and mess around I had to do a lot of digging. I wanted to have a better understanding of how things were constructed.</p>
+			<p>I’ve been working for a long while on a node based server/generator called Clive that not only generates a site, but gives you an admin interface for editing and publishing files. It also has the ability to queue up posts for automatic posting and generation. I spent some time away from it, and just don’t love it. It’s another thing that just does too much.</p>
+			<p>So for the past week or so I’ve been all over the internet trying to figure out how I want to build this website in a way that makes it easy for my to share and write the way I want to. I finally settled on what I find to be the simplest process; setting up a Gulp build &amp; deploy system.</p>
+			<p>At some point in the near future I’ll open source it (and Clive for that matter). But for now the basics of my setup are this…</p>
+			<ul>
+			<li>All posts and pages and whatever else I might create are written in markdown</li>
+			<li>Content is stored in two folders, called <code>published</code> and <code>drafts</code> (mostly for ease in combing through and editing files)</li>
+			<li>Actual published state is stored via a boolean value in the front matter</li>
+			<li>I have a couple of tasks which will sort through the markdown files and move any out of place files into their correct directory</li>
+			<li>Site is generated with handlebars templates. It’s not great but in order to keep links to previous posts from breaking I’ve set up redirect pages with meta tags which send you to the proper location.</li>
+			<li>Styles are in a single less file that’s compiled to css during the build</li>
+			</ul>
+			<p>My next task is to use <a href="http://www.nodegit.org/">nodegit</a> to automate deploying to Github pages. I know, I could write more if I spent less time tinkering, but I want to do some of both. I’m hoping I’ll be happy with this as a long term solution…</p>
+			
+				</div>
+				<div class="post__footer">
+					
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

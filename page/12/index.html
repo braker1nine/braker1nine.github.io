@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chris Brakebill | Page 12</title>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='stylesheet' href='/styles/style.css'/>
+	</head>
+	<body>
+		<header id="header">
+			<div id="header-outer" class="outer">
+				<div id="header-title" class="inner">
+					<img class="avatar" src="/images/avatar_128.jpg">
+					<h1 id="logo-wrap">
+						<a href="/" id="logo">Chris Brakebill</a>
+					</h1>
+					<h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.<br>Sender of <a href="/three-things-weekly/">Three Things Weekly</a></h2>
+					<ul id="my-links">
+						<li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+						<li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+						<li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+						<li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+						<li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+						<li><a class="fa fa-tumblr-square" href="http://chrisbrakebill.tumblr.com" target="_blank"></a></li>
+					</ul>
+				</div>
+				<div id="header-inner" class="inner">
+				</div>
+			</div>
+		</header>		<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="http://grantland.com/the-triangle/full-time-fading-images-of-the-world-cup/">Full Time: Fading Images of the World Cup</a><a href="/full-time-fading-images-of-the-world-cup/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 14th, 2014</h2>
+					<div class="post__content">
+						
+						<p><em>Fantastic</em> writing from Brian Phillips. I&#39;ll be honest I watched a maximum of 30 minutes of non-US soccer during the World Cup. Even then, I didn&#39;t watch the Belgium game. Soccer isn&#39;t my game, but I&#39;ll do just about anything that let&#39;s me drink and be patriotic.</p>
+				<p>That said, this is a fantastic commentary of the significance of sport. Or really the significance of how we watch them. Here&#39;s the opening, no way you can read this and not read the article.</p>
+				<blockquote>
+				<p>Watching sports is, among other things, a special way of experiencing time. Sport is like music or fiction or film in that, for a predetermined duration, it asks you to give it control over your emotions, to feel what it makes you feel. Unlike (most) forms of art, though, a game has no foreordained plan or plot or intention. The rules of a game impose a certain kind of order, but it’s different from the order of an artwork. A movie knows where it wants to take you; no one can say in advance where a game will go. All of its beauty, ugliness, boredom, and excitement, all of its rage and sadness emerge spontaneously out of the players’ competing desires to win. For however long the clock runs, your feelings are at the mercy of chance. This happens and then this happens and then this happens. You’re experiencing, in a contained and intensified way, something like the everyday movement of life.</p>
+				</blockquote>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://appsto.re/us/ifMgH.i">ESPN Fantasy Football</a><a href="/espn-fantasy-football/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 14th, 2014</h2>
+					<div class="post__content">
+						
+						<p>Get the new hotness. Positive reviews are welcome. If you want to be negative at least help us make it better. Among the new things to enjoy...</p>
+				<ul>
+				<li>FREE Alerts. You don&#39;t have to be an Insider anymore.</li>
+				<li>Create a team or league right in the app</li>
+				<li>Pretty things</li>
+				</ul>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="/javascript-fun/">JavaScript Fun</a></h1>
+					<h2 class="post__date">July 14th, 2014</h2>
+					<div class="post__content">
+						
+						<p>I&#39;m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this...</p>
+				<pre><code class="lang-javascript">function createAuthedFunction() {
+				    return function(variable, numberOf, params) {
+				        if(checkAuth()) {
+				            callPassedInFunction(variable, numberOf, params);
+				        }
+				    }
+				}
+				</code></pre>
+				<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself">DRY</a> to me. What I&#39;ve ended up going with is this:</p>
+				<pre><code class="lang-javascript">function checkAuthFunction(func, error) {
+				  return function() {
+				        if (checkAuth()) {
+				            func.apply(this, arguments);
+				        } else {
+				            error = error || &#39;You must be an admin to do that.&#39;;
+				            console.log(error)
+				        }
+				  }
+				}
+				</code></pre>
+				<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
+				<p>It&#39;s working for now, but I&#39;m still not in love with it syntactically.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://github.com/braker1nine/CBTextFieldView">CBTextFieldView</a><a href="/cbtextfieldview/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 10th, 2014</h2>
+					<div class="post__content">
+						
+						<p>Just a simple little view I created for textfield/label selection on OSX. Poorly documented, but available.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://medium.com/@saycreative/iphone-phone-home-cc3bcff73069">iPhone, phone home</a><a href="/iphone-phone-home/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 10th, 2014</h2>
+					<div class="post__content">
+						
+						<p>Tremendously cool concept to allow the return of lost iPhones to their owners.</p>
+				
+					</div>
+					<div class="post__footer">
+						<a href="http://sidebar.io/2014/7/5" class="post__sourceLink">Sidebar</a>
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="http://thegreatdiscontent.com/rogie-king">The Great Discontent: Rogie King</a><a href="/the-great-discontent-rogie-king/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 10th, 2014</h2>
+					<div class="post__content">
+						
+						<p>Yes. This is over two years old. Yes. I have a huge man crush on Rogie King.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://brooksreview.net/2014/06/facebooks-explanation-we-wanted-to-make-sure-you-werent-turned-off-by-facebook/">Facebook&#x27;s Explanation: We Wanted to Make Sure You Weren&#x27;t Turned Off By Facebook</a><a href="/facebook-experiment/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 9th, 2014</h2>
+					<div class="post__content">
+						
+						<p>Ben Brooks nails pretty much everything I wanted to say about this. My favorite bit from the Facebook explanation...</p>
+				<blockquote>
+				<p>Nobody’s posts were “hidden,” they just didn’t show up on some loads of Feed.</p>
+				</blockquote>
+				<p>Oh. Okay.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://medium.com/message/how-are-apps-made-e9fe65448670">How Are Apps Made</a><a href="/how-are-apps-made/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 9th, 2014</h2>
+					<div class="post__content">
+						<p class="link_author">Craig Mod:</p>
+						<blockquote>
+				<p>How are apps made? Painfully with deliberation or effortlessly without thought. Blind inspiration. Eight hours over a lazy weekend. Fifty grand a day. A million dollars a syllable. Do not look for the sense in it.</p>
+				</blockquote>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="https://the-pastry-box-project.net/nick-hehr/2014-july-5">The Other Side of Empathy</a><a href="/the-other-side-of-empathy/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 8th, 2014</h2>
+					<div class="post__content">
+						<p class="link_author">Nick Hehr:</p>
+						<blockquote>
+				<p>As designers and product builders, we are told to empathize with our users in order to create awesome experiences for the web and beyond. I propose we take a look at the other side of empathy, and make an effort to empathize with the creators behind the products, features, or designs triggering those rage-tweet reactions seen across many a timeline.</p>
+				</blockquote>
+				<p>This is something I&#39;ve become a lot more aware of in the past couple of years. Working on a product that is used by millions of people, I know what it&#39;s like to see people bashing what you&#39;ve built. It sucks. I do my best to think before I tweet critically and angrily about a piece of software I&#39;m using.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
+					<h1 class="post__title"><a href="http://chrisbowler.com/journal/persona">Persona</a><a href="/persona/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 7th, 2014</h2>
+					<div class="post__content">
+						
+						<blockquote>
+				<p>When I was younger, it was easy to put people I looked up to on a pedestal. Bosses at work, pastors at church, my favourite bands. That is easy to do from afar, but the closer you get to people, the more you see the real person; the flaws, the hurting, and the mess as much as the good things.</p>
+				</blockquote>
+				<p>Great stuff from Chris Bowler. We&#39;re all just messy people.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+			<div class="pageNav">
+				<a class="pageNav__link" href="/page/11">Back</a>
+				<a class="pageNav__link" href="/page/13">Next</a>
+			</div>
+		</div>
+	</body>
+</html>
