@@ -29,6 +29,22 @@
 			</div>
 		</header>		<div class="container">
 				<div class="post">
+					<h1 class="post__title"><a href="/insulated-perspectives/">Insulated Perspectives</a></h1>
+					<h2 class="post__date">July 24th, 2014</h2>
+					<div class="post__content">
+						
+						<p>David Smith talked on his podcast today about <a href="https://itunes.apple.com/us/app/threes!/id779157948?mt=8">Threes!</a> and 2048. In particular he was talking about an acquaintance playing 2048, and how he perceived this acquaintance&#39;s experience. You&#39;ll have to <a href="http://developingperspective.com/2014/07/24/0/">listen</a> to hear the nuances of his point, but essentially his deduction was that 2048 made the acquaintance feel smart and that&#39;s why he valued it versus Threes!.</p>
+				<p>This really missed the mark for me. I think by design Threes! gives users the exact same feeling. It&#39;s more difficult for sure, but it provides the exact same satisfaction. What you take pride in achieving is really based on what your friends achieve. If he feels smart, it&#39;s because he&#39;s doing better than his average friend. While he might take pride in beating 2048, he would take the same pride in getting the 768 block in Threes! if his friends were struggling to. </p>
+				<p>This user wasn&#39;t playing 2048 because it made him feel smart and Threes! couldn&#39;t. He was playing because 2048 was free. Free games are easier to pick up. You can try them without risking your money. They copied the simple mechanics that made Threes! enjoyable to play and put them out for free. What this story tells me is that this guy, like a lot of App Store consumers, values his $5 (or whatever Threes! costs nowadays).</p>
+				<p>David&#39;s larger point was to understand what it is your potential customers value, which I think was good. We know that a lot of customers (nay, users; if they don&#39;t pay they aren&#39;t customers) will deal with a lot of crap from a product if it&#39;s gives them some utility they don&#39;t have to pay for. </p>
+				<p>Certainly developers should be thinking about how they can generate value for customers. 2048 has done that by providing a ton of eyeballs to the customers who pay for ads. The best products, <em>in my opinion</em>, are the ones that can generate enough value to convince users pay for them. Products like David&#39;s own Feed Wrangler/Pod Wrangler and especially apps with delightful and fun experiences like Threes!. </p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
 					<h1 class="post__title"><a href="https://medium.com/medium-long/15308056cfae">This is Your Brain on Mobile</a><a href="/this-is-your-brain-on-mobile/" class="post__permalink">&#10142;</a></h1>
 					<h2 class="post__date">July 24th, 2014</h2>
 					<div class="post__content">
@@ -164,40 +180,6 @@
 				<li>Create a team or league right in the app</li>
 				<li>Pretty things</li>
 				</ul>
-				
-					</div>
-					<div class="post__footer">
-						
-					</div>
-				</div>
-				<div class="post">
-					<h1 class="post__title"><a href="/javascript-fun/">JavaScript Fun</a></h1>
-					<h2 class="post__date">July 14th, 2014</h2>
-					<div class="post__content">
-						
-						<p>I&#39;m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this...</p>
-				<pre><code class="lang-javascript">function createAuthedFunction() {
-				    return function(variable, numberOf, params) {
-				        if(checkAuth()) {
-				            callPassedInFunction(variable, numberOf, params);
-				        }
-				    }
-				}
-				</code></pre>
-				<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself">DRY</a> to me. What I&#39;ve ended up going with is this:</p>
-				<pre><code class="lang-javascript">function checkAuthFunction(func, error) {
-				  return function() {
-				        if (checkAuth()) {
-				            func.apply(this, arguments);
-				        } else {
-				            error = error || &#39;You must be an admin to do that.&#39;;
-				            console.log(error)
-				        }
-				  }
-				}
-				</code></pre>
-				<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
-				<p>It&#39;s working for now, but I&#39;m still not in love with it syntactically.</p>
 				
 					</div>
 					<div class="post__footer">

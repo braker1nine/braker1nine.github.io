@@ -29,6 +29,40 @@
 			</div>
 		</header>		<div class="container">
 				<div class="post">
+					<h1 class="post__title"><a href="/javascript-fun/">JavaScript Fun</a></h1>
+					<h2 class="post__date">July 14th, 2014</h2>
+					<div class="post__content">
+						
+						<p>I&#39;m trying to create a decently designed JavaScript function that, when passed a function, returns (you guessed it) a function that runs some authentication code before trying to execute the passed in function. So the return function would look something like this...</p>
+				<pre><code class="lang-javascript">function createAuthedFunction() {
+				    return function(variable, numberOf, params) {
+				        if(checkAuth()) {
+				            callPassedInFunction(variable, numberOf, params);
+				        }
+				    }
+				}
+				</code></pre>
+				<p>Obviously I could just call checkAuth in every function that requires it, but that seems very non-<a href="https://en.wikipedia.org/wiki/Don&#39;t_repeat_yourself">DRY</a> to me. What I&#39;ve ended up going with is this:</p>
+				<pre><code class="lang-javascript">function checkAuthFunction(func, error) {
+				  return function() {
+				        if (checkAuth()) {
+				            func.apply(this, arguments);
+				        } else {
+				            error = error || &#39;You must be an admin to do that.&#39;;
+				            console.log(error)
+				        }
+				  }
+				}
+				</code></pre>
+				<p>Now when an object or function wants to create a method that requires authentication to run, it calls checkAuthFunction and passes in a function (and an optional error message) and this returns a function that checks for proper authentication, and either runs the function or outputs an error message, depending on authentication status. Function.apply allows me to call the passed in function with the current this value and the passed in arguments.</p>
+				<p>It&#39;s working for now, but I&#39;m still not in love with it syntactically.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
 					<h1 class="post__title"><a href="https://github.com/braker1nine/CBTextFieldView">CBTextFieldView</a><a href="/cbtextfieldview/" class="post__permalink">&#10142;</a></h1>
 					<h2 class="post__date">July 10th, 2014</h2>
 					<div class="post__content">
@@ -149,18 +183,6 @@
 					</div>
 					<div class="post__footer">
 						<a href="http://daringfireball.net/linked/2014/06/27/the-gunfighter" class="post__sourceLink">Daring Fireball</a>
-					</div>
-				</div>
-				<div class="post">
-					<h1 class="post__title"><a href="http://gizmodo.com/live-your-hogwarts-fantasies-with-universal-studios-int-1592078675">Universal Studios Interactive Wands</a><a href="/universal-studios-interactive-wands/" class="post__permalink">&#10142;</a></h1>
-					<h2 class="post__date">June 27th, 2014</h2>
-					<div class="post__content">
-						
-						<p>Dang. So cool.</p>
-				
-					</div>
-					<div class="post__footer">
-						
 					</div>
 				</div>
 			<div class="pageNav">
