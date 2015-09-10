@@ -29,6 +29,30 @@
 			</div>
 		</header>		<div class="container">
 				<div class="post">
+					<h1 class="post__title"><a href="/update/">Update</a></h1>
+					<h2 class="post__date">May 29th, 2015</h2>
+					<div class="post__content">
+						
+						<p>A while back I <a href="/a-change/">wrote</a> about a revamp to the how my site was deployed. Naturally, I’m a tinkerer, and I couldn’t resist making more changes. <a href="http://www.hexo.io">Hexo</a> is a really nice website scaffolding, but there’s a <em>lot</em> to it. If I wanted to get in and mess around I had to do a lot of digging. I wanted to have a better understanding of how things were constructed.</p>
+				<p>I’ve been working for a long while on a node based server/generator called Clive that not only generates a site, but gives you an admin interface for editing and publishing files. It also has the ability to queue up posts for automatic posting and generation. I spent some time away from it, and just don’t love it. It’s another thing that just does too much.</p>
+				<p>So for the past week or so I’ve been all over the internet trying to figure out how I want to build this website in a way that makes it easy for my to share and write the way I want to. I finally settled on what I find to be the simplest process; setting up a Gulp build &amp; deploy system.</p>
+				<p>At some point in the near future I’ll open source it (and Clive for that matter). But for now the basics of my setup are this…</p>
+				<ul>
+				<li>All posts and pages and whatever else I might create are written in markdown</li>
+				<li>Content is stored in two folders, called <code>published</code> and <code>drafts</code> (mostly for ease in combing through and editing files)</li>
+				<li>Actual published state is stored via a boolean value in the front matter</li>
+				<li>I have a couple of tasks which will sort through the markdown files and move any out of place files into their correct directory</li>
+				<li>Site is generated with handlebars templates. It’s not great but in order to keep links to previous posts from breaking I’ve set up redirect pages with meta tags which send you to the proper location.</li>
+				<li>Styles are in a single less file that’s compiled to css during the build</li>
+				</ul>
+				<p>My next task is to use <a href="http://www.nodegit.org/">nodegit</a> to automate deploying to Github pages. I know, I could write more if I spent less time tinkering, but I want to do some of both. I’m hoping I’ll be happy with this as a long term solution…</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+				<div class="post">
 					<h1 class="post__title"><a href="http://thesweetsetup.com/chris-brakebills-mac-and-ios-setup/">My Sweet Setup</a><a href="/My-Sweet-Setup/" class="post__permalink">&#10142;</a></h1>
 					<h2 class="post__date">May 22nd, 2015</h2>
 					<div class="post__content">
@@ -155,21 +179,6 @@
 						<p>It’s been interesting to read <a href="http://www.512pixels.net/blog/2015/4/well-i-switched-to-the-iphone-6-plus">Stephen Hackett</a>, <a href="http://www.marco.org/2015/04/06/life-with-the-iphone-6-plus">Marco Arment</a> and <a href="http://sixcolors.com/post/2015/04/two-weeks-with-the-iphone-6-plus/">Jason Snell</a> talk about their experiences as regular iPhone 6 users who are experimenting with or switching to the iPhone 6 Plus. Particularly since I’ve been a 6 Plus user who is switching to the regular ol’ iPhone 6. </p>
 				<p>I don’t want to comment on their opinions much, since I don’t have my iPhone 6 yet and I don’t yet know how it works for me. My reason for switching boils down mostly to the fact that the 6 Plus is just too big. I may find that the 6 is too big in day to day usage as well. But I’m most worried about the drop in battery life. I got used to almost never having to think about the battery on my 6 Plus.</p>
 				<p>I will definitely follow up with my experiences with the iPhone 6 when I receive it.</p>
-				
-					</div>
-					<div class="post__footer">
-						
-					</div>
-				</div>
-				<div class="post">
-					<h1 class="post__title"><a href="http://randsinrepose.com/links/2015/04/02/introverts-as-leaders-briefly/">Introverts as Leaders</a><a href="/introverts-as-leaders/" class="post__permalink">&#10142;</a></h1>
-					<h2 class="post__date">April 6th, 2015</h2>
-					<div class="post__content">
-						<p class="link_author">rands:</p>
-						<blockquote>
-				<p>Introverts are professional listeners. Their natural state is to observe and gather data from the world around them as opposed to their extroverts counterparts who enjoying spending their time talking about the state of the world and all the fascinating data in the world… endlessly.</p>
-				</blockquote>
-				<p>All to often, society says that introversion is bad and extroversion is the “proper” or “successful” way to be. This seems to be a more common thought when it comes to leadership. Rands points out that introverts have some pretty huge natural advantages when it comes to good leadership, just as extroverts do. Both most overcome their own weaknesses to make use of their strengths.</p>
 				
 					</div>
 					<div class="post__footer">
