@@ -1,5 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Brakebill]]></title><description><![CDATA[Web and mobile developer. Beer and pizza enthusiast. Sender of Three Things Weekly.]]></description><link>http://chrisbrakebill.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 06 Dec 2015 20:45:17 GMT</lastBuildDate><atom:link href="http://chrisbrakebill.com/atom.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[Broke]]></title><description><![CDATA[<p class="link_author">Spencer Hall:</p><blockquote>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Brakebill]]></title><description><![CDATA[Web and mobile developer. Beer and pizza enthusiast. Sender of Three Things Weekly.]]></description><link>http://chrisbrakebill.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 08 Dec 2015 20:06:12 GMT</lastBuildDate><atom:link href="http://chrisbrakebill.com/atom.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[2015 College Football Playoff]]></title><description><![CDATA[<p><a href="https://chrisbrakebill.com/the-real-college-football-playoff/">Last year</a> I presented my idea for a better playoff. I&#39;ve tweaked it a little this year to add a 14 team option instead of 16 team. Basically it&#39;s 4 rounds, conferences champions all get automatic bids, with a couple of at-large teams.</p>
+<h2 id="conference-champions">Conference Champions</h2>
+<p>First things first, let’s look at who is getting the automatic bids into our tournament.</p>
+<table>
+<tr><td>AAC</td><td>Houston</td></tr>
+<tr><td>ACC</td><td>Clemson</td></tr>
+<tr><td>Big XII</td><td>Oklahoma</td></tr>
+<tr><td>Big Ten</td><td>Michigan State</td></tr>
+<tr><td>Conference USA</td><td>Western Kentucky</td></tr>
+<tr><td>MAC</td><td>Bowling Green</td></tr>
+<tr><td>Mountain West</td><td>San Diego State</td></tr>
+<tr><td>Pac 12</td><td>Stanford</td></tr>
+<tr><td>SEC</td><td>Alabama</td></tr>
+<tr><td>Sun Belt</td><td>Arkansas State</td></tr>
+</table>
+
+<h2 id="at-large-spots">At Large Spots</h2>
+<p>So we’ve got 10 conference champions that leaves us 2 or 4 at large spots, depending on the playoff format.</p>
+<p>I&#39;m not even going to bother trying to make my own rankings here. The playoff committee goes deep enough to use <a href="espn.go.com/college-football/rankings/_/poll/21/seasontype/2/year/2015/week/15">their rankings</a> to determine who makes the playoff. Adding a couple of extra teams here so you can see who just misses out on making the playoff.</p>
+<ol>
+<li>Iowa</li>
+<li>Ohio State</li>
+<li>Notre Dame</li>
+<li>Florida State</li>
+<li>North Carolina</li>
+<li>TCU</li>
+</ol>
+<h2 id="ranking-the-field">Ranking the Field</h2>
+<p>So that gives us our field of 12 to 14 teams. Mostly based on CFP rankings, and doing it myself for some of the lower seeded teams.</p>
+<table>
+<thead>
+<tr><th>14 Team</th><th>12 Team</th></tr>
+</thead>
+<tbody>
+<tr><td>1. Clemson</td><td>1. Clemson</td></tr>
+<tr><td>2. Alabama</td><td>2. Alabama</td></tr>
+<tr><td>3. Michigan State</td><td>3. Michigan State</td></tr>
+<tr><td>4. Oklahoma</td><td>4. Oklahoma</td></tr>
+<tr><td>5. Iowa</td><td>5. Iowa</td></tr>
+<tr><td>6. Stanford</td><td>6. Stanford</td></tr>
+<tr><td>7. Ohio State</td><td>7. Ohio State</td></tr>
+<tr><td>8. Notre Dame</td><td>8. Houston</td></tr>
+<tr><td>9. Florida State</td><td>9. Bowling Green</td></tr>
+<tr><td>10. Houston</td><td>10. San Diego State</td></tr>
+<tr><td>11. Bowling Green</td><td>11. Western Kentucky</td></tr>
+<tr><td>12. San Diego State</td><td>12. Arkansas State</td></tr>
+<tr><td>13. Western Kentucky</td><td></td></tr>
+<tr><td>14. Arkansas State</td><td></td></tr>
+</tbody>
+</table>
+
+
+<h2 id="the-brackets">The Brackets</h2>
+<p><img src="/images/2015-playoff/14_team.png" alt="14 Team"></p>
+<p><img src="/images/2015-playoff/12_team.png" alt="12 Team"></p>
+]]></description><link>http://chrisbrakebill.com/2015-playoff/</link><guid isPermaLink="true">http://chrisbrakebill.com/2015-playoff/</guid><pubDate>Tue, 08 Dec 2015 19:57:16 GMT</pubDate></item><item><title><![CDATA[Broke]]></title><description><![CDATA[<p class="link_author">Spencer Hall:</p><blockquote>
 <p>By rule they are separated from the income they make, and by system they are separated from the university education they were promised. They are neither amateurs nor professionals, and effectively moved as undeclared contraband through the United States tax system.</p>
 </blockquote>
 <p>Fantastic stuff from Spencer Hall. Every time I hear someone talk about how expensive the new Nike gear is, I get sick to my stomach. The amount of money being generated by college football that&#39;s being funneled to coaches, facilities, and administrators is absurd. Especially with everything we&#39;re learning about CTE. These guys are literally putting their lives on the line for room and board. I&#39;ll let Spencer wrap this up...</p>
@@ -156,5 +211,4 @@ I keep my habits in Omnifocus to make sure I&#39;m knocking them out and reviewi
 <p>T-Mobile’s already made this shift, factoring an installment cost of the phone into its plan price. When you pay off the phone, your plan gets cheaper. So if you decide to stick with your current phone for a while, you save money. Likewise, if you bring your own phone, you don’t pay the higher rate. If you want to switch to another provider, just pay off the cost of the phone, and you’re free to go—no pesky contracts mucking things up.</p>
 </blockquote>
 <p>AT&amp;T does something similar. I moved Lauren and I both off contract by paying the full price of our phones last year (it’s amazing how stunned the reps at the AT&amp;T store were by this). That move dropped our bill by about $15 per line. Just this month I upgraded us to the 10GB data plan and that upped our discount to $25 per line every month. That clever bit of pricing  makes anyone using more than 3GB heavily motivated to move up to the bigger plans. If you use that much data, you can actually save money by paying full price up front and taking advantage of the bigger discount.</p>
-]]></description><link>http://recode.net/2015/06/02/atts-ralph-de-la-vega-subsidized-phones-are-going-away/</link><guid isPermaLink="true">http://recode.net/2015/06/02/atts-ralph-de-la-vega-subsidized-phones-are-going-away/</guid><pubDate>Mon, 08 Jun 2015 12:47:40 GMT</pubDate></item><item><title><![CDATA[Steve Prefontaine’s Last Run]]></title><description><![CDATA[<p>Great piece on Steve Prefontaine, his running, and the influence he had on amateur and professional sports.</p>
-]]></description><link>http://grantland.com/features/steve-prefontaine-death/</link><guid isPermaLink="true">http://grantland.com/features/steve-prefontaine-death/</guid><pubDate>Tue, 02 Jun 2015 19:40:08 GMT</pubDate></item></channel></rss>
+]]></description><link>http://recode.net/2015/06/02/atts-ralph-de-la-vega-subsidized-phones-are-going-away/</link><guid isPermaLink="true">http://recode.net/2015/06/02/atts-ralph-de-la-vega-subsidized-phones-are-going-away/</guid><pubDate>Mon, 08 Jun 2015 12:47:40 GMT</pubDate></item></channel></rss>
