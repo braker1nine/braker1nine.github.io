@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Brakebill]]></title><description><![CDATA[Web and mobile developer. Beer and pizza enthusiast. Sender of Three Things Weekly.]]></description><link>http://chrisbrakebill.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 07 Jan 2016 13:37:38 GMT</lastBuildDate><atom:link href="http://chrisbrakebill.com/atom.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[2016 Blogroll]]></title><description><![CDATA[<p>I recently trimmed some fat here, so I think things are a little tighter than last year. But here is a look at the websites I&#39;m reading daily in 2016...</p>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Chris Brakebill]]></title><description><![CDATA[Web and mobile developer. Beer and pizza enthusiast. Sender of Three Things Weekly.]]></description><link>http://chrisbrakebill.com</link><generator>RSS for Node</generator><lastBuildDate>Fri, 08 Jan 2016 13:05:49 GMT</lastBuildDate><atom:link href="http://chrisbrakebill.com/atom.xml" rel="self" type="application/rss+xml"/><item><title><![CDATA[2016 Podcasts]]></title><description><![CDATA[<p>Here&#39;s a dump of the podcasts I&#39;m listening to at the start of 2016. I&#39;m gonna cobble together a list of my favorites next week. Sorry for the lack of links, search the titles in your favorite podcast client/platform and you should find them.</p>
+<ul>
+<li>5by5 at the Movies</li>
+<li>99% Invisible</li>
+<li>Accidental Tech Podcast</li>
+<li>The Alton Browncast (okay it was inactive for all of 2015, but I&#39;m holding out hope Alton returns...)</li>
+<li>Analog(ue)</li>
+<li>Back to Work</li>
+<li>The Bill Simmons Podcast</li>
+<li>Channel 33</li>
+<li>Clockwise</li>
+<li>Connected</li>
+<li>Core Intuition</li>
+<li>Cortex</li>
+<li>Criminal</li>
+<li>Debug</li>
+<li>The Distance</li>
+<li>Electric Shadow</li>
+<li>Exponent</li>
+<li>The Flop House</li>
+<li>For The Record</li>
+<li>Girl on Guy with Aisha Tyler</li>
+<li>Harry Potter: The Chapter Titles Were So Good</li>
+<li>Hello Internet</li>
+<li>Home Work</li>
+<li>How Did This Get Made?</li>
+<li>Judge John Hodgman</li>
+<li>Just The Tip</li>
+<li>Liftoff</li>
+<li>Lore</li>
+<li>The Moment with Brian Koppelman</li>
+<li>Myke at the Movies</li>
+<li>Quit with After Dark Post-Shows</li>
+<li>Reconcilable Differences</li>
+<li>Review</li>
+<li>Road Work</li>
+<li>Roderick on the Line</li>
+<li>Serial</li>
+<li>Shawn Today</li>
+<li>Song Exploder</li>
+<li>The Sporkful</li>
+<li>Stuff You Missed in History Class</li>
+<li>Stuff You Should Know</li>
+<li>Style Guide Podcast</li>
+<li>Surprisingly Awesome</li>
+<li>The Talk Show With John Gruber</li>
+<li>The Tim Ferriss Show</li>
+<li>Top Four</li>
+<li>Top Scallops</li>
+<li>The Truth</li>
+<li>Under the Radar</li>
+<li>Unjustly Maligned</li>
+<li>Upgrade</li>
+<li>Vector</li>
+<li>You Made It Weird with Pete Holmes</li>
+</ul>
+]]></description><link>http://chrisbrakebill.com/2016-podcasts/</link><guid isPermaLink="true">http://chrisbrakebill.com/2016-podcasts/</guid><pubDate>Fri, 08 Jan 2016 13:05:47 GMT</pubDate></item><item><title><![CDATA[2016 Blogroll]]></title><description><![CDATA[<p>I recently trimmed some fat here, so I think things are a little tighter than last year. But here is a look at the websites I&#39;m reading daily in 2016...</p>
 <p><a href="http://andrewalexanderprice.com/blog.php">Andrew Alexander Price</a> - <a href="http://www.andrewalexanderprice.com/blog.rss">RSS</a><br><a href="http://thenewsprint.co/">The Newsprint</a> - <a href="http://feed.thenewsprint.co/thenewsprint">RSS</a><br><a href="https://meh.com">meh.com</a> - <a href="https://meh.com/deals.rss">RSS</a><br><a href="http://www.mrmoneymustache.com">Mr. Money Mustache</a> - <a href="http://www.mrmoneymustache.com/feed/">RSS</a><br><a href="https://about.gitlab.com/">GitLab</a> - <a href="https://about.gitlab.com/atom.xml">RSS</a><br><a href="http://bemorewithless.com">Be More with Less</a> - <a href="http://feeds.feedburner.com/BeMoreWithLess">RSS</a><br><a href="http://minimaldesks.com/">Minimal Desks</a> - <a href="http://feedpress.me/minimaldesks">RSS</a><br><a href="https://www.caseyliss.com">Liss is More</a> - <a href="http://www.caseyliss.com/rss">RSS</a><br><a href="http://www.listsofnote.com/">Lists of Note</a> - <a href="http://www.listsofnote.com/feeds/posts/default">RSS</a><br><a href="https://blog.fastmail.com">FastMail Blog</a> - <a href="http://blog.fastmail.com/feed/">RSS</a><br><a href="http://www.analogsenses.com/">Analog Senses</a> - <a href="http://www.analogsenses.com/feed/">RSS</a><br><a href="http://www.lettersofnote.com/">Letters of Note</a> - <a href="http://www.lettersofnote.com/feeds/posts/default">RSS</a><br><a href="http://sportsgeekonomics.tumblr.com/">Sportsgeekonomics</a> - <a href="http://sportsgeekonomics.tumblr.com/rss">RSS</a><br><a href="https://marco.org/">Marco.org</a> - <a href="http://www.marco.org/rss">RSS</a><br><a href="http://freshome.com">Freshome</a> - <a href="http://freshome.com/feed/">RSS</a><br><a href="http://www.remodelista.com/">Remodelista</a> - <a href="http://www.remodelista.com/contents/index.rss">RSS</a><br><a href="http://www.getrichslowly.org/blog">Get Rich Slowly</a> - <a href="http://www.getrichslowly.org/blog/feed/">RSS</a><br><a href="http://thewirecutter.com">The Wirecutter</a> - <a href="http://feeds.feedburner.com/TheWirecutter">RSS</a><br><a href="http://daringfireball.net/">Daring Fireball</a> - <a href="http://daringfireball.net/index.xml">RSS</a><br><a href="http://toolsandtoys.net">Tools and Toys</a> - <a href="http://toolsandtoys.net/feed/">RSS</a><br><a href="http://www.manton.org">Manton Reece</a> - <a href="http://www.manton.org/rss.xml">RSS</a><br><a href="http://inessential.com/">inessential.com</a> - <a href="http://inessential.com/xml/rss.xml">RSS</a><br><a href="http://www.rockytoptalk.com/">Rocky Top Talk</a> - <a href="http://www.rockytoptalk.com/rss/current">RSS</a><br><a href="http://www.raptitude.com">Raptitude.com</a> - <a href="http://www.raptitude.com/feed/">RSS</a><br><a href="http://www.512pixels.net/">512 Pixels</a> - <a href="http://512pixels.net/feed">RSS</a><br><a href="http://randsinrepose.com">Rands in Repose</a> - <a href="http://www.randsinrepose.com/index.xml">RSS</a><br><a href="http://www.remodelaholic.com">Remodelaholic</a> - <a href="http://www.remodelaholic.com/feed/">RSS</a><br><a href="http://localmilkblog.com">Local Milk</a> - <a href="http://localmilkblog.com/feed">RSS</a><br><a href="http://cabinporn.com/">Cabin Porn</a> - <a href="http://cabinporn.com/rss">RSS</a><br><a href="http://sketchnotearmy.com/blog/atom.xml">Sketchnote Army</a> - <a href="http://sketchnotearmy.com/blog/atom.xml">RSS</a><br><a href="http://chrisbowler.com/journal">chrisbowler.com</a> - <a href="http://chrisbowler.com/journal/feed">RSS</a><br><a href="http://thesweetsetup.com">The Sweet Setup</a> - <a href="http://thesweetsetup.com/feed/">RSS</a><br><a href="http://chrisbrakebill.com">Chris Brakebill</a> - <a href="http://chrisbrakebill.com/atom.xml">RSS</a><br><a href="http://pxlnv.com/">Pixel Envy</a> - <a href="http://pxlnv.com/feed/">RSS</a><br><a href="http://www.thecramped.com">The Cramped</a> - <a href="http://www.thecramped.com/feed/">RSS</a><br><a href="http://www.housetweaking.com">House Tweaking</a> - <a href="http://www.housetweaking.com/feed/atom/">RSS</a><br><a href="http://mymorningroutine.com">My Morning Routine</a> - <a href="http://mymorningroutine.com/feed/">RSS</a><br><a href="http://jdbentley.com//journal">Bourbon &amp; Tradition</a> - <a href="http://feeds.feedburner.com/jdbentley">RSS</a><br><a href="https://unsplash.com/">Unsplash</a> - <a href="http://unsplash.com/rss">RSS</a>  </p>
 ]]></description><link>http://chrisbrakebill.com/2016-blogroll/</link><guid isPermaLink="true">http://chrisbrakebill.com/2016-blogroll/</guid><pubDate>Thu, 07 Jan 2016 13:37:36 GMT</pubDate></item><item><title><![CDATA[2016 Goals]]></title><description><![CDATA[<p>Just like last year, I&#39;d like to take a look at some goals for this year. One of the things I&#39;m going to do with these is print them out somehow and post them in my office, by my bed, and maybe even stick a small version in my wallet. </p>
 <h3 id="less-watching-more-doing">Less Watching, More Doing</h3>
@@ -212,26 +268,4 @@ I keep my habits in Omnifocus to make sure I&#39;m knocking them out and reviewi
 <p>I often don’t eat breakfast or I eat crap for lunch because I don’t have the time, energy, or materials to make something proper and decent for me. I see Soylent as a good solution to that. It’s an easily made and balanced meal to replace all that junk. </p>
 <p>I also like that I don’t have to worry about the conditions soylent ingredients were raised in. Unlike the bacon and eggs I had for breakfast or the burger I’m having for lunch, the ingredients to soylent don’t require massive slaughterhouses. </p>
 <p>I don’t want to stop eating food I enjoy. I can still go out to dinner with family and friends. Or I can have the occasional bacon and eggs in the morning. I just want to replace some of the crap I waste time on with something healthier and easy to make. I think Soylent provides that.</p>
-]]></description><link>http://chrisbrakebill.com/soylent/</link><guid isPermaLink="true">http://chrisbrakebill.com/soylent/</guid><pubDate>Mon, 15 Jun 2015 12:27:46 GMT</pubDate></item><item><title><![CDATA[Manifesto Update]]></title><description><![CDATA[<p>At the beginning of this year I worked on my own <a href="http://chrisbrakebill.com/personal-manifesto/">personal manifesto</a>, a sort guide for how I live my life and what I prioritize. Now that we’re halfway through the year, I wanted to take a look back at it and see what I’m doing well and where I could do better.</p>
-<h2 id="relationships-with-family">Relationships with family</h2>
-<p>With the <a href="https://instagram.com/p/2wgvYYpLx4/">Charleston</a> on the way, my relationship with Lauren is better than ever, and we’re working hard to prepare for the challenge ahead.</p>
-<p>I could definitely do better with my family. I’m not good about picking up the phone and calling my siblings (or anyone for that matter). If I don’t have a specific reason to call, I usually don’t. I’d really like to change that. </p>
-<h2 id="responsible-use-of-goods-and-resources">Responsible use of goods and resources</h2>
-<p>I’ve definitely been able to make some strides here. Having a decent waste &amp; recycling company is a big reason why. I don’t even put the trash out every week because it frequently has one or no bags in it. That said, I would still like to find ways to waste less through composting and buying fewer unrecyclable products.</p>
-<p>I’ve recently adjusted how I take showers. I generally keep them on the luke warm to cool side. I never turn the handle more than halfway. Not only does it use less energy heating water, but I don’t feel the need to just stand in the shower so I take shorter, more efficient showers. I’ve also switched to using a homemade toothpaste so hopefully I’m creating a little less waste there.</p>
-<p>I’ve been working hard to reduce the amount of stuff in our home, but I’ve got a long way to go there. I’m slowly tossing or giving away things that I don’t need. But I’m still clinging to a large number of old Eagles jerseys…</p>
-<h2 id="care-of-my-body">Care of my body</h2>
-<p>This has largely been a failure this year. I’ve gotten very little exercise. I’ve not played much basketball or tennis like I wanted to. I’m trying to pay attention to what I eat, but I’ve mostly been passive. I tend to rely on Lauren to plan healthy meals, which she does very well. The good news is she usually does the grocery trips, so I’m not able to pick up a bunch of junk food. I don’t drink much soda anymore. I haven’t been to the doctor, which I desperately need to do.</p>
-<p>It’s not all bad news. Things are on the uptick with my fitness. I got back to scheduling my days (which is absolutely crucial to my productivity, more on that soon). And I’ve run every single day this week. I’m keeping my goals simple, but consistent. I want to run one mile every single day for a month. It’s quick and (mostly) easy, but it’s building a habit that should help me stay consistent. One of the things I’m looking at doing is using <a href="https://diy.soylent.com">Soylent</a> to replace some of the times in the week where I would eat crappy meals, or no meal at all.</p>
-<h2 id="serve-participate-in-community">Serve &amp; Participate in Community</h2>
-<p>Almost nothing but failure. There are only a couple of small positives I can think of. I went to a local monthly Cocoa Heads meetup, but unfortunately I’ve missed the two since that one. I’ve also started following the RSS feed for the <a href="http://knoxvillecitytn.iqm2.com/Citizens/Default.aspx">Knoxville City Council minutes</a>. It’s small, but it helps me keep a little bit up to date on what’s going on in the city. </p>
-<p>The good news is Lauren and I have found a church we really enjoy, but we need to get plugged into the community there. We have plenty of friends in Knoxville, many that we <em>love</em>, but we don’t really feel like we have a community. That’s something we want to work on.</p>
-<h2 id="use-electronics-responsibly">Use electronics responsibly</h2>
-<p>I’m not even sure what to say on this one. I don’t think I sussed it out well enough to properly evaluate myself. My rule of no electronics after 10 PM has not been a success. I’ve barely even thought about it. I’m going to work on making that an actual part of my day. I have a feeling it will be a little easier once Charleston comes.</p>
-<h2 id="relationship-with-god">Relationship with God</h2>
-<p>I think I’ve done a pretty crummy job here. I haven’t done anything to serve God in the community. I haven’t been regularly praying (other than at meals) or reading the bible. I haven’t talked about God with other communities outside of church.</p>
-<p>I think now that I’m back to intentionally scheduling my day, I’ll get in the habit of scheduling some time for God. Some prayer and bible reading time every day would be good. I also have been thinking about getting back to having a physical bible. If anyone has any recommendations they would be appreciated.</p>
-<hr>
-
-<p>So that’s where I am. If I can find some time soon, I might try to refine my manifesto and put the full version on the internet. What’s the point of having a guiding document if you can’t be held accountable? As I mentioned earlier, I’m doing more intentional planning of my daily work. I’d like to write about exactly what that looks like.</p>
-]]></description><link>http://chrisbrakebill.com/manifesto-update/</link><guid isPermaLink="true">http://chrisbrakebill.com/manifesto-update/</guid><pubDate>Fri, 12 Jun 2015 13:11:04 GMT</pubDate></item></channel></rss>
+]]></description><link>http://chrisbrakebill.com/soylent/</link><guid isPermaLink="true">http://chrisbrakebill.com/soylent/</guid><pubDate>Mon, 15 Jun 2015 12:27:46 GMT</pubDate></item></channel></rss>
