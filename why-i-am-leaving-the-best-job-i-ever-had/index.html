@@ -7,90 +7,81 @@
 		<link rel='stylesheet' href='/styles/style.css'/>
 	</head>
 	<body>
-		<header id="header">
-			<img class="avatar" src="/images/avatar_256.jpg">
-			<h1 id="title">
-				<a href="/">Chris Brakebill</a>
-			</h1>
-			<h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.<br>Sender of <a href="/three-things-weekly/">Three Things Weekly</a></h2>
-			<ul id="my-links">
-				<li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
-				<li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
-				<li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
-			</ul>
-		</header>		<div class="container">
-			<div class="post">
-				<h1 class="post__title"><a href="http://maxschireson.com/2014/08/05/1137/">Why I am leaving the best job I ever had</a><a href="/why-i-am-leaving-the-best-job-i-ever-had/" class="post__permalink">&#10142;</a></h1>
-				<h2 class="post__date">August 8th, 2014</h2>
-				<div class="post__content">
-					<p class="link_author">Max Schireson:</p>
-					<blockquote>
-			<p>Friends and colleagues often ask my wife how she balances her job and motherhood. Somehow, the same people don’t ask me.</p>
-			<p>A few months ago, I decided the only way to balance was by stepping back from my job. MongoDB is a special company. In my nearly 4 years at the company, we have raised $220 million, grown the team 15x and grown sales 30x. We have amazing customers, a great product which gets better with every release, the strongest team I have ever worked with, and incredible momentum in the market. The future is bright and MongoDB deserves a leader who can be “all-in” and make the most of the opportunity.</p>
-			<p>Unfortunately, I cannot be that leader given the geography of the majority of the company in New York and my family in California.</p>
-			</blockquote>
-			<p>It says a lot about our society that men aren&#39;t asked these same questions. Fatherhood is <em>important</em>. Kudos to Max Schireson.</p>
-			
-				</div>
-				<div class="post__footer">
-					
+		<div class="wrapper">
+			<header id="header">
+				<img class="avatar" src="/images/avatar_256.jpg">
+				<h1 id="title">
+					<a href="/">Chris Brakebill</a>
+				</h1>
+			</header>			<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="http://maxschireson.com/2014/08/05/1137/">Why I am leaving the best job I ever had</a><a href="/why-i-am-leaving-the-best-job-i-ever-had/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">August 8th, 2014</h2>
+					<div class="post__content">
+						<p class="link_author">Max Schireson:</p>
+						<blockquote>
+				<p>Friends and colleagues often ask my wife how she balances her job and motherhood. Somehow, the same people don’t ask me.</p>
+				<p>A few months ago, I decided the only way to balance was by stepping back from my job. MongoDB is a special company. In my nearly 4 years at the company, we have raised $220 million, grown the team 15x and grown sales 30x. We have amazing customers, a great product which gets better with every release, the strongest team I have ever worked with, and incredible momentum in the market. The future is bright and MongoDB deserves a leader who can be “all-in” and make the most of the opportunity.</p>
+				<p>Unfortunately, I cannot be that leader given the geography of the majority of the company in New York and my family in California.</p>
+				</blockquote>
+				<p>It says a lot about our society that men aren&#39;t asked these same questions. Fatherhood is <em>important</em>. Kudos to Max Schireson.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
 				</div>
 			</div>
-		</div>
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var tooltips = document.getElementsByClassName('tooltip-wrapper');
-        
-        function getTooltip(el) {
-          var ret = el.parentElement;
-          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
-            ret = getTooltip(ret)
-          }
-          return ret;
-        }
-    
-        function show(e) {
-          var tooltip = getTooltip(e.target);
-          var directionClass = 'right';
-          if (e.target.offsetLeft + 250 > window.outerWidth) {
-            directionClass = 'left';
-          }
-          tooltip.classList.add('in');
-          tooltip.classList.add('tooltip-' + directionClass);
-          function clickListen(clickE) {
-            if (getTooltip(clickE.target) != tooltip) {
-              document.removeEventListener('click', clickListen);
-              hide(tooltip);
-            }
-          }
-          document.addEventListener('click', clickListen)
-        }
-    
-        function hide(tooltip) {
-          tooltip.classList.remove('in');
-        }
-    
-        for (var i = 0; i < tooltips.length; i++) {
-          var element = tooltips[i];
-          element.addEventListener('click', show);
-        };
-      });
-    </script>
-    <div id="footer">
-      <div class="things">
-        <h4 class="things__title"><a href="/three-things-weekly/">Three Things Weekly</a></h4>
-        <div class="things__date">
-          <a href="http://us1.campaign-archive1.com/?u=a7154b8342354f0eadc20a64c&amp;id=d260b2d3c9" target="_blank">
-            February 15th, 2016
-          </a>
-        </div>
-        <ol class="things__list">
-            <li><a class="things__link" href="http://imgur.com/a/M6V45">Super Dad Builds Fairy Tree</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/CoffeeSock-Chemex-Cup-Style-Certified/dp/B00F8LQ4YC">CoffeeSock Chemex Filter</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/Design-Your-Day-Productive-Purpose/dp/0802412947">Design Your Day</a></li>
-        </ol>
-        <div id="mc_embed_signup"><form action="//chrisbrakebill.us1.list-manage.com/subscribe/post?u=a7154b8342354f0eadc20a64c&amp;id=3ea83c0f22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll"><div class="mc-field-group"><label for="mce-EMAIL">Email Address </label><input placeholder="Email address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></div><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;"><input type="text" name="b_a7154b8342354f0eadc20a64c_3ea83c0f22" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div></div></form></div></div></div>
+	    <script type="text/javascript">
+	      document.addEventListener('DOMContentLoaded', function() {
+	        var tooltips = document.getElementsByClassName('tooltip-wrapper');
+	        
+	        function getTooltip(el) {
+	          var ret = el.parentElement;
+	          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
+	            ret = getTooltip(ret)
+	          }
+	          return ret;
+	        }
+	    
+	        function show(e) {
+	          var tooltip = getTooltip(e.target);
+	          var directionClass = 'right';
+	          if (e.target.offsetLeft + 250 > window.outerWidth) {
+	            directionClass = 'left';
+	          }
+	          tooltip.classList.add('in');
+	          tooltip.classList.add('tooltip-' + directionClass);
+	          function clickListen(clickE) {
+	            if (getTooltip(clickE.target) != tooltip) {
+	              document.removeEventListener('click', clickListen);
+	              hide(tooltip);
+	            }
+	          }
+	          document.addEventListener('click', clickListen)
+	        }
+	    
+	        function hide(tooltip) {
+	          tooltip.classList.remove('in');
+	        }
+	    
+	        for (var i = 0; i < tooltips.length; i++) {
+	          var element = tooltips[i];
+	          element.addEventListener('click', show);
+	        };
+	      });
+	    </script>
+	    <div id="footer">
+	    
+	      <h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.</h2>
+	      <ul id="my-links">
+	        <li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+	        <li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+	        <li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+	      </ul>
+	    </div>
+    </div>
 	</body>
 </html>

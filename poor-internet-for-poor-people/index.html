@@ -7,90 +7,81 @@
 		<link rel='stylesheet' href='/styles/style.css'/>
 	</head>
 	<body>
-		<header id="header">
-			<img class="avatar" src="/images/avatar_256.jpg">
-			<h1 id="title">
-				<a href="/">Chris Brakebill</a>
-			</h1>
-			<h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.<br>Sender of <a href="/three-things-weekly/">Three Things Weekly</a></h2>
-			<ul id="my-links">
-				<li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
-				<li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
-				<li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
-			</ul>
-		</header>		<div class="container">
-			<div class="post">
-				<h1 class="post__title"><a href="http://qz.com/385821/poor-internet-for-poor-people-why-facebooks-internet-org-amounts-to-economic-racism/">Poor Internet for Poor People</a><a href="/poor-internet-for-poor-people/" class="post__permalink">&#10142;</a></h1>
-				<h2 class="post__date">April 20th, 2015</h2>
-				<div class="post__content">
-					<p class="link_author">Mahesh Murthy:</p>
-					<blockquote>
-			<p>Here’s how the scheme works. Facebook approaches a telco—in India’s case, Reliance—and offers to pay them the bandwidth costs of serving Facebook site and a small group of other sites.</p>
-			<p>So when the poor, who in theory can’t afford a net connection come to the Facebook Zero service confusingly called Internet.org, they’re made to believe they’re on the internet while in reality they’re only on Facebook and a few hand-picked sites.</p>
-			<p>And the sites too are picked in secret under some unknown process. For instance, Facebook chose to offer the distant-second search engine Bing instead of industry-leading Google. Why? Is it rivalry with Google? Or because of Microsoft’s stake in Facebook? And then Facebook’s Zero product features a tiny job site like Babajob instead of the industry-leading Naukri. Why? So that the poor have fewer job options? No one knows. Facebook doesn’t feature YouTube—the largest video site in the world and an immense education resource —but allows its own videos in full. It doesn’t really look like charity any more, does it? </p>
-			</blockquote>
-			<p>While zero services are a more extreme case and don’t fit what you will see in the U.S., they are helpful in illustrating how the seemingly good idea of certain companies’ products not counting towards your data caps is actually bad for the internet. You’re no longer choosing between product X and product Y. It’s now product X, which won’t count towards you cap, and product Y, which may be a superior product but can’t afford to pay off your internet provider. Your cell phone company or ISP shouldn’t get to make this decision. They should simply give you uniform access to sites on the internet and charge you according to that usage, no matter where it comes from.</p>
-			
-				</div>
-				<div class="post__footer">
-					<a href="http://pxlnv.com/linklog/glimpse-non-neutral-future/" class="post__sourceLink">Pixel Envy</a>
+		<div class="wrapper">
+			<header id="header">
+				<img class="avatar" src="/images/avatar_256.jpg">
+				<h1 id="title">
+					<a href="/">Chris Brakebill</a>
+				</h1>
+			</header>			<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="http://qz.com/385821/poor-internet-for-poor-people-why-facebooks-internet-org-amounts-to-economic-racism/">Poor Internet for Poor People</a><a href="/poor-internet-for-poor-people/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">April 20th, 2015</h2>
+					<div class="post__content">
+						<p class="link_author">Mahesh Murthy:</p>
+						<blockquote>
+				<p>Here’s how the scheme works. Facebook approaches a telco—in India’s case, Reliance—and offers to pay them the bandwidth costs of serving Facebook site and a small group of other sites.</p>
+				<p>So when the poor, who in theory can’t afford a net connection come to the Facebook Zero service confusingly called Internet.org, they’re made to believe they’re on the internet while in reality they’re only on Facebook and a few hand-picked sites.</p>
+				<p>And the sites too are picked in secret under some unknown process. For instance, Facebook chose to offer the distant-second search engine Bing instead of industry-leading Google. Why? Is it rivalry with Google? Or because of Microsoft’s stake in Facebook? And then Facebook’s Zero product features a tiny job site like Babajob instead of the industry-leading Naukri. Why? So that the poor have fewer job options? No one knows. Facebook doesn’t feature YouTube—the largest video site in the world and an immense education resource —but allows its own videos in full. It doesn’t really look like charity any more, does it? </p>
+				</blockquote>
+				<p>While zero services are a more extreme case and don’t fit what you will see in the U.S., they are helpful in illustrating how the seemingly good idea of certain companies’ products not counting towards your data caps is actually bad for the internet. You’re no longer choosing between product X and product Y. It’s now product X, which won’t count towards you cap, and product Y, which may be a superior product but can’t afford to pay off your internet provider. Your cell phone company or ISP shouldn’t get to make this decision. They should simply give you uniform access to sites on the internet and charge you according to that usage, no matter where it comes from.</p>
+				
+					</div>
+					<div class="post__footer">
+						<a href="http://pxlnv.com/linklog/glimpse-non-neutral-future/" class="post__sourceLink">Pixel Envy</a>
+					</div>
 				</div>
 			</div>
-		</div>
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var tooltips = document.getElementsByClassName('tooltip-wrapper');
-        
-        function getTooltip(el) {
-          var ret = el.parentElement;
-          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
-            ret = getTooltip(ret)
-          }
-          return ret;
-        }
-    
-        function show(e) {
-          var tooltip = getTooltip(e.target);
-          var directionClass = 'right';
-          if (e.target.offsetLeft + 250 > window.outerWidth) {
-            directionClass = 'left';
-          }
-          tooltip.classList.add('in');
-          tooltip.classList.add('tooltip-' + directionClass);
-          function clickListen(clickE) {
-            if (getTooltip(clickE.target) != tooltip) {
-              document.removeEventListener('click', clickListen);
-              hide(tooltip);
-            }
-          }
-          document.addEventListener('click', clickListen)
-        }
-    
-        function hide(tooltip) {
-          tooltip.classList.remove('in');
-        }
-    
-        for (var i = 0; i < tooltips.length; i++) {
-          var element = tooltips[i];
-          element.addEventListener('click', show);
-        };
-      });
-    </script>
-    <div id="footer">
-      <div class="things">
-        <h4 class="things__title"><a href="/three-things-weekly/">Three Things Weekly</a></h4>
-        <div class="things__date">
-          <a href="http://us1.campaign-archive1.com/?u=a7154b8342354f0eadc20a64c&amp;id=d260b2d3c9" target="_blank">
-            February 15th, 2016
-          </a>
-        </div>
-        <ol class="things__list">
-            <li><a class="things__link" href="http://imgur.com/a/M6V45">Super Dad Builds Fairy Tree</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/CoffeeSock-Chemex-Cup-Style-Certified/dp/B00F8LQ4YC">CoffeeSock Chemex Filter</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/Design-Your-Day-Productive-Purpose/dp/0802412947">Design Your Day</a></li>
-        </ol>
-        <div id="mc_embed_signup"><form action="//chrisbrakebill.us1.list-manage.com/subscribe/post?u=a7154b8342354f0eadc20a64c&amp;id=3ea83c0f22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll"><div class="mc-field-group"><label for="mce-EMAIL">Email Address </label><input placeholder="Email address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></div><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;"><input type="text" name="b_a7154b8342354f0eadc20a64c_3ea83c0f22" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div></div></form></div></div></div>
+	    <script type="text/javascript">
+	      document.addEventListener('DOMContentLoaded', function() {
+	        var tooltips = document.getElementsByClassName('tooltip-wrapper');
+	        
+	        function getTooltip(el) {
+	          var ret = el.parentElement;
+	          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
+	            ret = getTooltip(ret)
+	          }
+	          return ret;
+	        }
+	    
+	        function show(e) {
+	          var tooltip = getTooltip(e.target);
+	          var directionClass = 'right';
+	          if (e.target.offsetLeft + 250 > window.outerWidth) {
+	            directionClass = 'left';
+	          }
+	          tooltip.classList.add('in');
+	          tooltip.classList.add('tooltip-' + directionClass);
+	          function clickListen(clickE) {
+	            if (getTooltip(clickE.target) != tooltip) {
+	              document.removeEventListener('click', clickListen);
+	              hide(tooltip);
+	            }
+	          }
+	          document.addEventListener('click', clickListen)
+	        }
+	    
+	        function hide(tooltip) {
+	          tooltip.classList.remove('in');
+	        }
+	    
+	        for (var i = 0; i < tooltips.length; i++) {
+	          var element = tooltips[i];
+	          element.addEventListener('click', show);
+	        };
+	      });
+	    </script>
+	    <div id="footer">
+	    
+	      <h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.</h2>
+	      <ul id="my-links">
+	        <li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+	        <li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+	        <li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+	      </ul>
+	    </div>
+    </div>
 	</body>
 </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>30</title>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='stylesheet' href='/styles/style.css'/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header id="header">
+				<img class="avatar" src="/images/avatar_256.jpg">
+				<h1 id="title">
+					<a href="/">Chris Brakebill</a>
+				</h1>
+			</header>			<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="/30/">30</a></h1>
+					<h2 class="post__date">March 2nd, 2016</h2>
+					<div class="post__content">
+						
+						<p>For my 30th birthday, my wife arranged for a large group of friends and family to send me their ideas of what a perfect birthday for me would look like. As I read through this thoughtful and fun glimpses into how the people around me see me, I was overwhelmed with my feelings for them.</p>
+				<p>I’ve been thinking a lot lately about the group of friends and loved ones I’ve accumulated over the years. Some of them I’ve known for decades. Some I experienced only for a year or two and now occasionally get updates on. Some I’ve met a few times. My feelings bring me to two thoughts.</p>
+				<ol>
+				<li>The overwhelming amount of love, passion, appreciation I feel for these people. The desire I have to spend more time and share more of life with them</li>
+				<li>I’m lack possession of the ability to capture that feeling and give it to those people. It’s not a lack of words. It’s the feeling that words and actions aren’t enough. These people are part of the very fiber of my being, and without what I feel for them, I just wouldn’t exist.</li>
+				</ol>
+				<p>I know. What is that all about? As I look back on my first 30 years on this planet, I’m overwhelmed with the belief that through every event and change the most important and lasting part of my life are the people. And not just the people I’ve known for decades. But the classmates I’ve shared football games with. The fellow late night waffle lovers I’ve been to Waffle House with. The friends of friends I’ve met at weddings. The person I chatted with at a party about a new football coach. The team I fought through lack of sleep with at Startup Weekend in Orlando. Bunk mates at camp. Roommates in college. Bret’s sister in law. The folks who attended Gatti’s sunday nights in college. Friends from my brief stint at Virginia Tech. Old coworkers who I miss. New coworkers who I’m excited to know more of. Folks from choirs a sang in in high school. Republicans and Democrats. Gay and straight. Christian, agnostic, hindu, and whatever else.</p>
+				<p>There is this endless list of people who have affected my life and made it the joyful thing that it is. And I just want to say to every single one of them: thank you. But more than that, I love you. And even more than that, I want to know you more. Whatever you think of our friendship, or lack thereof, know that I want more of it. I want to know you better and share more laughs and tears with you.</p>
+				<p>I’m excited about the next 30 years. I hope I get another 30. I can’t imagine all the people I will meet and get to know. I’ve got at least one new one in my house, and I can’t wait for her to grow up so I can get to know her. My only hope is that for the people I share life with in the next 30 years, I feel more satisfaction that I’ve been able to express to them how glad I am that I got the honor of having them in my life.</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+			</div>
+	    <script type="text/javascript">
+	      document.addEventListener('DOMContentLoaded', function() {
+	        var tooltips = document.getElementsByClassName('tooltip-wrapper');
+	        
+	        function getTooltip(el) {
+	          var ret = el.parentElement;
+	          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
+	            ret = getTooltip(ret)
+	          }
+	          return ret;
+	        }
+	    
+	        function show(e) {
+	          var tooltip = getTooltip(e.target);
+	          var directionClass = 'right';
+	          if (e.target.offsetLeft + 250 > window.outerWidth) {
+	            directionClass = 'left';
+	          }
+	          tooltip.classList.add('in');
+	          tooltip.classList.add('tooltip-' + directionClass);
+	          function clickListen(clickE) {
+	            if (getTooltip(clickE.target) != tooltip) {
+	              document.removeEventListener('click', clickListen);
+	              hide(tooltip);
+	            }
+	          }
+	          document.addEventListener('click', clickListen)
+	        }
+	    
+	        function hide(tooltip) {
+	          tooltip.classList.remove('in');
+	        }
+	    
+	        for (var i = 0; i < tooltips.length; i++) {
+	          var element = tooltips[i];
+	          element.addEventListener('click', show);
+	        };
+	      });
+	    </script>
+	    <div id="footer">
+	    
+	      <h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.</h2>
+	      <ul id="my-links">
+	        <li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+	        <li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+	        <li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+	      </ul>
+	    </div>
+    </div>
+	</body>
+</html>

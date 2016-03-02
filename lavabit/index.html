@@ -7,88 +7,79 @@
 		<link rel='stylesheet' href='/styles/style.css'/>
 	</head>
 	<body>
-		<header id="header">
-			<img class="avatar" src="/images/avatar_256.jpg">
-			<h1 id="title">
-				<a href="/">Chris Brakebill</a>
-			</h1>
-			<h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.<br>Sender of <a href="/three-things-weekly/">Three Things Weekly</a></h2>
-			<ul id="my-links">
-				<li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
-				<li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
-				<li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
-				<li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
-			</ul>
-		</header>		<div class="container">
-			<div class="post">
-				<h1 class="post__title"><a href="http://www.theguardian.com/commentisfree/2014/may/20/why-did-lavabit-shut-down-snowden-email">On the Shutdown of Lavabit</a><a href="/lavabit/" class="post__permalink">&#10142;</a></h1>
-				<h2 class="post__date">July 15th, 2014</h2>
-				<div class="post__content">
-					<p class="link_author">Ladar Levison:</p>
-					<blockquote>
-			<p> If we allow our government to continue operating in secret, it is only a matter of time before you or a loved one find yourself in a position like I did – standing in a secret courtroom, alone, and without any of the meaningful protections that were always supposed to be the people&#39;s defense against an abuse of the state&#39;s power.</p>
-			</blockquote>
-			<p>Slow to post this, but it&#39;s all kinds of terrifying.</p>
-			
-				</div>
-				<div class="post__footer">
-					<a href="http://brooksreview.net/2014/05/why-i-was-forced-to-shut-down-lavabit/" class="post__sourceLink">The Brooks Review</a>
+		<div class="wrapper">
+			<header id="header">
+				<img class="avatar" src="/images/avatar_256.jpg">
+				<h1 id="title">
+					<a href="/">Chris Brakebill</a>
+				</h1>
+			</header>			<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="http://www.theguardian.com/commentisfree/2014/may/20/why-did-lavabit-shut-down-snowden-email">On the Shutdown of Lavabit</a><a href="/lavabit/" class="post__permalink">&#10142;</a></h1>
+					<h2 class="post__date">July 15th, 2014</h2>
+					<div class="post__content">
+						<p class="link_author">Ladar Levison:</p>
+						<blockquote>
+				<p> If we allow our government to continue operating in secret, it is only a matter of time before you or a loved one find yourself in a position like I did – standing in a secret courtroom, alone, and without any of the meaningful protections that were always supposed to be the people&#39;s defense against an abuse of the state&#39;s power.</p>
+				</blockquote>
+				<p>Slow to post this, but it&#39;s all kinds of terrifying.</p>
+				
+					</div>
+					<div class="post__footer">
+						<a href="http://brooksreview.net/2014/05/why-i-was-forced-to-shut-down-lavabit/" class="post__sourceLink">The Brooks Review</a>
+					</div>
 				</div>
 			</div>
-		</div>
-    <script type="text/javascript">
-      document.addEventListener('DOMContentLoaded', function() {
-        var tooltips = document.getElementsByClassName('tooltip-wrapper');
-        
-        function getTooltip(el) {
-          var ret = el.parentElement;
-          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
-            ret = getTooltip(ret)
-          }
-          return ret;
-        }
-    
-        function show(e) {
-          var tooltip = getTooltip(e.target);
-          var directionClass = 'right';
-          if (e.target.offsetLeft + 250 > window.outerWidth) {
-            directionClass = 'left';
-          }
-          tooltip.classList.add('in');
-          tooltip.classList.add('tooltip-' + directionClass);
-          function clickListen(clickE) {
-            if (getTooltip(clickE.target) != tooltip) {
-              document.removeEventListener('click', clickListen);
-              hide(tooltip);
-            }
-          }
-          document.addEventListener('click', clickListen)
-        }
-    
-        function hide(tooltip) {
-          tooltip.classList.remove('in');
-        }
-    
-        for (var i = 0; i < tooltips.length; i++) {
-          var element = tooltips[i];
-          element.addEventListener('click', show);
-        };
-      });
-    </script>
-    <div id="footer">
-      <div class="things">
-        <h4 class="things__title"><a href="/three-things-weekly/">Three Things Weekly</a></h4>
-        <div class="things__date">
-          <a href="http://us1.campaign-archive1.com/?u=a7154b8342354f0eadc20a64c&amp;id=d260b2d3c9" target="_blank">
-            February 15th, 2016
-          </a>
-        </div>
-        <ol class="things__list">
-            <li><a class="things__link" href="http://imgur.com/a/M6V45">Super Dad Builds Fairy Tree</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/CoffeeSock-Chemex-Cup-Style-Certified/dp/B00F8LQ4YC">CoffeeSock Chemex Filter</a></li>
-            <li><a class="things__link" href="http://www.amazon.com/Design-Your-Day-Productive-Purpose/dp/0802412947">Design Your Day</a></li>
-        </ol>
-        <div id="mc_embed_signup"><form action="//chrisbrakebill.us1.list-manage.com/subscribe/post?u=a7154b8342354f0eadc20a64c&amp;id=3ea83c0f22" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate><div id="mc_embed_signup_scroll"><div class="mc-field-group"><label for="mce-EMAIL">Email Address </label><input placeholder="Email address" type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL"></div><div id="mce-responses" class="clear"><div class="response" id="mce-error-response" style="display:none"></div><div class="response" id="mce-success-response" style="display:none"></div></div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups--><div style="position: absolute; left: -5000px;"><input type="text" name="b_a7154b8342354f0eadc20a64c_3ea83c0f22" tabindex="-1" value=""></div><div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div></div></form></div></div></div>
+	    <script type="text/javascript">
+	      document.addEventListener('DOMContentLoaded', function() {
+	        var tooltips = document.getElementsByClassName('tooltip-wrapper');
+	        
+	        function getTooltip(el) {
+	          var ret = el.parentElement;
+	          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
+	            ret = getTooltip(ret)
+	          }
+	          return ret;
+	        }
+	    
+	        function show(e) {
+	          var tooltip = getTooltip(e.target);
+	          var directionClass = 'right';
+	          if (e.target.offsetLeft + 250 > window.outerWidth) {
+	            directionClass = 'left';
+	          }
+	          tooltip.classList.add('in');
+	          tooltip.classList.add('tooltip-' + directionClass);
+	          function clickListen(clickE) {
+	            if (getTooltip(clickE.target) != tooltip) {
+	              document.removeEventListener('click', clickListen);
+	              hide(tooltip);
+	            }
+	          }
+	          document.addEventListener('click', clickListen)
+	        }
+	    
+	        function hide(tooltip) {
+	          tooltip.classList.remove('in');
+	        }
+	    
+	        for (var i = 0; i < tooltips.length; i++) {
+	          var element = tooltips[i];
+	          element.addEventListener('click', show);
+	        };
+	      });
+	    </script>
+	    <div id="footer">
+	    
+	      <h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.</h2>
+	      <ul id="my-links">
+	        <li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+	        <li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+	        <li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+	      </ul>
+	    </div>
+    </div>
 	</body>
 </html>
