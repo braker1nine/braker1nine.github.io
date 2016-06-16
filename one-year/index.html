@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>One Year</title>
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel='stylesheet' href='/styles/style.css'/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header id="header">
+				<img class="avatar" src="/images/avatar_256.jpg">
+				<h1 id="title">
+					<a href="/">Chris Brakebill</a>
+				</h1>
+			</header>			<div class="container">
+				<div class="post">
+					<h1 class="post__title"><a href="/one-year/">One Year</a></h1>
+					<h2 class="post__date">June 15th, 2016</h2>
+					<div class="post__content">
+						
+						<p>Just over a year ago I was <em>this</em> close to accepting a great job offer from a well known local company. I was honestly pretty excited about it. Then I got an unexpected call about a possible job working with a bunch of crazy Canadians on the west coast. Wait wut?</p>
+				<p><img src="https://media.giphy.com/media/NwkYPLmQSLmhy/giphy.gif" alt="" title="Robin Sparkles"></p>
+				<p>A day later I&#39;d passed on that first great job offer to accept something I felt was even better. That call was from Tim Wilkinson and he wanted me to work at MetaLab - a company I&#39;d long admired for their fantastic commitment to design.</p>
+				<p>Pretty fitting that on the anniversary of my first day at MetaLab (that&#39;s today yall), Tim&#39;s brother Andrew writes about <a href="https://medium.com/the-modern-team/lazy-leadership-8ba19e34f959#.dts016op6">lazy leadership</a>. The culture that has been created at MetaLab is what convinced me to choose it over the other job. It got me to take a little less money and fewer benefits to work on projects that excited me. It gave me the courage to push through the questions from friends and family about why I&#39;d pass on a company they knew to take a job at some small company across the continent in another country. And I haven&#39;t regretted it for a single day.</p>
+				<p>MetaLab has pushed me to learn new things and become more self motivated. The people here keep pushing me to grow and find my voice. I&#39;m amazed and how freaking smart and talented the people here are, yet how unafraid they are to admit how much they don&#39;t know.</p>
+				<p><img src="https://media.giphy.com/media/k0wWMI4Rtmjde/giphy.gif" alt=""></p>
+				<p>It&#39;s been a pretty amazing year. I mean I became a dad which is both awesome and terrifying. I can&#39;t imagine working somewhere that is more supportive of having a family. Like... constantly supportive. It&#39;s almost annoying how great they are. I&#39;m assuming that tomorrow I&#39;ll wake up and realize it&#39;s just a dream.</p>
+				<p><img src="https://media.giphy.com/media/3o7qE4cqSolKavhtPa/giphy.gif" alt=""></p>
+				<p>All that to say, I&#39;m incredibly humbled and grateful that I get to work here. I can&#39;t wait to see what the next year brings for me and for MetaLab. (If you&#39;re looking for an awesome place to work, <a href="http://metalab.co/careers/">check us out</a>)</p>
+				
+					</div>
+					<div class="post__footer">
+						
+					</div>
+				</div>
+			</div>
+	    <script type="text/javascript">
+	      document.addEventListener('DOMContentLoaded', function() {
+	        var tooltips = document.getElementsByClassName('tooltip-wrapper');
+	        
+	        function getTooltip(el) {
+	          var ret = el.parentElement;
+	          if (ret != null && !ret.classList.contains('tooltip-wrapper')) {
+	            ret = getTooltip(ret)
+	          }
+	          return ret;
+	        }
+	    
+	        function show(e) {
+	          var tooltip = getTooltip(e.target);
+	          var directionClass = 'right';
+	          if (e.target.offsetLeft + 250 > window.outerWidth) {
+	            directionClass = 'left';
+	          }
+	          tooltip.classList.add('in');
+	          tooltip.classList.add('tooltip-' + directionClass);
+	          function clickListen(clickE) {
+	            if (getTooltip(clickE.target) != tooltip) {
+	              document.removeEventListener('click', clickListen);
+	              hide(tooltip);
+	            }
+	          }
+	          document.addEventListener('click', clickListen)
+	        }
+	    
+	        function hide(tooltip) {
+	          tooltip.classList.remove('in');
+	        }
+	    
+	        for (var i = 0; i < tooltips.length; i++) {
+	          var element = tooltips[i];
+	          element.addEventListener('click', show);
+	        };
+	      });
+	    </script>
+	    <div id="footer">
+	    
+	      <h2 id="subtitle">Web and mobile developer. Beer and pizza enthusiast.</h2>
+	      <ul id="my-links">
+	        <li><a class="fa fa-rss-square" href="/atom.xml" title="RSS Feed"></a></li>
+	        <li><a class="fa fa-github-square" href="https://github.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-twitter-square" href="https://twitter.com/braker1nine" target="_blank"></a></li>
+	        <li><a class="fa fa-linkedin-square" href="http://www.linkedin.com/in/chrisbrakebill" target="_blank"></a></li>
+	        <li><a class="fa fa-pinterest-square" href="http://www.pinterest.com/chrisbrakebill/" target="_blank"></a></li>
+	      </ul>
+	    </div>
+    </div>
+	</body>
+</html>
